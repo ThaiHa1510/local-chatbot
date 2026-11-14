@@ -15,3 +15,7 @@ data/backup_*/
 
 # Bảng giá sinh từ data/sources/ bằng import_catalog.py --all
 data/catalog_*.json
+
+# Cấu hình máy & log do install.sh / start.sh tạo
+local.env
+data/*.log

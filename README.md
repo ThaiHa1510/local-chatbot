@@ -27,36 +27,38 @@ Tất cả sản phẩm và chính sách đều **GIẢ LẬP**, không đại d
 Dự án có thêm MCP server cho ticket và liên hệ nhân viên. Xem `MCP_GUIDE.md`.
 Mặc định thông báo chạy ở chế độ console, chưa gửi email thật.
 
-## Chạy ứng dụng
+## Cài đặt & chạy (một lệnh)
 
-Mở Terminal trong thư mục này:
-
-```sh
-uv sync --python 3.12
-.venv/bin/python import_catalog.py --all --missing-only   # tạo bảng giá từ data/sources/
-.venv/bin/python app.py --port 8876
-```
-
-Mở http://127.0.0.1:8876. Trên Mac có thể mở `start.command` (tự làm cả ba bước trên, dùng thêm
-`--heavy-model qwen3.8:27b`). Mặc định dùng mô hình `Qwen:latest`. Ollama phải đang chạy.
-Trên máy khác, chọn tên mô hình đã cài:
+Máy mới (macOS hoặc Linux), chỉ cần `curl`:
 
 ```sh
-.venv/bin/python app.py --model TEN_MO_HINH_LOCAL
+git clone git@github.com:ThaiHa1510/local-chatbot.git && cd local-chatbot
+./install.sh            # Mac: có thể bấm đúp install.command
+./start.sh              # Mac: bấm đúp start.command
 ```
 
-### Mang sang máy khác
+`install.sh` tự làm theo thứ tự:
 
-1. Ở máy này mở `pack.command` → tạo `dist/LocalSupportAgent-YYYYMMDD.zip`.
-   Gói có mã nguồn, tài liệu, `data/sources/` (dữ liệu crawl), `data/mock_knowledge.json`,
-   `data/MOCK/`, `data/business_profile.json`. **Không** kèm `.venv`, bảng giá đã sinh, tài khoản,
-   lịch sử chat, phiếu hỗ trợ, cache, trace (xem `.gitignore`).
-2. Máy mới cần: macOS/Linux, [uv](https://docs.astral.sh/uv/), Ollama và các model
-   (`ollama pull qwen3.8:27b` cùng model nhẹ bạn chọn).
-3. Giải nén, mở `start.command` (hoặc chạy ba lệnh ở trên). Lần đầu app tự tạo DB trống và
-   in **tài khoản admin + mật khẩu dùng một lần** ra Terminal.
-4. Hạn giá = ngày crawl trong nguồn + 14 ngày. Hết hạn thì bot chuyển nhân viên thay vì báo giá cũ.
-   Chỉ để demo với dữ liệu cũ: `.venv/bin/python import_catalog.py --all --from-today`.
+1. Cài [uv](https://docs.astral.sh/uv/) nếu chưa có (hỏi trước).
+2. `uv sync --python 3.12 --frozen` → tạo `.venv` đúng phiên bản trong `uv.lock`.
+3. Cài Ollama nếu chưa có (Mac qua Homebrew, Linux qua script chính thức), bật Ollama và tải model
+   `qwen:latest` (nhẹ, ~2,3 GB) + `qwen3.8:27b` (nặng, ~18 GB, guardrails cũng dùng).
+4. Ghi lựa chọn vào `local.env` (model, cổng) cho `start.sh`.
+5. Tạo bảng giá `data/catalog_*.json` từ `data/sources/`.
+6. Chạy test.
+
+Tuỳ chọn hay dùng: `--yes` (không hỏi), `--start` (chạy app ngay), `--no-models` (không cài Ollama;
+app chỉ tra cứu), `--light/--heavy MODEL`, `--port N`, `--demo-prices`. Xem `./install.sh --help`.
+
+Mở http://127.0.0.1:8876. Lần chạy đầu, **tài khoản admin + mật khẩu dùng một lần** được in ra
+Terminal (đặt trước bằng `SUPPORT_ADMIN_USERNAME` / `SUPPORT_ADMIN_PASSWORD` nếu muốn).
+Đổi model/cổng sau này: sửa `local.env` hoặc chạy lại `./install.sh --light … --heavy …`.
+
+Hạn bảng giá = ngày crawl trong nguồn + 14 ngày; hết hạn thì bot chuyển nhân viên thay vì báo giá cũ.
+Chỉ để demo dữ liệu cũ: `./install.sh --demo-prices` (hoặc `.venv/bin/python import_catalog.py --all --from-today`).
+
+Không có git? Ở máy đang có code mở `pack.command` → `dist/LocalSupportAgent-YYYYMMDD.zip`
+(không kèm `.venv`, bảng giá đã sinh, tài khoản, lịch sử chat, cache, trace), chép sang máy mới, giải nén rồi chạy `./install.sh`.
 
 Bỏ chọn “Kiểm tra bằng mô hình local” để chỉ tra cứu, không cần Ollama.
 Dừng bằng Ctrl+C. Không mở cổng ứng dụng ra mạng công cộng.

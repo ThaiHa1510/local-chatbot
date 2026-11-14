@@ -216,6 +216,8 @@ def _fmt(column, value):
         return None
     if column in ("price_vnd", "original_price_vnd") or column.endswith("_vnd"):
         return catalog_store.vnd(int(value))
+    if column == "has_anc":  # cột có/không: không in 1/0
+        return "chống ồn chủ động" if value else "không chống ồn chủ động"
     if isinstance(value, float):
         value = int(value) if value.is_integer() else round(value, 2)
     label, unit = LABELS.get(column, ("số lượng" if column.lower().startswith("count") else column, ""))
