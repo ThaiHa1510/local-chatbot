@@ -71,15 +71,32 @@ details{font-size:12px;color:#547083}summary{cursor:pointer;width:fit-content}de
 textarea{flex:1;border:0;outline:0;resize:none;min-height:24px;max-height:140px;padding:7px 0;background:transparent;line-height:1.5}
 #submit{border-radius:50%;width:40px;height:40px;padding:0;font-size:18px;flex:0 0 auto}
 #state{font-size:11.5px;color:var(--muted);margin:6px 4px 0}
+/* Chuyển nhân viên */
+.avatar.staff{background:#2e5aac}.row.staff .bubble{border:1px solid #c9d8f3;background:#f2f6fd;border-bottom-left-radius:6px}
+.offer{background:white;border:1px solid #f0d2a6;border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:8px;max-width:420px}
+.offer b{font-size:14px}.offer input,.offer textarea{width:100%;border:1px solid #c9d6dc;border-radius:9px;padding:8px 10px;font-size:14px;min-height:0;resize:vertical}
+.offer .btns{display:flex;gap:8px}.offer .btns button{font-size:13px;padding:8px 14px}.offer .ghost{background:#edf1f4;color:#334e60}.offer .err{color:#b42318;font-size:12px;margin:0}
+#handoffBar{display:none;align-items:center;justify-content:space-between;gap:10px;background:#eef3fc;border-top:1px solid #c9d8f3;padding:8px 18px;font-size:13px;color:#24427a}
+#handoffBar button{background:none;color:#24427a;text-decoration:underline;padding:0;font-size:13px}
+.queue{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;display:none}.queue h2{font-size:15px;margin:0 0 6px;display:flex;justify-content:space-between}
+.qitem{display:block;width:100%;text-align:left;background:#f4f7fb;color:var(--ink);font-size:12px;padding:8px;margin:6px 0;border-left:3px solid #2e5aac}
+.qitem.waiting{border-left-color:#d97706}.qitem.active-t{background:#dfe9fb}.qitem small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.avatar.cust{background:#8a99a3}.row.customer .bubble{background:white;border:1px solid var(--line);border-bottom-left-radius:6px}
+.row.mine{justify-content:flex-end}.row.mine .col{align-items:flex-end}.row.mine .bubble{background:#2e5aac;color:white;border-bottom-right-radius:6px}
+.pill{font-size:11px;border-radius:10px;padding:0 7px;background:#2e5aac;color:white}
+.flag{font-size:11px;color:#b42318}
+.staff-tools{display:none;gap:8px;padding:8px 18px;border-top:1px solid var(--line);background:#f6f8fc;font-size:13px;align-items:center;justify-content:space-between}
+.staff-tools button{font-size:12.5px;padding:6px 12px}
 @media(max-width:760px){main{padding:16px 12px}.layout{grid-template-columns:1fr}header{display:block}.messages{height:480px;padding:14px}
 .row .col{max-width:92%}.row.assistant .avatar{display:none}aside{padding:16px}.badge{display:inline-block;margin-top:8px}h1{font-size:22px}.card{flex-basis:170px}}
 </style><div id="login" style="position:fixed;inset:0;background:#f1f5f7;z-index:9;display:grid;place-items:center"><form id="loginForm" style="width:min(390px,90vw);background:white;padding:28px;border-radius:16px;border:1px solid #dbe3e7"><h2>Đăng nhập hỗ trợ</h2><label>Tên đăng nhập</label><input id="username" autocomplete="username" required style="width:100%;padding:11px;border:1px solid #bdcbd1;border-radius:9px"><label>Mật khẩu</label><input id="password" type="password" autocomplete="current-password" required style="width:100%;padding:11px;border:1px solid #bdcbd1;border-radius:9px"><p id="loginError" class="hint"></p><button>Đăng nhập</button></form></div><main><header><div><div class="eyebrow">LOCAL SUPPORT / ELECTRONICS</div><h1>Trò chuyện với trợ lý CSKH</h1></div><span class="badge">DỮ LIỆU MẪU • KHÔNG DÙNG ĐỂ BÁN HÀNG</span></header>
-<div class="layout"><!-- [C2] Đổi SKU sẽ bắt đầu hội thoại mới. --><aside><h2>Sản phẩm đang hỏi</h2><label for="product">Mã sản phẩm</label><select id="product"></select><p id="catalog" class="hint"></p><label style="font-size:13px"><input id="model" type="checkbox" checked> Kiểm tra bằng mô hình local</label><p class="hint">Chatbot tìm cả tài liệu sản phẩm và chính sách chung của cửa hàng.</p><button class="sample" data-q="Có giao hàng tận nơi không?">🚚 Giao hàng tận nơi</button><button class="sample" data-q="Địa chỉ và giờ mở cửa của cửa hàng?">📍 Địa chỉ cửa hàng</button><button class="sample" data-q="Cửa hàng hỗ trợ phương thức thanh toán nào?">💳 Thanh toán</button><button class="sample" data-q="chính sách bảo hành và đổi trả">🛡️ Bảo hành và đổi trả</button><button class="sample" data-q="Thông số kỹ thuật của sản phẩm?">📋 Thông số kỹ thuật</button><button id="reset" class="secondary">＋ Chat mới</button><div class="convs"><h2 style="font-size:15px;margin:0">Cuộc trò chuyện gần đây</h2><div id="convList"></div><p class="hint">Hội thoại được lưu theo tài khoản (mặc định 30 ngày). Mở lại để tiếp tục với đầy đủ ngữ cảnh. Mọi sản phẩm, địa chỉ và chính sách hiện là giả lập.</p></div></aside>
-<section class="chat"><div class="chat-head"><div class="avatar big">CS</div><div><strong>Trợ lý CSKH</strong><span class="online">● Đang trực tuyến</span><small id="routeInfo">Ollama local • Cloud chỉ dùng khi quản trị viên chủ động bật</small></div></div><div id="messages" class="messages" role="log" aria-live="polite" aria-label="Lịch sử trò chuyện"></div><form id="form" class="composer"><label for="question" class="sr">Tin nhắn</label><div class="input"><textarea id="question" rows="1" required maxlength="2000" placeholder="Nhập câu hỏi về sản phẩm, giá, bảo hành…"></textarea><button id="submit" aria-label="Gửi" title="Gửi">➤</button></div><p id="state" role="status">Enter để gửi • Shift+Enter để xuống dòng</p></form></section></div></main>
+<div class="layout"><!-- [C2] Đổi SKU sẽ bắt đầu hội thoại mới. --><aside><h2>Sản phẩm đang hỏi</h2><label for="product">Mã sản phẩm</label><select id="product"></select><p id="catalog" class="hint"></p><label style="font-size:13px"><input id="model" type="checkbox" checked> Kiểm tra bằng mô hình local</label><p class="hint">Chatbot tìm cả tài liệu sản phẩm và chính sách chung của cửa hàng.</p><button class="sample" data-q="Có giao hàng tận nơi không?">🚚 Giao hàng tận nơi</button><button class="sample" data-q="Địa chỉ và giờ mở cửa của cửa hàng?">📍 Địa chỉ cửa hàng</button><button class="sample" data-q="Cửa hàng hỗ trợ phương thức thanh toán nào?">💳 Thanh toán</button><button class="sample" data-q="chính sách bảo hành và đổi trả">🛡️ Bảo hành và đổi trả</button><button class="sample" data-q="Thông số kỹ thuật của sản phẩm?">📋 Thông số kỹ thuật</button><button id="reset" class="secondary">＋ Chat mới</button><div id="queueBox" class="queue"><h2>Hàng chờ nhân viên <span id="queueCount" class="pill">0</span></h2><div id="queueList"></div><p class="hint">Khách đã yêu cầu gặp người thật. Bấm để mở và trả lời.</p></div><div class="convs"><h2 style="font-size:15px;margin:0">Cuộc trò chuyện gần đây</h2><div id="convList"></div><p class="hint">Hội thoại được lưu theo tài khoản (mặc định 30 ngày). Mở lại để tiếp tục với đầy đủ ngữ cảnh. Mọi sản phẩm, địa chỉ và chính sách hiện là giả lập.</p></div></aside>
+<section class="chat"><div class="chat-head"><div class="avatar big" id="headAvatar">CS</div><div><strong id="headName">Trợ lý CSKH</strong><span class="online">● Đang trực tuyến</span><small id="routeInfo">Ollama local • Cloud chỉ dùng khi quản trị viên chủ động bật</small></div></div><div id="messages" class="messages" role="log" aria-live="polite" aria-label="Lịch sử trò chuyện"></div><div id="handoffBar"><span id="handoffText">Đang chờ nhân viên…</span><button id="handoffCancel" type="button">Quay lại trợ lý ảo</button></div><div id="staffTools" class="staff-tools"><span id="staffInfo"></span><span><button id="staffResolve" type="button">✓ Đã xử lý xong</button> <button id="staffExit" type="button" class="secondary" style="width:auto;margin:0">Thoát</button></span></div><form id="form" class="composer"><label for="question" class="sr">Tin nhắn</label><div class="input"><textarea id="question" rows="1" required maxlength="2000" placeholder="Nhập câu hỏi về sản phẩm, giá, bảo hành…"></textarea><button id="submit" aria-label="Gửi" title="Gửi">➤</button></div><p id="state" role="status">Enter để gửi • Shift+Enter để xuống dòng</p></form></section></div></main>
 <script>
 // [C3] Hội thoại lưu trên server theo conversation_id; server tự nạp lại ngữ cảnh.
 const $=id=>document.getElementById(id);let conversationId=null,busy=false,csrf='';
-const KEY='lsa.conversation';
+const KEY='lsa.conversation';let role='viewer',handoff={status:'',ticket:''},lastId=0,pollTimer=null,staffTicket=null,staffLast=0;
+const ACTIVE=['waiting','active'];
 const QUICK=['Có giao hàng tận nơi không?','Chính sách bảo hành và đổi trả','Tai nghe chống ồn rẻ nhất','Laptop pin trâu nhất'];
 function remember(id){try{id?localStorage.setItem(KEY,id):localStorage.removeItem(KEY)}catch(e){}}
 function recall(){try{return localStorage.getItem(KEY)}catch(e){return null}}
@@ -88,8 +105,14 @@ function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className
 function clock(iso){const d=iso?new Date(iso):new Date();return isNaN(d)?'':d.toLocaleTimeString('vi-VN',{hour:'2-digit',minute:'2-digit'})}
 function safeUrl(u){try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:null}catch(e){return null}}
 // Dòng tin: avatar + cột nội dung (bong bóng, thẻ, ghi chú, giờ).
-function row(role,time){const r=el('div','row '+role),col=el('div','col');if(role==='assistant')r.append(el('div','avatar','CS'));r.append(col);$('messages').append(r);
-const t=el('div','time',(role==='user'?'':'Trợ lý • ')+clock(time));col._time=t;return {r,col}}
+function row(role,time,who){const r=el('div','row '+role),col=el('div','col');if(role==='assistant')r.append(el('div','avatar','CS'));if(role==='staff')r.append(el('div','avatar staff','NV'));if(role==='customer')r.append(el('div','avatar cust','KH'));r.append(col);$('messages').append(r);
+const label={user:who||'',customer:'Khách • ',staff:'Nhân viên'+(who?' '+who:'')+' • ',mine:'Bạn ('+(who||'nhân viên')+') • '}[role];
+const t=el('div','time',(label===undefined?'Trợ lý • ':label)+clock(time));col._time=t;return {r,col}}
+function track(id){if(id>lastId)lastId=id}
+function sysLine(text){$('messages').append(el('div','sys',text));scrollChat()}
+function staffBubble(m){const {col}=row(staffTicket?'mine':'staff',m.created_at,m.author);const b=el('div','bubble');rich(b,m.content);col.append(b);finish(col)}
+function renderMessage(m){track(m.id||0);if(m.role==='user'){const c=bubble(staffTicket?'customer':'user',m.content,m.created_at);if(staffTicket&&m.injection_flags)c.append(el('div','flag','⚠ nghi prompt injection: '+m.injection_flags.join(', ')))}
+else if(m.role==='staff')staffBubble(m);else if(m.role==='system')sysLine(m.content);else renderAssistant({...m,answer:m.content})}
 function finish(col){col.append(col._time);scrollChat()}
 // [C7] Chỉ dùng textContent; tự nhận dòng "1) …", "• …", "- …" thành danh sách.
 const ITEM=/^\s*(?:(\d+)[).]|[•\-*])\s+/;
@@ -97,7 +120,7 @@ function rich(target,text,skipItems){let list=null;
 for(const line of String(text||'').split('\n')){const m=line.match(ITEM);
 if(m){if(skipItems)continue;const tag=m[1]?'OL':'UL';if(!list||list.tagName!==tag){list=el(tag.toLowerCase());target.append(list)}list.append(el('li',null,line.replace(ITEM,'')));continue}
 list=null;if(line.trim())target.append(el('p',null,line))}}
-function bubble(role,text,time){const {col}=row(role,time);const b=el('div','bubble');role==='user'?b.textContent=text:rich(b,text);col.append(b);finish(col);return col}
+function bubble(role,text,time,who){const {col}=row(role,time,who);const b=el('div','bubble');role==='user'?b.textContent=text:rich(b,text);col.append(b);finish(col);return col}
 function productCard(c,n){const card=el('div','card');card.append(el('span','rank','#'+n));
 const box=el('div','img'),url=c.image_url&&safeUrl(c.image_url);
 if(url){const img=el('img');img.loading='lazy';img.alt=c.name||'';img.referrerPolicy='no-referrer';img.src=url;img.onerror=()=>img.replaceWith(el('span',null,'📦'));box.append(img)}else box.append(el('span',null,'📦'));
@@ -117,13 +140,31 @@ if(d.ai_generated||d.status==='model_answer')col.append(el('div','ai',d.disclaim
 if(d.normalized_question)col.append(el('div','meta','Mình hiểu câu hỏi là: “'+d.normalized_question+'”'));
 if(d.context_used)col.append(el('div','meta','Có dùng ngữ cảnh cuộc trò chuyện trước đó.'));
 if(d.mode==='catalog'&&d.disclaimer)col.append(el('div','meta',d.disclaimer));
-if(d.status==='handoff')col.append(el('div','handoff','🙋 Câu này cần nhân viên CSKH hỗ trợ thêm. Hiện hệ thống chưa tạo phiếu hỗ trợ hoặc gửi tin cho nhân viên.'));
+if(d.handoff_offer&&d.live&&!ACTIVE.includes(handoff.status))col.append(offerCard(d));
+else if(d.status==='handoff'&&!d.live)col.append(el('div','handoff','🙋 Câu này cần nhân viên CSKH hỗ trợ thêm.'));
 finish(col);return col}
+// Thẻ mời gặp nhân viên: khách để lại liên hệ → tạo ticket, bot tạm dừng.
+function offerCard(d){const box=el('div','offer');box.append(el('b',null,d.reason==='human_requested'?'🙋 Kết nối nhân viên CSKH':'🙋 Bạn muốn gặp nhân viên CSKH không?'));
+const name=el('input');name.placeholder='Tên của bạn (không bắt buộc)';name.maxLength=120;const contact=el('input');contact.placeholder='Số điện thoại hoặc email *';contact.maxLength=254;
+const note=el('textarea');note.rows=2;note.maxLength=1000;note.placeholder='Bạn cần hỗ trợ gì thêm?';const err=el('p','err');
+const go=el('button',null,'Kết nối nhân viên');go.type='button';const no=el('button','ghost','Không, cảm ơn');no.type='button';const btns=el('div','btns');btns.append(go,no);
+no.onclick=()=>box.remove();
+go.onclick=async()=>{err.textContent='';go.disabled=true;try{const r=await fetch('/api/handoff',{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':csrf},body:JSON.stringify({conversation_id:conversationId,customer_name:name.value,customer_contact:contact.value,note:note.value,reason:d.reason||''})});
+const x=await r.json();if(!r.ok)throw Error(x.error||'Không kết nối được');box.remove();setHandoff('waiting',x.ticket_id);await poll()}catch(e){err.textContent=e.message;go.disabled=false}};
+box.append(name,contact,note,err,btns);setTimeout(()=>contact.focus(),50);return box}
+function setHandoff(status,ticket){handoff={status:status||'',ticket:ticket||''};const on=ACTIVE.includes(handoff.status)&&!staffTicket;
+$('handoffBar').style.display=on?'flex':'none';$('handoffText').textContent=handoff.status==='active'?'💬 Bạn đang trò chuyện với nhân viên CSKH • '+handoff.ticket:'⏳ Đang chờ nhân viên CSKH tiếp nhận • '+handoff.ticket;
+$('headName').textContent=on&&handoff.status==='active'?'Nhân viên CSKH':'Trợ lý CSKH';$('headAvatar').textContent=on&&handoff.status==='active'?'NV':'CS';
+$('question').placeholder=on?'Nhắn cho nhân viên CSKH…':'Nhập câu hỏi về sản phẩm, giá, bảo hành…';schedule()}
+// Khách: hỏi server tin mới (nhân viên/hệ thống) khi đang chuyển nhân viên.
+async function poll(){if(!conversationId||staffTicket)return;const r=await fetch(`/api/conversations/${encodeURIComponent(conversationId)}?after=${lastId}`);if(!r.ok)return;const d=await r.json();
+d.messages.forEach(m=>{if(m.id<=lastId)return;if(m.role==='staff'||m.role==='system')renderMessage(m);else track(m.id)});setHandoff(d.conversation.handoff_status,d.conversation.handoff_ticket)}
+function schedule(){clearInterval(pollTimer);pollTimer=null;if(staffTicket)pollTimer=setInterval(staffPoll,4000);else if(ACTIVE.includes(handoff.status))pollTimer=setInterval(poll,4000)}
 function chips(list){const {col}=row('assistant');col.parentNode.querySelector('.avatar').style.visibility='hidden';const box=el('div','chips');
 list.forEach(q=>{const c=el('button','chip',q);c.type='button';c.onclick=()=>{if(busy)return;$('question').value=q;$('form').requestSubmit()};box.append(c)});col.append(box);scrollChat()}
 function typing(){const {r,col}=row('assistant');r.classList.add('typing');const b=el('div','bubble');b.append(el('i'),el('i'),el('i'));col.append(b);scrollChat();return r}
 function greet(){bubble('assistant','Xin chào! 👋 Mình là trợ lý CSKH của cửa hàng.\nMình có thể giúp bạn về sản phẩm '+($('product').value||'bạn chọn')+', giá và so sánh sản phẩm, giao hàng, địa chỉ cửa hàng, thanh toán, bảo hành và đổi trả.\nBạn cần hỗ trợ gì ạ?')}
-function resetChat(){conversationId=null;remember(null);$('messages').replaceChildren();greet();chips(QUICK);$('state').textContent='Enter để gửi • Shift+Enter để xuống dòng';$('question').value='';markActive()}
+function resetChat(){if(staffTicket)exitStaff(true);conversationId=null;lastId=0;remember(null);$('messages').replaceChildren();greet();chips(QUICK);setHandoff('','');$('state').textContent='Enter để gửi • Shift+Enter để xuống dòng';$('question').value='';markActive()}
 function lock(value){busy=value;['submit','reset','product','model'].forEach(id=>$(id).disabled=value);document.querySelectorAll('[data-q],#convList button,.chip').forEach(b=>b.disabled=value)}
 function markActive(){document.querySelectorAll('#convList .conv button:first-child').forEach(b=>b.classList.toggle('active',b.dataset.id===conversationId))}
 async function loadConversations(){const r=await fetch('/api/conversations');if(!r.ok)return;const d=await r.json();$('convList').replaceChildren();
@@ -133,12 +174,13 @@ item.append(open,del);$('convList').append(item)});markActive()}
 // [C3a] Mở lại cuộc trò chuyện: hiển thị tin cũ, server dùng tóm tắt + lượt gần nhất làm ngữ cảnh.
 async function openConversation(id){const r=await fetch('/api/conversations/'+encodeURIComponent(id));if(!r.ok){remember(null);resetChat();return}const d=await r.json();
 conversationId=id;remember(id);if([...$('product').options].some(o=>o.value===d.conversation.product))$('product').value=d.conversation.product;
-$('messages').replaceChildren();greet();d.messages.forEach(m=>m.role==='user'?bubble('user',m.content,m.created_at):renderAssistant({...m,answer:m.content}));
-if(d.messages.length)$('messages').append(el('div','sys','Đã nạp lại cuộc trò chuyện • trợ lý sẽ dùng ngữ cảnh này'));
+if(staffTicket)exitStaff(true);lastId=0;$('messages').replaceChildren();greet();d.messages.forEach(renderMessage);
+if(d.messages.length)sysLine('Đã nạp lại cuộc trò chuyện • trợ lý sẽ dùng ngữ cảnh này');setHandoff(d.conversation.handoff_status,d.conversation.handoff_ticket);
 $('state').textContent='Đã mở lại cuộc trò chuyện';markActive();scrollChat()}
 // [C4] Lấy danh mục, danh sách hội thoại và tự mở lại hội thoại gần nhất.
-async function start(){const me=await fetch('/api/me');if(!me.ok)return;$('login').style.display='none';const identity=await me.json();csrf=identity.csrf;const r=await fetch('/api/catalog'),d=await r.json();$('product').replaceChildren();d.products.forEach(p=>{const o=el('option',null,p);o.value=p;$('product').append(o)});$('catalog').textContent=`${d.records} đoạn tài liệu • ${d.model} • vai trò ${identity.role}`;
+async function start(){const me=await fetch('/api/me');if(!me.ok)return;$('login').style.display='none';const identity=await me.json();csrf=identity.csrf;role=identity.role;const r=await fetch('/api/catalog'),d=await r.json();$('product').replaceChildren();d.products.forEach(p=>{const o=el('option',null,p);o.value=p;$('product').append(o)});$('catalog').textContent=`${d.records} đoạn tài liệu • ${d.model} • vai trò ${identity.role}`;
 const m=d.routing.models||{};$('routeInfo').textContent=(d.routing.cloud_enabled?'Hybrid: local + cloud cho tác vụ phức tạp':'Ollama local • Cloud đang tắt')+(m.heavy&&m.heavy!==m.light?` • nhẹ: ${m.light}, nặng: ${m.heavy}`:'');
+if(role==='agent'||role==='admin'){$('queueBox').style.display='block';loadQueue();setInterval(loadQueue,10000)}
 await loadConversations();const saved=recall();if(saved)await openConversation(saved);else resetChat()}
 $('loginForm').onsubmit=async e=>{e.preventDefault();const r=await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:$('username').value,password:$('password').value})});if(!r.ok){$('loginError').textContent='Sai tên đăng nhập hoặc mật khẩu.';return}await start()};start();
 $('product').onchange=resetChat;$('reset').onclick=resetChat;
@@ -149,11 +191,32 @@ $('question').oninput=grow;
 $('question').onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){e.preventDefault();if(!busy)$('form').requestSubmit()}};
 // [C6] Gửi conversation_id; server tự dựng lịch sử từ dữ liệu đã lưu.
 $('form').onsubmit=async e=>{e.preventDefault();if(busy)return;const question=$('question').value.trim(),product=$('product').value;if(!question||!product)return;
+if(staffTicket)return staffSend(question);
 document.querySelectorAll('#messages .chips').forEach(c=>c.closest('.row').remove());
-lock(true);bubble('user',question);$('question').value='';grow();$('state').textContent='Trợ lý đang tìm thông tin…';const dots=typing();
+const human=ACTIVE.includes(handoff.status);lock(true);bubble('user',question);$('question').value='';grow();$('state').textContent=human?'Đang gửi cho nhân viên…':'Trợ lý đang tìm thông tin…';const dots=human?{remove(){}}:typing();
 try{const body={question,product,use_model:$('model').checked};if(conversationId)body.conversation_id=conversationId;
 const r=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':csrf},body:JSON.stringify(body)});const d=await r.json();if(!r.ok)throw Error(d.error||'không xử lý được tin nhắn');
-dots.remove();renderAssistant(d);conversationId=d.conversation_id;remember(conversationId);
+dots.remove();conversationId=d.conversation_id;remember(conversationId);
+if(d.status==='with_human'){track(d.message_id);setHandoff(d.handoff_status,d.handoff_ticket);$('state').textContent='✓ Đã gửi cho nhân viên';return}
+renderAssistant({...d,live:true});
 $('state').textContent=(d.cache_hit?'Trả lời từ cache • ':'')+(d.model_tier?d.model_tier+' • ':'')+(d.model_route||d.mode||'')+' • trace '+d.trace_id.slice(0,8);loadConversations();
 }catch(err){dots.remove();bubble('assistant','Xin lỗi bạn, '+err.message+'. Bạn vui lòng gửi lại câu hỏi giúp mình nhé.');$('state').textContent='Không hoàn tất yêu cầu.';$('question').value=question;grow()}finally{lock(false);$('question').focus()}};
+// [C8] Nhân viên: hàng chờ, mở hội thoại của khách, trả lời trực tiếp, đóng phiếu.
+async function loadQueue(){const r=await fetch('/api/handoffs');if(!r.ok)return;const d=await r.json();$('queueCount').textContent=d.queue.length;$('queueList').replaceChildren();
+if(!d.queue.length)$('queueList').append(el('p','hint','Chưa có khách nào chờ.'));
+d.queue.forEach(t=>{const b=el('button','qitem'+(t.handoff_status==='waiting'?' waiting':'')+(t.ticket_id===staffTicket?' active-t':''));b.type='button';
+b.append(el('strong',null,(t.priority==='high'?'🔴 ':'')+(t.customer_name||t.customer_contact)+' • '+t.ticket_id),el('small',null,(t.handoff_status==='waiting'?'Chờ nhận • ':'Đang hỗ trợ • ')+(t.last_role==='user'?'Khách: ':'')+t.last_message));
+b.onclick=()=>{if(!busy)openStaff(t.ticket_id)};$('queueList').append(b)})}
+async function openStaff(id){staffTicket=id;staffLast=0;clearInterval(pollTimer);$('messages').replaceChildren();$('handoffBar').style.display='none';
+$('staffTools').style.display='flex';$('question').placeholder='Trả lời khách với tư cách nhân viên…';$('headName').textContent='Đang hỗ trợ khách • '+id;$('headAvatar').textContent='NV';
+await staffPoll();schedule();loadQueue()}
+async function staffPoll(){if(!staffTicket)return;const r=await fetch(`/api/handoffs/${encodeURIComponent(staffTicket)}?after=${staffLast}`);if(!r.ok)return;const d=await r.json();
+if(!staffLast){const t=d.ticket;$('staffInfo').textContent=`${t.customer_name||'Khách'} • ${t.customer_contact} • ${t.product} • ${t.status}`;sysLine('Ticket '+t.id+' • tạo lúc '+clock(t.created_at)+' • '+d.notice)}
+d.messages.forEach(m=>{if(m.id<=staffLast)return;staffLast=m.id;renderMessage(m)});$('staffResolve').disabled=d.handoff_status==='closed';if(d.handoff_status==='closed')$('staffInfo').textContent+=' • đã đóng'}
+async function staffSend(text){lock(true);try{const r=await fetch(`/api/handoffs/${encodeURIComponent(staffTicket)}/reply`,{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':csrf},body:JSON.stringify({message:text})});
+const x=await r.json();if(!r.ok)throw Error(x.error||'Không gửi được');$('question').value='';grow();await staffPoll();loadQueue()}catch(e){$('state').textContent=e.message}finally{lock(false);$('question').focus()}}
+function exitStaff(silent){staffTicket=null;$('staffTools').style.display='none';$('headName').textContent='Trợ lý CSKH';$('headAvatar').textContent='CS';clearInterval(pollTimer);if(!silent){const saved=conversationId;saved?openConversation(saved):resetChat()}}
+$('staffExit').onclick=()=>exitStaff(false);
+$('staffResolve').onclick=async()=>{if(!staffTicket||!confirm('Đánh dấu đã xử lý xong và trả khách về trợ lý ảo?'))return;await fetch(`/api/handoffs/${encodeURIComponent(staffTicket)}/resolve`,{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':csrf},body:JSON.stringify({})});await staffPoll();loadQueue()};
+$('handoffCancel').onclick=async()=>{if(!confirm('Kết thúc chờ nhân viên và quay lại trợ lý ảo?'))return;await fetch('/api/handoff/cancel',{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':csrf},body:JSON.stringify({conversation_id:conversationId})});await poll()};
 </script></html>

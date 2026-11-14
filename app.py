@@ -3,26 +3,33 @@ import argparse
 from http.cookies import SimpleCookie
 import json
 import os
+from pathlib import Path
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import threading
 from agent import ROOT, all_records, ask, conversation_question, load_records
 from cache_store import ResponseCache
 from catalog import catalog_files, load_catalog
 from conversation_store import ConversationStore
+from handoff import HandoffService, should_offer
 from observability import TraceStore, safe_metadata
 from orchestrator import Orchestrator
 from security import AuthStore, require
+from support_actions import SupportActions
+from urllib.parse import parse_qs, urlsplit
 
 
-def make_server(port=8765, model="Qwen:latest", auth_db=None):
+def make_server(port=8765, model="Qwen:latest", auth_db=None, data_dir=None):
+    data = Path(data_dir) if data_dir else ROOT / "data"
     busy, records = threading.BoundedSemaphore(1), all_records()
-    auth = AuthStore(auth_db or ROOT / "data" / "auth.sqlite3")
+    auth = AuthStore(auth_db or data / "auth.sqlite3")
     bootstrap = auth.bootstrap()
-    traces = TraceStore(ROOT / "data" / "traces.jsonl")
-    cache = ResponseCache(ROOT / "data" / "response_cache.sqlite3", os.environ.get("CACHE_TTL_SECONDS", "900"))
+    traces = TraceStore(data / "traces.jsonl")
+    cache = ResponseCache(data / "response_cache.sqlite3", os.environ.get("CACHE_TTL_SECONDS", "900"))
     orchestrator = Orchestrator(model, tracer=traces)
-    conversations = ConversationStore(ROOT / "data" / "conversations.sqlite3",
+    conversations = ConversationStore(data / "conversations.sqlite3",
                                       os.environ.get("CONVERSATION_RETENTION_DAYS", "30"))
+
+    handoffs = HandoffService(conversations, SupportActions(data / "support.sqlite3"))
 
     def refresh_summary(conv_id, username):
         """Tóm tắt phần hội thoại cũ bằng model nhẹ, chạy nền để không làm chậm câu trả lời."""
@@ -78,18 +85,27 @@ def make_server(port=8765, model="Qwen:latest", auth_db=None):
                     return self.respond(200, {"products": sorted({r["product"] for r in records if r["product"] != "STORE-POLICY"}), "records": len(records), "catalog_items": len(catalog), "model": model, "routing": orchestrator.describe()})
                 if self.path == "/api/conversations":
                     return self.respond(200, {"conversations": conversations.list(me["username"])})
-                if self.path.startswith("/api/conversations/"):
-                    conv_id = self.path.rsplit("/", 1)[-1]
+                url = urlsplit(self.path); query = parse_qs(url.query)
+                after = int((query.get("after") or ["0"])[0] or 0)
+                if url.path.startswith("/api/conversations/"):
+                    conv_id = url.path.rsplit("/", 1)[-1]
                     conv = conversations.get(conv_id, me["username"])
                     if not conv: return self.respond(404, {"error": "Không tìm thấy cuộc trò chuyện."})
-                    return self.respond(200, {"conversation": conv,
-                                              "messages": conversations.messages(conv_id, me["username"])})
+                    messages = [m for m in conversations.messages(conv_id, me["username"]) if m["id"] > after]
+                    return self.respond(200, {"conversation": conv, "messages": messages})
+                if url.path == "/api/handoffs":
+                    require(me["role"], "ticket.read")
+                    return self.respond(200, {"queue": handoffs.queue((query.get("status") or [""])[0])})
+                if url.path.startswith("/api/handoffs/"):
+                    require(me["role"], "ticket.read")
+                    return self.respond(200, handoffs.view(url.path.rsplit("/", 1)[-1], after))
                 if self.path.startswith("/api/users"):
                     require(me["role"], "user.manage"); return self.respond(200, {"users": auth.list_users()})
                 if self.path.startswith("/api/traces"):
                     require(me["role"], "trace.read"); return self.respond(200, {"traces": traces.recent(100)})
                 return self.respond(404, {"error": "Không tìm thấy."})
             except PermissionError as exc: return self.respond(401 if str(exc) == "AUTH_REQUIRED" else 403, {"error": str(exc)})
+            except ValueError as exc: return self.respond(400, {"error": str(exc) or "Yêu cầu không hợp lệ."})
         def do_POST(self):
             if not self.trusted(): return self.respond(403, {"error": "Host không hợp lệ."})
             try:
@@ -112,6 +128,25 @@ def make_server(port=8765, model="Qwen:latest", auth_db=None):
                     conv_id = self.path.split("/")[3]
                     if not conversations.delete(conv_id, me["username"]): return self.respond(404, {"error": "Không tìm thấy cuộc trò chuyện."})
                     return self.respond(200, {"ok": True})
+                if self.path == "/api/handoff":
+                    data = self.body()
+                    try:
+                        ticket = handoffs.request(data.get("conversation_id"), me["username"],
+                                                  data.get("customer_name", ""), data.get("customer_contact", ""),
+                                                  data.get("note", ""), data.get("reason", ""))
+                    except ValueError as exc: return self.respond(400, {"error": str(exc)})
+                    return self.respond(201, {"ticket_id": ticket["id"], "status": ticket["status"]})
+                if self.path == "/api/handoff/cancel":
+                    try: return self.respond(200, handoffs.cancel(self.body().get("conversation_id"), me["username"]))
+                    except ValueError as exc: return self.respond(400, {"error": str(exc)})
+                if self.path.startswith("/api/handoffs/"):
+                    _, _, _, ticket_id, action = self.path.split("/")
+                    require(me["role"], "ticket.write"); data = self.body()
+                    try:
+                        if action == "reply": return self.respond(200, handoffs.reply(ticket_id, me["username"], data.get("message")))
+                        if action == "resolve": return self.respond(200, handoffs.resolve(ticket_id, me["username"], data.get("note", "")))
+                    except ValueError as exc: return self.respond(400, {"error": str(exc)})
+                    return self.respond(404, {"error": "Không tìm thấy."})
                 if self.path != "/api/ask": return self.respond(404, {"error": "Không tìm thấy."})
                 if not busy.acquire(blocking=False): return self.respond(429, {"error": "Agent đang bận."})
                 try:
@@ -130,13 +165,23 @@ def make_server(port=8765, model="Qwen:latest", auth_db=None):
                     else:
                         history = data.get("history")
                         conv_id = conversations.create(me["username"], product)["id"]
+                    conv = conversations.get(conv_id, me["username"])
+                    if conv["handoff_status"] in ("waiting", "active"):
+                        # Đang gặp nhân viên: bot không trả lời, tin chuyển thẳng cho nhân viên.
+                        if len(question) > 2000 or not question.strip(): raise ValueError()
+                        result = handoffs.customer_message(conv_id, me["username"], question)
+                        result["conversation_id"] = conv_id
+                        return self.respond(200, result)
+                    previous_statuses = [m["status"] for m in conversations.messages(conv_id, me["username"], 6)
+                                         if m["role"] == "assistant"]
                     route = orchestrator.route_label(question) if use_model else "retrieval"
                     key = cache.key(question, product, route, knowledge_version)
                     # Câu tham chiếu ("chính sách đó") phụ thuộc lịch sử nên không đọc cache.
                     follow_up = conversation_question(question, product, history)[1]
                     cached = None if follow_up else cache.get(key)
                     if cached:
-                        cached.update({"cache_hit": True, "conversation_id": conv_id})
+                        cached.update({"cache_hit": True, "conversation_id": conv_id,
+                                       "handoff_offer": should_offer(cached, previous_statuses)})
                         with traces.span("rag.ask.cache", me["username"], "cache", metadata=safe_metadata(data)) as span: cached["trace_id"] = span["trace_id"]
                         conversations.add_turn(conv_id, me["username"], product, question, cached)
                         return self.respond(200, cached)
@@ -145,7 +190,8 @@ def make_server(port=8765, model="Qwen:latest", auth_db=None):
                                      tracer=traces, actor=me["username"], trace_id=span["trace_id"],
                                      orchestrator=orchestrator if use_model else None, context=context,
                                      catalog=catalog)
-                        result.update({"cache_hit": False, "trace_id": span["trace_id"], "conversation_id": conv_id})
+                        result.update({"cache_hit": False, "trace_id": span["trace_id"], "conversation_id": conv_id,
+                                       "handoff_offer": should_offer(result, previous_statuses)})
                     # Chỉ cache câu trả lời không phụ thuộc ngữ cảnh hội thoại.
                     if not result.get("context_used") and not (history and result.get("spelling_corrected")):
                         cache.put(key, {k: v for k, v in result.items() if k != "conversation_id"})

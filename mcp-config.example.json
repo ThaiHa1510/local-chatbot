@@ -1,10 +1,12 @@
 {
   "mcpServers": {
     "local-support": {
-      "command": "python3",
-      "args": ["/Users/hbliss/Documents/LocalSupportAgent/mcp_server.py"],
+      "command": "/DUONG/DAN/TOI/local-chatbot/start_mcp.command",
+      "args": [],
       "env": {
-        "SUPPORT_EMAIL_MODE": "console"
+        "SUPPORT_EMAIL_MODE": "console",
+        "SUPPORT_MCP_ROLE": "agent",
+        "SUPPORT_MCP_ACTOR": "claude-desktop"
       }
     }
   }

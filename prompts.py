@@ -4,6 +4,7 @@ Một nơi duy nhất mô tả "trợ lý đang làm việc cho ai, làm gì, kh
 để mọi model (local nhỏ, local lớn hay cloud) nhận cùng một bối cảnh.
 """
 from datetime import date
+import injection
 import json
 import os
 from pathlib import Path
@@ -84,6 +85,7 @@ Vai trò: {profile['role']}
 
 # Tuyệt đối không
 {_bullets(profile['must_not'])}
+{injection.canary_line()}
 
 # Cách trả lời
 - Giọng văn: {profile['tone']}.
@@ -129,7 +131,7 @@ def context_block(context):
     if context.get("summary"):
         lines.append("Tóm tắt các lượt trước: " + context["summary"])
     for turn in context.get("recent", []):
-        who = "Khách" if turn["role"] == "user" else "Trợ lý"
+        who = {"user": "Khách", "staff": "Nhân viên", "system": "Hệ thống"}.get(turn["role"], "Trợ lý")
         lines.append(f"{who}: {turn['content'][:600]}")
     return "\n".join(lines)
 

@@ -41,6 +41,12 @@ class ConversationStore:
               CREATE INDEX IF NOT EXISTS idx_conv_user ON conversations(username, updated_at);
               CREATE INDEX IF NOT EXISTS idx_msg_conv ON messages(conversation_id, id);
             """)
+            # Chuyển nhân viên: '' | waiting (chờ nhận) | active (nhân viên đang chat) | closed
+            cols = {r[1] for r in db.execute("PRAGMA table_info(conversations)")}
+            if "handoff_ticket" not in cols:
+                db.execute("ALTER TABLE conversations ADD COLUMN handoff_ticket TEXT NOT NULL DEFAULT ''")
+                db.execute("ALTER TABLE conversations ADD COLUMN handoff_status TEXT NOT NULL DEFAULT ''")
+            db.execute("CREATE INDEX IF NOT EXISTS idx_conv_ticket ON conversations(handoff_ticket)")
         self.purge_expired()
 
     def connect(self):
@@ -69,12 +75,40 @@ class ConversationStore:
         if not isinstance(conv_id, str) or not conv_id:
             return None
         with self.connect() as db:
-            row = db.execute("SELECT id,product,title,created_at,updated_at,summary,summarized_upto"
-                             " FROM conversations WHERE id=? AND username=?", (conv_id, username)).fetchone()
+            row = db.execute("SELECT id,product,title,created_at,updated_at,summary,summarized_upto,"
+                             "handoff_ticket,handoff_status FROM conversations WHERE id=? AND username=?",
+                             (conv_id, username)).fetchone()
         if not row:
             return None
         return {"id": row[0], "product": row[1], "title": row[2], "created_at": row[3],
-                "updated_at": row[4], "summary": row[5], "summarized_upto": row[6]}
+                "updated_at": row[4], "summary": row[5], "summarized_upto": row[6],
+                "handoff_ticket": row[7], "handoff_status": row[8]}
+
+    # ------------------------------------------------------------- handoff
+    def by_ticket(self, ticket_id):
+        """(conv_id, username) của hội thoại gắn với ticket — chỉ dùng cho nhân viên đã qua RBAC."""
+        with self.connect() as db:
+            row = db.execute("SELECT id, username FROM conversations WHERE handoff_ticket=?",
+                             (ticket_id,)).fetchone()
+        return (row[0], row[1]) if row else (None, None)
+
+    def set_handoff(self, conv_id, username, ticket_id, status):
+        with self.connect() as db:
+            db.execute("UPDATE conversations SET handoff_ticket=?, handoff_status=?, updated_at=?"
+                       " WHERE id=? AND username=?", (ticket_id, status, _now().isoformat(), conv_id, username))
+
+    def add_message(self, conv_id, username, role, content, status="", meta=None):
+        """Thêm một tin lẻ (khách khi đang gặp nhân viên, nhân viên, hệ thống). Trả id tin."""
+        conv = self.get(conv_id, username)
+        if not conv:
+            raise PermissionError("Không tìm thấy cuộc trò chuyện.")
+        stamp = _now().isoformat()
+        with self.connect() as db:
+            cur = db.execute("INSERT INTO messages(conversation_id,role,content,product,status,meta,created_at)"
+                             " VALUES(?,?,?,?,?,?,?)", (conv_id, role, content, conv["product"], status,
+                                                       json.dumps(meta or {}, ensure_ascii=False), stamp))
+            db.execute("UPDATE conversations SET updated_at=? WHERE id=?", (stamp, conv_id))
+            return cur.lastrowid
 
     def list(self, username, limit=20):
         with self.connect() as db:

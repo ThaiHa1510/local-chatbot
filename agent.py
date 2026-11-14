@@ -12,6 +12,8 @@ import urllib.request
 import catalog as catalog_store
 import catalog_sql
 from guardrails import inspect_input
+import handoff
+import injection
 from model_router import ModelRouter
 import prompts
 
@@ -199,7 +201,9 @@ def retrieve(question, product, records, today=None):
                     * counts[t] * 2.2 / (counts[t] + 1.2 * (.25 + .75 * len(doc) / avg))
                     for t in overlap)
         scored.append((score, row))
-    return [r for _, r in sorted(scored, key=lambda item: item[0], reverse=True)[:5]]
+    # Injection gián tiếp: đoạn tài liệu chứa chỉ thị nhắm vào model không được đưa vào ngữ cảnh.
+    ranked = [r for _, r in sorted(scored, key=lambda item: item[0], reverse=True)]
+    return [r for r in ranked if not injection.scan_document(r["text"])][:5]
 
 
 def select_evidence(question, candidates, model, endpoint=OLLAMA, timeout=90):
@@ -314,6 +318,13 @@ def ask(question, product, records, model="", today=None, endpoint=OLLAMA, timeo
         raise ValueError("Câu hỏi phải có từ 1 đến 2.000 ký tự.")
     if not isinstance(product, str):
         raise ValueError("Mã sản phẩm phải là chuỗi.")
+    # Khách đòi gặp người: trả lời cố định, không gọi model → không cần chờ NeMo (luật vẫn phải sạch).
+    if handoff.wants_human(question) and injection.scan(question)["verdict"] == "allow":
+        return {"status": "handoff", "reason": "human_requested", "handoff_offer": True,
+                "answer": "Dạ, mình sẽ kết nối bạn với nhân viên CSKH. Bạn vui lòng để lại tên và "
+                          "số điện thoại hoặc email bên dưới để nhân viên hỗ trợ nhé.",
+                "citations": [], "mock": False, "mode": "handoff", "context_used": False}
+
     guard = inspect_input(question)
     if not guard["allowed"]:
         return {"status": "blocked", "reason": guard["reason"],
@@ -366,6 +377,11 @@ def ask(question, product, records, model="", today=None, endpoint=OLLAMA, timeo
         if not value["in_scope"]:
             result.update(status="out_of_scope", reason="out_of_scope",
                           answer=profile["out_of_scope_message"], ai_generated=False)
+        elif injection.leaks_prompt(value["answer"]):
+            # Model bị dẫn dắt chép lại chỉ thị nội bộ: không trả nội dung này cho khách.
+            result.update(status="blocked", reason="prompt_leak", ai_generated=False,
+                          answer="Mình không thể chia sẻ thông tin cấu hình nội bộ. "
+                                 "Bạn cần hỗ trợ gì về sản phẩm hoặc dịch vụ của cửa hàng ạ?")
         elif value["needs_human"] or prompts.contains_money(value["answer"]):
             # Model tự nhận cần nhân viên, hoặc lỡ nêu số tiền: không đưa nội dung đó cho khách.
             answer = profile["handoff_message"] if prompts.contains_money(value["answer"]) else value["answer"]

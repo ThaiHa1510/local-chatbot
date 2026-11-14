@@ -27,6 +27,25 @@ Tất cả sản phẩm và chính sách đều **GIẢ LẬP**, không đại d
 Dự án có thêm MCP server cho ticket và liên hệ nhân viên. Xem `MCP_GUIDE.md`.
 Mặc định thông báo chạy ở chế độ console, chưa gửi email thật.
 
+## Chuyển cho nhân viên thật
+
+- Bot mời khách gặp nhân viên khi: khách yêu cầu ("cho mình gặp nhân viên", "người thật", "talk to a human"),
+  bot trả `handoff` (giá/đơn hàng/thiếu tài liệu…), hoặc 2 lượt liên tiếp bị từ chối/ngoài phạm vi.
+- Khách để lại tên + SĐT/email → tạo ticket (source `chat`, kèm hội thoại), bot tạm dừng, tin của khách
+  chuyển thẳng cho nhân viên. Khách có thể bấm "Quay lại trợ lý ảo".
+- Tài khoản `agent`/`admin` thấy mục **Hàng chờ nhân viên**: mở hội thoại, trả lời trực tiếp (khách nhận
+  trong vài giây), bấm "Đã xử lý xong" để trả khách về bot. Agent bên ngoài làm việc này qua MCP
+  (`list_handoff_queue`, `get_handoff`, `reply_to_customer`, `resolve_handoff`) — xem `MCP_GUIDE.md`.
+- API: `POST /api/handoff`, `POST /api/handoff/cancel`, `GET /api/handoffs`, `GET /api/handoffs/<ticket>?after=`,
+  `POST /api/handoffs/<ticket>/reply|resolve`, `GET /api/conversations/<id>?after=` (khách nhận tin mới).
+
+## Chống prompt injection
+
+Lớp 1 `injection.py` (luật, chống né bằng bỏ dấu/leetspeak/ký tự ẩn/base64) → lớp 2 NeMo Guardrails
+(model Ollama) → lớp 3 canary trong system prompt. Tài liệu RAG chứa chỉ thị bị loại khỏi ngữ cảnh; tin
+khách gửi nhân viên được gắn cờ thay vì chặn. Bộ mẫu kiểm thử: `tests/fixtures/injection_corpus.json`
+(tấn công phải bị chặn, câu hỏi thường không bị chặn). Tắt lớp NeMo khi không có model: `NEMO_GUARDRAILS=0`.
+
 ## Cài đặt & chạy (một lệnh)
 
 Máy mới (macOS hoặc Linux), chỉ cần `curl`:

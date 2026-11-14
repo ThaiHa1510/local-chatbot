@@ -14,15 +14,48 @@ ticket, cập nhật trạng thái và liên hệ nhân viên.
 
 ## Các tool
 
-| Tool | Tác dụng | Side effect |
-| --- | --- | --- |
-| `support_config_status` | Xem chế độ email và phần cấu hình còn thiếu | Không |
-| `create_support_ticket` | Tạo ticket trong `data/support.sqlite3` | Ghi local |
-| `get_support_ticket` | Đọc một ticket | Không |
-| `list_support_tickets` | Liệt kê tối đa 100 ticket | Không |
-| `update_support_ticket_status` | Đổi trạng thái và ghi audit event | Ghi local |
-| `prepare_staff_notification` | Tạo bản xem trước, token xác nhận hiệu lực 15 phút | Ghi local, chưa gửi |
-| `execute_staff_notification` | Thực thi bản đã chuẩn bị | Ghi local hoặc gửi SMTP thật |
+| Tool | Tác dụng | Quyền | Side effect |
+| --- | --- | --- | --- |
+| `ask_support_agent` | Hỏi trợ lý CSKH (tài liệu đã duyệt + bảng giá), trả `status`, `answer`, `citations` | mọi vai trò | Gọi Ollama |
+| `check_prompt_injection` | Quét văn bản không tin cậy; `deep=true` chạy thêm NeMo | mọi vai trò | Không |
+| `list_handoff_queue` | Hàng chờ khách đã chuyển sang nhân viên | agent, admin | Không |
+| `get_handoff` | Ticket + toàn bộ hội thoại, tin đáng ngờ có `injection_flags` | agent, admin | Không |
+| `reply_to_customer` | Gửi tin nhân viên vào chat của khách (khách thấy ngay) | agent, admin | Ghi local |
+| `resolve_handoff` | Đóng ticket, trả khách về trợ lý ảo | agent, admin | Ghi local |
+| `support_config_status` | Xem chế độ email và phần cấu hình còn thiếu | agent, admin | Không |
+| `create_support_ticket` | Tạo ticket trong `data/support.sqlite3` | agent, admin | Ghi local |
+| `get_support_ticket` | Đọc một ticket | agent, admin | Không |
+| `list_support_tickets` | Liệt kê tối đa 100 ticket | agent, admin | Không |
+| `update_support_ticket_status` | Đổi trạng thái và ghi audit event | agent, admin | Ghi local |
+| `prepare_staff_notification` | Tạo bản xem trước, token xác nhận hiệu lực 15 phút | agent, admin | Ghi local, chưa gửi |
+| `execute_staff_notification` | Thực thi bản đã chuẩn bị | admin | Ghi local hoặc gửi SMTP thật |
+
+### Agent CSKH dùng MCP
+
+```text
+ask_support_agent(question)
+   ├─ status evidence / catalog / model_answer → trả lời khách (kèm nguồn)
+   ├─ status blocked / out_of_scope            → giữ nguyên câu từ chối, không tự trả lời thay
+   └─ status handoff                            → cần người thật:
+         list_handoff_queue → get_handoff(ticket) → reply_to_customer → resolve_handoff
+```
+
+Khách trên web tự tạo ticket handoff (để lại SĐT/email). Từ lúc đó bot ngừng trả lời; mọi tin của
+khách vào hàng chờ, nhân viên trả lời qua giao diện web (mục "Hàng chờ nhân viên") hoặc qua MCP.
+
+### Chống prompt injection
+
+Mọi tham số chữ của tool (`question`, `subject`, `description`, `message`, `note`) đi qua 2 lớp:
+
+1. `injection.py` — luật có trọng số, chống né bằng bỏ dấu, leetspeak, ký tự vô hình, chữ tách rời,
+   base64. Mẫu rõ ràng bị chặn ngay, không tốn model.
+2. NeMo Guardrails self-check bằng model Ollama. Nếu model lỗi: câu đã bị luật nghi ngờ thì chặn
+   (fail-closed), câu sạch cho qua và trace ghi `degraded`.
+
+Dữ liệu gián tiếp (tài liệu RAG, tin khách trong ticket) không chặn yêu cầu mà: tài liệu chứa chỉ
+thị bị loại khỏi ngữ cảnh model; tin khách được gắn `injection_flags` và cảnh báo trong ticket.
+Câu trả lời tự do của model bị chặn nếu lộ canary/đoạn system prompt.
+`check_prompt_injection` không tự quét tham số của chính nó (để nhận được văn bản đáng ngờ).
 
 Luồng liên hệ nhân viên:
 
@@ -41,8 +74,7 @@ console: ghi local   |   smtp: gửi email thật
 ## Chạy thử MCP server
 
 ```sh
-cd /Users/hbliss/Documents/LocalSupportAgent
-python3 mcp_server.py
+./start_mcp.command        # đọc model từ local.env (do install.sh tạo)
 ```
 
 Server đọc JSON-RPC từ stdin và chỉ ghi protocol message ra stdout. Có thể dùng
@@ -93,7 +125,7 @@ liệu khách thật, cần phân quyền file, chính sách lưu/xóa dữ li�
 ## Ví dụ cấu hình client
 
 Sao chép cấu trúc trong `mcp-config.example.json` vào phần MCP server của client.
-Đường dẫn `command`/`args` phải trỏ đến bản `mcp_server.py` trong máy chạy client.
+`command` phải là đường dẫn tuyệt đối tới `start_mcp.command` trên máy chạy client.
 Khởi động lại client sau khi đổi cấu hình hoặc biến môi trường.
 
 ## Kiểm thử
