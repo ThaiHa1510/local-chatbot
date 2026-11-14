@@ -1,0 +1,5696 @@
+[
+  {
+    "id": "CAT-PHONE-141651",
+    "sku": "IPHONE-18-PRO",
+    "category": "phone",
+    "name": "iPhone 18 Pro 256GB",
+    "aliases": [
+      "iphone 18 pro",
+      "iphone-18-pro"
+    ],
+    "price_vnd": 38690000,
+    "original_price_vnd": 38990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 256,
+      "screen_inch": 6.3,
+      "weight_kg": 0.211,
+      "chipset": "A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112586",
+    "sku": "IPHONE-17-PRO",
+    "category": "phone",
+    "name": "iPhone 17 Pro 256GB | Chính hãng",
+    "aliases": [
+      "iphone 17 pro",
+      "iphone-17-pro"
+    ],
+    "price_vnd": 31990000,
+    "original_price_vnd": 34990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 256,
+      "screen_inch": 6.3,
+      "weight_kg": 0.204,
+      "chipset": "Chip A19 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-pro-256-gb.png"
+  },
+  {
+    "id": "CAT-PHONE-141654",
+    "sku": "IPHONE-18-PRO-MAX",
+    "category": "phone",
+    "name": "iPhone 18 Pro Max 256GB",
+    "aliases": [
+      "iphone 18 pro max",
+      "iphone-18-pro-max"
+    ],
+    "price_vnd": 41990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.249,
+      "chipset": "Apple A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-max-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112588",
+    "sku": "IPHONE-17-PRO-MAX",
+    "category": "phone",
+    "name": "iPhone 17 Pro Max 256GB | Chính hãng",
+    "aliases": [
+      "iphone 17 pro max",
+      "iphone-17-pro-max"
+    ],
+    "price_vnd": 34990000,
+    "original_price_vnd": 37990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.231,
+      "chipset": "Chip A19 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-pro-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-pro-max_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-125121",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26-ULTRA",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+    "aliases": [
+      "samsung galaxy s26 ultra 5g",
+      "dien-thoai-samsung-galaxy-s26-ultra",
+      "samsung-galaxy-s26-ultra-5g"
+    ],
+    "price_vnd": 30490000,
+    "original_price_vnd": 40990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.214,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-ultra.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-ultra-1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112580",
+    "sku": "IPHONE-17-256GB",
+    "category": "phone",
+    "name": "iPhone 17 256GB | Chính hãng",
+    "aliases": [
+      "iphone 17",
+      "iphone-17-256gb",
+      "iphone-17"
+    ],
+    "price_vnd": 28490000,
+    "original_price_vnd": 28990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.3,
+      "weight_kg": 0.177,
+      "chipset": "Apple A19",
+      "battery": "Xem video: 30 giờ Xem video trực tuyến: 27 giờ"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone_17_256gb-3_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-124254",
+    "sku": "DIEN-THOAI-OPPO-FIND-X10",
+    "category": "phone",
+    "name": "OPPO Find X10 5G 12GB 256GB",
+    "aliases": [
+      "oppo find x10 5g",
+      "dien-thoai-oppo-find-x10",
+      "oppo-find-x10-5g"
+    ],
+    "price_vnd": 34990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "screen_inch": 6.78,
+      "chipset": "Dimensity 9600"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-x10.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-find-x10-glow-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141669",
+    "sku": "IPHONE-18-PRO-MAX-512GB",
+    "category": "phone",
+    "name": "iPhone 18 Pro Max 512GB",
+    "aliases": [
+      "iphone 18 pro max",
+      "iphone-18-pro-max-512gb",
+      "iphone-18-pro-max"
+    ],
+    "price_vnd": 48490000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 512,
+      "screen_inch": 6.9,
+      "weight_kg": 0.249,
+      "chipset": "Chip A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro-max-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-max-01_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137019",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FOLD-8",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold8 5G 12GB 256GB",
+    "aliases": [
+      "samsung galaxy z fold8 5g",
+      "dien-thoai-samsung-galaxy-z-fold-8",
+      "samsung-galaxy-z-fold8-5g"
+    ],
+    "price_vnd": 40790000,
+    "original_price_vnd": 46990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 7.6,
+      "weight_kg": 0.201,
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "battery": "4800 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-8-lavender-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-135316",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-17",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 17 4GB 128GB",
+    "aliases": [
+      "xiaomi redmi note 17",
+      "dien-thoai-xiaomi-redmi-note-17",
+      "xiaomi-redmi-note-17"
+    ],
+    "price_vnd": 5990000,
+    "original_price_vnd": 6990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "weight_kg": 0.225,
+      "chipset": "Snapdragon 6s Gen 2 4G 8 nhân",
+      "battery": "7700 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-17.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-note-17-purple.jpg"
+  },
+  {
+    "id": "CAT-PHONE-126028",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A37",
+    "category": "phone",
+    "name": "Samsung Galaxy A37 5G 8GB 128GB",
+    "aliases": [
+      "samsung galaxy a37 5g",
+      "dien-thoai-samsung-galaxy-a37",
+      "samsung-galaxy-a37-5g"
+    ],
+    "price_vnd": 9700000,
+    "original_price_vnd": 11790000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.196,
+      "chipset": "Exynos 1480",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a37.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a37-2_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-84109",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S25-ULTRA",
+    "category": "phone",
+    "name": "Samsung Galaxy S25 Ultra 12GB 256GB",
+    "aliases": [
+      "samsung galaxy s25 ultra",
+      "dien-thoai-samsung-galaxy-s25-ultra",
+      "samsung-galaxy-s25-ultra"
+    ],
+    "price_vnd": 25790000,
+    "original_price_vnd": 33380000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.218,
+      "chipset": "Snapdragon 8 Elite dành cho Galaxy (3nm)",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-ultra.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-ultra_3__3.png"
+  },
+  {
+    "id": "CAT-PHONE-132812",
+    "sku": "DIEN-THOAI-XIAOMI-POCO-F9-ULTRA",
+    "category": "phone",
+    "name": "Xiaomi POCO F9 Ultra 5G 12GB 256GB",
+    "aliases": [
+      "xiaomi poco f9 ultra 5g",
+      "dien-thoai-xiaomi-poco-f9-ultra",
+      "xiaomi-poco-f9-ultra-5g"
+    ],
+    "price_vnd": 24990000,
+    "original_price_vnd": 29990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.235,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "8050 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-f9-ultra.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-poco-f9-ultra-red.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137049",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FOLD-8-ULTRA",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold8 Ultra 5G 12GB 256GB",
+    "aliases": [
+      "samsung galaxy z fold8 ultra 5g",
+      "dien-thoai-samsung-galaxy-z-fold-8-ultra",
+      "samsung-galaxy-z-fold8-ultra-5g"
+    ],
+    "price_vnd": 45990000,
+    "original_price_vnd": 52990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 8,
+      "weight_kg": 0.215,
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-ultra.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-8-violet-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141708",
+    "sku": "IPHONE-18-PRO-MAX-2TB",
+    "category": "phone",
+    "name": "iPhone 18 Pro Max 2TB",
+    "aliases": [
+      "iphone 18 pro max",
+      "iphone-18-pro-max-2tb",
+      "iphone-18-pro-max"
+    ],
+    "price_vnd": 80990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 2048,
+      "screen_inch": 6.9,
+      "weight_kg": 0.249,
+      "chipset": "Chip A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro-max-2tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-max-01_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-59258",
+    "sku": "IPHONE-16-PRO-MAX",
+    "category": "phone",
+    "name": "Điện thoại iPhone 16 Pro Max 256GB",
+    "aliases": [
+      "điện thoại iphone 16 pro max",
+      "iphone-16-pro-max",
+      "dien-thoai-iphone-16-pro-max"
+    ],
+    "price_vnd": 30990000,
+    "original_price_vnd": 34990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.227,
+      "chipset": "Apple A18 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16-pro-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro-max.png"
+  },
+  {
+    "id": "CAT-PHONE-112592",
+    "sku": "IPHONE-17-PRO-MAX-512GB",
+    "category": "phone",
+    "name": "iPhone 17 Pro Max 512GB | Chính hãng",
+    "aliases": [
+      "iphone 17 pro max",
+      "iphone-17-pro-max-512gb",
+      "iphone-17-pro-max"
+    ],
+    "price_vnd": 41390000,
+    "original_price_vnd": 46490000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 512,
+      "screen_inch": 6.9,
+      "weight_kg": 0.231,
+      "chipset": "Chip A19 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-pro-max-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-pro-cam_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-139489",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A18",
+    "category": "phone",
+    "name": "Samsung Galaxy A18 6GB 128GB",
+    "aliases": [
+      "samsung galaxy a18",
+      "dien-thoai-samsung-galaxy-a18",
+      "samsung-galaxy-a18"
+    ],
+    "price_vnd": 6890000,
+    "original_price_vnd": 7190000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.196,
+      "chipset": "MediaTek Helio G99+",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a18.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a18-blue-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141664",
+    "sku": "IPHONE-18-PRO-512GB",
+    "category": "phone",
+    "name": "iPhone 18 Pro 512GB",
+    "aliases": [
+      "iphone 18 pro",
+      "iphone-18-pro-512gb",
+      "iphone-18-pro"
+    ],
+    "price_vnd": 45490000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 512,
+      "screen_inch": 6.3,
+      "weight_kg": 0.211,
+      "chipset": "A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-01_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-132856",
+    "sku": "DIEN-THOAI-OPPO-RENO16-F",
+    "category": "phone",
+    "name": "OPPO Reno16 F 5G 8GB 256GB",
+    "aliases": [
+      "oppo reno16 f 5g",
+      "dien-thoai-oppo-reno16-f",
+      "oppo-reno16-f-5g"
+    ],
+    "price_vnd": 15370000,
+    "original_price_vnd": 15990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.57,
+      "weight_kg": 0.195,
+      "chipset": "Dimensity 7300-Energy 5G",
+      "battery": "7000 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-reno16-f.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno16-f-02_5.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112584",
+    "sku": "IPHONE-AIR-256GB",
+    "category": "phone",
+    "name": "iPhone Air 256GB | Chính hãng",
+    "aliases": [
+      "iphone air",
+      "iphone-air-256gb",
+      "iphone-air"
+    ],
+    "price_vnd": 23390000,
+    "original_price_vnd": 31990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 256,
+      "screen_inch": 6.5,
+      "weight_kg": 0.165,
+      "chipset": "Chip A19 Pro",
+      "battery": "Xem video: 27 giờ Xem video trực tuyến: 22 giờ"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-air-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone_air-3_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-135321",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-17-PRO-MAX-5G",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 17 Pro Max 5G 8GB 512GB",
+    "aliases": [
+      "xiaomi redmi note 17 pro max 5g",
+      "dien-thoai-xiaomi-redmi-note-17-pro-max-5g",
+      "xiaomi-redmi-note-17-pro-max-5g"
+    ],
+    "price_vnd": 14990000,
+    "original_price_vnd": 17990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "screen_inch": 6.83,
+      "weight_kg": 0.229,
+      "chipset": "Snapdragon 6 Gen 5 5G 8 nhân",
+      "battery": "10000 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-17-pro-max-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-note-17-pro-max-5g-white.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141655",
+    "sku": "IPHONE-DUO-256GB",
+    "category": "phone",
+    "name": "iPhone Duo 256GB",
+    "aliases": [
+      "iphone duo",
+      "iphone-duo-256gb",
+      "iphone-duo"
+    ],
+    "price_vnd": 64990000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "storage_gb": 256,
+      "screen_inch": 7.6,
+      "weight_kg": 0.254,
+      "chipset": "Chip A20 Pro",
+      "battery": "Tích hợp hai pin sạc lithium-ion"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-duo-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-duo-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141699",
+    "sku": "IPHONE-18-PRO-MAX-1TB",
+    "category": "phone",
+    "name": "iPhone 18 Pro Max 1TB",
+    "aliases": [
+      "iphone 18 pro max",
+      "iphone-18-pro-max-1tb",
+      "iphone-18-pro-max"
+    ],
+    "price_vnd": 61490000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 1024,
+      "screen_inch": 6.9,
+      "weight_kg": 0.249,
+      "chipset": "Chip A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro-max-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-max-01_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-139490",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A08",
+    "category": "phone",
+    "name": "Samsung Galaxy A08 4GB 64GB",
+    "aliases": [
+      "samsung galaxy a08",
+      "dien-thoai-samsung-galaxy-a08",
+      "samsung-galaxy-a08"
+    ],
+    "price_vnd": 4490000,
+    "original_price_vnd": 4790000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "screen_inch": 6.7,
+      "weight_kg": 0.197,
+      "chipset": "MediaTek Helio G99+ 8 nhân",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a08.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung_galaxy_a08_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-140055",
+    "sku": "DIEN-THOAI-OPPO-FIND-X10-PRO-MAX",
+    "category": "phone",
+    "name": "OPPO Find X10 Pro Max 16GB 512GB",
+    "aliases": [
+      "oppo find x10 pro max",
+      "dien-thoai-oppo-find-x10-pro-max",
+      "oppo-find-x10-pro-max"
+    ],
+    "price_vnd": 49990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "screen_inch": 6.78,
+      "chipset": "Dimensity 9600"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-x10-pro-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-find-x10-pro-max-white-01_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-84111",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S25-FE",
+    "category": "phone",
+    "name": "Samsung Galaxy S25 FE 8GB 128GB",
+    "aliases": [
+      "samsung galaxy s25 fe",
+      "dien-thoai-samsung-galaxy-s25-fe",
+      "samsung-galaxy-s25-fe"
+    ],
+    "price_vnd": 13590000,
+    "original_price_vnd": 16690000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "Exynos 2400",
+      "battery": "4900 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-fe.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s25-fe-1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-128379",
+    "sku": "DIEN-THOAI-NUBIA-NEO-5-GT",
+    "category": "phone",
+    "name": "Nubia Neo 5 GT 8GB 256GB",
+    "aliases": [
+      "nubia neo 5 gt",
+      "dien-thoai-nubia-neo-5-gt",
+      "nubia-neo-5-gt"
+    ],
+    "price_vnd": 8990000,
+    "original_price_vnd": 9990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "chipset": "MediaTek D7400",
+      "battery": "6210mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-5-gt.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-5-gt-den.jpg"
+  },
+  {
+    "id": "CAT-PHONE-126024",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A57",
+    "category": "phone",
+    "name": "Samsung Galaxy A57 5G 8GB 128GB",
+    "aliases": [
+      "samsung galaxy a57 5g",
+      "dien-thoai-samsung-galaxy-a57",
+      "samsung-galaxy-a57-5g"
+    ],
+    "price_vnd": 10900000,
+    "original_price_vnd": 13490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.182,
+      "chipset": "Exynos 1680",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a57.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a57-2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-100812",
+    "sku": "IPHONE-16E",
+    "category": "phone",
+    "name": "iPhone 16e 128GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16e vn/a",
+      "iphone-16e",
+      "iphone-16e-vn-a"
+    ],
+    "price_vnd": 14290000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 128,
+      "screen_inch": 6.1,
+      "weight_kg": 0.167,
+      "chipset": "Chip A18",
+      "battery": "Thời gian xem video Lên đến 26 giờ Thời gian xem video (trực tuyến) Lên đến 21 giờ Thời gian nghe nhạc Lên đến 90 giờ"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16e.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16e-128gb.png"
+  },
+  {
+    "id": "CAT-PHONE-129978",
+    "sku": "DIEN-THOAI-XIAOMI-17T",
+    "category": "phone",
+    "name": "Xiaomi 17T 5G 12GB 512GB",
+    "aliases": [
+      "xiaomi 17t 5g",
+      "dien-thoai-xiaomi-17t",
+      "xiaomi-17t-5g"
+    ],
+    "price_vnd": 15490000,
+    "original_price_vnd": 20990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.59,
+      "weight_kg": 0.2,
+      "chipset": "MediaTek Dimensity 8500-Ultra",
+      "battery": "6500 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-17t.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-17t_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112589",
+    "sku": "IPHONE-17-PRO-512GB",
+    "category": "phone",
+    "name": "iPhone 17 Pro 512GB | Chính hãng",
+    "aliases": [
+      "iphone 17 pro",
+      "iphone-17-pro-512gb",
+      "iphone-17-pro"
+    ],
+    "price_vnd": 38490000,
+    "original_price_vnd": 41490000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 512,
+      "screen_inch": 6.3,
+      "weight_kg": 0.204,
+      "chipset": "Chip A19 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-pro-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone_17_pro_512gb.jpg"
+  },
+  {
+    "id": "CAT-PHONE-140081",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26-FE",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 FE 5G 8GB 128GB",
+    "aliases": [
+      "samsung galaxy s26 fe 5g",
+      "dien-thoai-samsung-galaxy-s26-fe",
+      "samsung-galaxy-s26-fe-5g"
+    ],
+    "price_vnd": 15490000,
+    "original_price_vnd": 18990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.193,
+      "chipset": "Exynos 2500 (3nm)",
+      "battery": "4900 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-fe.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-s26-fe-tim-03.jpg"
+  },
+  {
+    "id": "CAT-PHONE-43152",
+    "sku": "IPHONE-15",
+    "category": "phone",
+    "name": "iPhone 15 128GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 15 vn/a",
+      "iphone-15",
+      "iphone-15-vn-a"
+    ],
+    "price_vnd": 21490000,
+    "original_price_vnd": 22990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.1,
+      "weight_kg": 0.171,
+      "chipset": "Apple A16 Bionic 6 nhân",
+      "battery": "3349 mAh"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-15.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1__1.png"
+  },
+  {
+    "id": "CAT-PHONE-90116",
+    "sku": "IPHONE-16-PRO-MAX-512GB",
+    "category": "phone",
+    "name": "iPhone 16 Pro Max 512GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16 pro max vn/a",
+      "iphone-16-pro-max-512gb",
+      "iphone-16-pro-max-vn-a"
+    ],
+    "price_vnd": 38990000,
+    "original_price_vnd": 40990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "screen_inch": 6.9,
+      "weight_kg": 0.227,
+      "chipset": "Apple A18 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16-pro-max-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro-max_1.png"
+  },
+  {
+    "id": "CAT-PHONE-124259",
+    "sku": "DIEN-THOAI-XIAOMI-POCO-X8-PRO-MAX",
+    "category": "phone",
+    "name": "POCO X8 Pro Max 12GB 256GB",
+    "aliases": [
+      "poco x8 pro max",
+      "dien-thoai-xiaomi-poco-x8-pro-max",
+      "poco-x8-pro-max"
+    ],
+    "price_vnd": 16490000,
+    "original_price_vnd": 17990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.83,
+      "weight_kg": 0.218,
+      "chipset": "MediaTek Dimensity 9500s",
+      "battery": "8.500 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-x8-pro-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-poco-x8-pro-max_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137089",
+    "sku": "DIEN-THOAI-SONY-XPERIA-1-VIII",
+    "category": "phone",
+    "name": "Sony Xperia 1 VIII 5G 12GB 256GB",
+    "aliases": [
+      "sony xperia 1 viii 5g",
+      "dien-thoai-sony-xperia-1-viii",
+      "sony-xperia-1-viii-5g"
+    ],
+    "price_vnd": 36990000,
+    "original_price_vnd": 38990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.5,
+      "weight_kg": 0.2,
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Sony",
+    "source": "https://cellphones.com.vn/dien-thoai-sony-xperia-1-viii.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/o/sony-xperia-1-viii-black-05.jpg"
+  },
+  {
+    "id": "CAT-PHONE-135318",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-17-5G",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 17 5G 6GB 128GB",
+    "aliases": [
+      "xiaomi redmi note 17 5g",
+      "dien-thoai-xiaomi-redmi-note-17-5g",
+      "xiaomi-redmi-note-17-5g"
+    ],
+    "price_vnd": 7490000,
+    "original_price_vnd": 8990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "weight_kg": 0.225,
+      "chipset": "Snapdragon 4 Gen 4 5G 8 nhân",
+      "battery": "7700 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-17-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-note-17-5g-blue-01_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-111494",
+    "sku": "DIEN-THOAI-HONOR-X9C-5G",
+    "category": "phone",
+    "name": "HONOR X9c 5G 12GB 256GB ",
+    "aliases": [
+      "honor x9c 5g",
+      "dien-thoai-honor-x9c-5g",
+      "honor-x9c-5g"
+    ],
+    "price_vnd": 7290000,
+    "original_price_vnd": 9320000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.78,
+      "weight_kg": 0.189,
+      "chipset": "Qualcomm Snapdragon 6 Gen 1",
+      "battery": "6600mAh, 66W (120V/3.3A)"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x9c-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/_/i/_i_n_tho_i_honor_x6c_6gb_128gb-1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-125096",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 5G 12GB 256GB",
+    "aliases": [
+      "samsung galaxy s26 5g",
+      "dien-thoai-samsung-galaxy-s26",
+      "samsung-galaxy-s26-5g"
+    ],
+    "price_vnd": 20500000,
+    "original_price_vnd": 29990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.3,
+      "weight_kg": 0.167,
+      "chipset": "Exynos 2600 (2nm)",
+      "battery": "4300 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-10.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141684",
+    "sku": "IPHONE-18-PRO-2TB",
+    "category": "phone",
+    "name": "iPhone 18 Pro 2TB",
+    "aliases": [
+      "iphone 18 pro",
+      "iphone-18-pro-2tb",
+      "iphone-18-pro"
+    ],
+    "price_vnd": 76990000,
+    "original_price_vnd": 77990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 2048,
+      "screen_inch": 6.3,
+      "weight_kg": 0.211,
+      "chipset": "A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro-2tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-01_1_1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-128378",
+    "sku": "DIEN-THOAI-NUBIA-NEO-5-5G",
+    "category": "phone",
+    "name": "Nubia Neo 5 5G 8GB 128GB",
+    "aliases": [
+      "nubia neo 5 5g",
+      "dien-thoai-nubia-neo-5-5g",
+      "nubia-neo-5-5g"
+    ],
+    "price_vnd": 6190000,
+    "original_price_vnd": 7490000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 128,
+      "screen_inch": 6.8,
+      "chipset": "Unisoc T9300",
+      "battery": "6050mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-5-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-5-5g-den.jpg"
+  },
+  {
+    "id": "CAT-PHONE-135320",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-17-PRO-5G",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 17 Pro 5G 6GB 256GB",
+    "aliases": [
+      "xiaomi redmi note 17 pro 5g",
+      "dien-thoai-xiaomi-redmi-note-17-pro-5g",
+      "xiaomi-redmi-note-17-pro-5g"
+    ],
+    "price_vnd": 9390000,
+    "original_price_vnd": 11490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "screen_inch": 6.83,
+      "weight_kg": 0.223,
+      "chipset": "Snapdragon 6s Gen 4 8 nhân",
+      "battery": "8340 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-17-pro-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-note-17-pro-5g-purple.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137040",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FLIP-8",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Flip8 5G 12GB 256GB",
+    "aliases": [
+      "samsung galaxy z flip8 5g",
+      "dien-thoai-samsung-galaxy-z-flip-8",
+      "samsung-galaxy-z-flip8-5g"
+    ],
+    "price_vnd": 26190000,
+    "original_price_vnd": 31990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.18,
+      "chipset": "Exynos 2600",
+      "battery": "4300 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-flip-8.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-flip-8-pink-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-119577",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-15",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 15 6GB 128GB",
+    "aliases": [
+      "xiaomi redmi note 15",
+      "dien-thoai-xiaomi-redmi-note-15",
+      "xiaomi-redmi-note-15"
+    ],
+    "price_vnd": 5490000,
+    "original_price_vnd": 5990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.77,
+      "weight_kg": 0.184,
+      "chipset": "MediaTek Helio G100-Ultra",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-15.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/r/e/redmi-note-15-series-1_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-36242",
+    "sku": "IPHONE-13",
+    "category": "phone",
+    "name": "iPhone 13 128GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 13 vn/a",
+      "iphone-13",
+      "iphone-13-vn-a"
+    ],
+    "price_vnd": 15290000,
+    "original_price_vnd": 15990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.1,
+      "weight_kg": 0.173,
+      "chipset": "Apple A15",
+      "battery": "3240mAh"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-13.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-13_2_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112583",
+    "sku": "IPHONE-17-512GB",
+    "category": "phone",
+    "name": "iPhone 17 512GB | Chính hãng",
+    "aliases": [
+      "iphone 17",
+      "iphone-17-512gb",
+      "iphone-17"
+    ],
+    "price_vnd": 33990000,
+    "original_price_vnd": 35490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.3,
+      "weight_kg": 0.177,
+      "chipset": "Apple A19"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone_17_256gb-3_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-124252",
+    "sku": "DIEN-THOAI-OPPO-FIND-X9S",
+    "category": "phone",
+    "name": "OPPO Find X9s 12GB 256GB",
+    "aliases": [
+      "oppo find x9s",
+      "dien-thoai-oppo-find-x9s",
+      "oppo-find-x9s"
+    ],
+    "price_vnd": 24490000,
+    "original_price_vnd": 24990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.59,
+      "weight_kg": 0.202,
+      "chipset": "MediaTek Dimensity 9500s",
+      "battery": "7025 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-x9s.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-find-x9s-25.jpg"
+  },
+  {
+    "id": "CAT-PHONE-59254",
+    "sku": "IPHONE-16",
+    "category": "phone",
+    "name": "iPhone 16 128GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16 vn/a",
+      "iphone-16",
+      "iphone-16-vn-a"
+    ],
+    "price_vnd": 24490000,
+    "original_price_vnd": 24990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.1,
+      "weight_kg": 0.17,
+      "chipset": "Apple A18",
+      "battery": "4.300 mAh"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-1.png"
+  },
+  {
+    "id": "CAT-PHONE-84108",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S25-PLUS",
+    "category": "phone",
+    "name": "Samsung Galaxy S25 Plus 256GB",
+    "aliases": [
+      "samsung galaxy s25 plus",
+      "dien-thoai-samsung-galaxy-s25-plus",
+      "samsung-galaxy-s25-plus"
+    ],
+    "price_vnd": 19990000,
+    "original_price_vnd": 26500000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "Snapdragon 8 Elite dành cho Galaxy (3nm)",
+      "battery": "4900 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-plus_3_.png"
+  },
+  {
+    "id": "CAT-PHONE-129677",
+    "sku": "DIEN-THOAI-NUBIA-NEO-5-5G-8GB-256GB",
+    "category": "phone",
+    "name": "Nubia Neo 5 5G 8GB 256GB",
+    "aliases": [
+      "nubia neo 5 5g",
+      "dien-thoai-nubia-neo-5-5g-8gb-256gb",
+      "nubia-neo-5-5g"
+    ],
+    "price_vnd": 7190000,
+    "original_price_vnd": 8490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "chipset": "Unisoc T9300",
+      "battery": "6050mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-5-5g-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-5-5g-den_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-135314",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-17",
+    "category": "phone",
+    "name": "Xiaomi Redmi 17 6GB 256GB",
+    "aliases": [
+      "xiaomi redmi 17",
+      "dien-thoai-xiaomi-redmi-17",
+      "xiaomi-redmi-17"
+    ],
+    "price_vnd": 5790000,
+    "original_price_vnd": 7490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.232,
+      "chipset": "Mali-G52 MC2",
+      "battery": "7500 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-17.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-17-black.jpg"
+  },
+  {
+    "id": "CAT-PHONE-68866",
+    "sku": "IPHONE-15-256GB",
+    "category": "phone",
+    "name": "iPhone 15 256GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 15 vn/a",
+      "iphone-15-256gb",
+      "iphone-15-vn-a"
+    ],
+    "price_vnd": 24490000,
+    "original_price_vnd": 25990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "screen_inch": 6.1,
+      "weight_kg": 0.171,
+      "chipset": "Apple A16 Bionic 6 nhân",
+      "battery": "3349 mAh"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-15-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus-256gb_3.png"
+  },
+  {
+    "id": "CAT-PHONE-125579",
+    "sku": "IPHONE-17E",
+    "category": "phone",
+    "name": "iPhone 17e 256GB | Chính hãng",
+    "aliases": [
+      "iphone 17e",
+      "iphone-17e"
+    ],
+    "price_vnd": 20990000,
+    "original_price_vnd": 21990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 256,
+      "screen_inch": 6.1,
+      "weight_kg": 0.17,
+      "chipset": "Apple A19",
+      "battery": "Xem video: 26 giờ Xem video trực tuyến: 21 giờ"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17e.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone_17e_pink_1.png"
+  },
+  {
+    "id": "CAT-PHONE-141670",
+    "sku": "IPHONE-18-PRO-1TB",
+    "category": "phone",
+    "name": "iPhone 18 Pro 1TB",
+    "aliases": [
+      "iphone 18 pro",
+      "iphone-18-pro-1tb",
+      "iphone-18-pro"
+    ],
+    "price_vnd": 57990000,
+    "original_price_vnd": 58490000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 1024,
+      "screen_inch": 6.3,
+      "weight_kg": 0.211,
+      "chipset": "A20 Pro",
+      "battery": "Pin lithium-ion tích hợp"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-18-pro-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-18-pro-01_1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-135322",
+    "sku": "DIEN-THOAI-HONOR-600S",
+    "category": "phone",
+    "name": "HONOR 600S 5G 6GB 128GB",
+    "aliases": [
+      "honor 600s 5g",
+      "dien-thoai-honor-600s",
+      "honor-600s-5g"
+    ],
+    "price_vnd": 9280000,
+    "original_price_vnd": 10490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "weight_kg": 0.216,
+      "chipset": "Qualcomm Snapdragon 4 Gen4",
+      "battery": "8100 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-600s.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/h/o/honor-600s-gold.jpg"
+  },
+  {
+    "id": "CAT-PHONE-59255",
+    "sku": "IPHONE-16-PLUS",
+    "category": "phone",
+    "name": "iPhone 16 Plus 128GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16 plus vn/a",
+      "iphone-16-plus",
+      "iphone-16-plus-vn-a"
+    ],
+    "price_vnd": 24990000,
+    "original_price_vnd": 27990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.199,
+      "chipset": "Apple A18"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-plus-1.png"
+  },
+  {
+    "id": "CAT-PHONE-134089",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A27",
+    "category": "phone",
+    "name": "Samsung Galaxy A27 5G 6GB 128GB",
+    "aliases": [
+      "samsung galaxy a27 5g",
+      "dien-thoai-samsung-galaxy-a27",
+      "samsung-galaxy-a27-5g"
+    ],
+    "price_vnd": 7800000,
+    "original_price_vnd": 9090000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.2,
+      "chipset": "Snapdragon 6 Gen 3",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a27.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a27-1_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112590",
+    "sku": "IPHONE-17-PRO-1TB",
+    "category": "phone",
+    "name": "iPhone 17 Pro 1TB | Chính hãng",
+    "aliases": [
+      "iphone 17 pro",
+      "iphone-17-pro-1tb",
+      "iphone-17-pro"
+    ],
+    "price_vnd": 44690000,
+    "original_price_vnd": 47990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 1024,
+      "screen_inch": 6.3,
+      "weight_kg": 0.204,
+      "chipset": "Chip A19 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-pro-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone_17_pro_512gb_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-128554",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-A7",
+    "category": "phone",
+    "name": "Xiaomi Redmi A7 3GB 64GB",
+    "aliases": [
+      "xiaomi redmi a7",
+      "dien-thoai-xiaomi-redmi-a7",
+      "xiaomi-redmi-a7"
+    ],
+    "price_vnd": 3310000,
+    "original_price_vnd": 3890000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 3,
+      "storage_gb": 64,
+      "screen_inch": 6.88,
+      "weight_kg": 0.193,
+      "chipset": "Unisoc T7250",
+      "battery": "5200 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-a7.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-14_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-128180",
+    "sku": "DIEN-THOAI-XIAOMI-17T-PRO",
+    "category": "phone",
+    "name": "Xiaomi 17T Pro 5G 12GB 512GB",
+    "aliases": [
+      "xiaomi 17t pro 5g",
+      "dien-thoai-xiaomi-17t-pro",
+      "xiaomi-17t-pro-5g"
+    ],
+    "price_vnd": 19920000,
+    "original_price_vnd": 24990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.83,
+      "weight_kg": 0.219,
+      "chipset": "MediaTek Dimensity 9500",
+      "battery": "7000mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-17t-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-17t-pro-1_4.jpg"
+  },
+  {
+    "id": "CAT-PHONE-122485",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-15-PRO",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 15 Pro 12GB 256GB",
+    "aliases": [
+      "xiaomi redmi note 15 pro",
+      "dien-thoai-xiaomi-redmi-note-15-pro",
+      "xiaomi-redmi-note-15-pro"
+    ],
+    "price_vnd": 8190000,
+    "original_price_vnd": 10090000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.77,
+      "weight_kg": 0.195,
+      "chipset": "MediaTek Helio G200-Ultra",
+      "battery": "6500mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-15-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/r/e/redmi-note-15-series-8_1_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112593",
+    "sku": "IPHONE-17-PRO-MAX-1TB",
+    "category": "phone",
+    "name": "iPhone 17 Pro Max 1TB | Chính hãng",
+    "aliases": [
+      "iphone 17 pro max",
+      "iphone-17-pro-max-1tb",
+      "iphone-17-pro-max"
+    ],
+    "price_vnd": 47490000,
+    "original_price_vnd": 50990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 1024,
+      "screen_inch": 6.9,
+      "weight_kg": 0.231,
+      "chipset": "Chip A19 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-pro-max-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-pro-cam_4.jpg"
+  },
+  {
+    "id": "CAT-PHONE-119650",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-15-PRO-5G",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 15 Pro 5G 12GB 256GB",
+    "aliases": [
+      "xiaomi redmi note 15 pro 5g",
+      "dien-thoai-xiaomi-redmi-note-15-pro-5g",
+      "xiaomi-redmi-note-15-pro-5g"
+    ],
+    "price_vnd": 9990000,
+    "original_price_vnd": 11490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.83,
+      "weight_kg": 0.21,
+      "chipset": "MediaTek Dimensity 7400-Ultra",
+      "battery": "6580mAh(typ)"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-15-pro-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-15-pro-5g-vang.jpg"
+  },
+  {
+    "id": "CAT-PHONE-116847",
+    "sku": "DIEN-THOAI-POCO-F8-PRO-5G",
+    "category": "phone",
+    "name": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+    "aliases": [
+      "xiaomi poco f8 pro 5g",
+      "dien-thoai-poco-f8-pro-5g",
+      "xiaomi-poco-f8-pro-5g"
+    ],
+    "price_vnd": 16990000,
+    "original_price_vnd": 18990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.59,
+      "weight_kg": 0.199,
+      "chipset": "Snapdragon® 8 Elite",
+      "battery": "6210mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-poco-f8-pro-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/p/o/poco-f8-pro.jpg"
+  },
+  {
+    "id": "CAT-PHONE-93788",
+    "sku": "DIEN-THOAI-NOTHING-PHONE-2A-PLUS",
+    "category": "phone",
+    "name": "Nothing Phone 2A Plus 5G 12GB 256GB",
+    "aliases": [
+      "nothing phone 2a plus 5g",
+      "dien-thoai-nothing-phone-2a-plus",
+      "nothing-phone-2a-plus-5g"
+    ],
+    "price_vnd": 7990000,
+    "original_price_vnd": 11490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "MediaTek Dimensity 7350 Pro 5G",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Nothing",
+    "source": "https://cellphones.com.vn/dien-thoai-nothing-phone-2a-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nothing-phone-2a-plus_1_.png"
+  },
+  {
+    "id": "CAT-PHONE-111767",
+    "sku": "DIEN-THOAI-HONOR-MAGIC-V5",
+    "category": "phone",
+    "name": "HONOR Magic V5 16GB 512GB",
+    "aliases": [
+      "honor magic v5",
+      "dien-thoai-honor-magic-v5",
+      "honor-magic-v5"
+    ],
+    "price_vnd": 33890000,
+    "original_price_vnd": 44990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 6.43,
+      "weight_kg": 0.217,
+      "chipset": "Qualcomm Snapdragon 8 Elite",
+      "battery": "5820 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-magic-v5.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/h/o/honor-magic-v5_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-109159",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A17-5G",
+    "category": "phone",
+    "name": "Samsung Galaxy A17 5G 8GB 128GB",
+    "aliases": [
+      "samsung galaxy a17 5g",
+      "dien-thoai-samsung-galaxy-a17-5g",
+      "samsung-galaxy-a17-5g"
+    ],
+    "price_vnd": 7300000,
+    "original_price_vnd": 8790000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.192,
+      "chipset": "Exynos 1330",
+      "battery": "Li-Ion 5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a17-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a17-5g-back.jpg"
+  },
+  {
+    "id": "CAT-PHONE-91991",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-14-PRO-PLUS",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+    "aliases": [
+      "xiaomi redmi note 14 pro plus 5g",
+      "dien-thoai-xiaomi-redmi-note-14-pro-plus",
+      "xiaomi-redmi-note-14-pro-plus-5g"
+    ],
+    "price_vnd": 8090000,
+    "original_price_vnd": 10800000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.67,
+      "weight_kg": 0.21,
+      "chipset": "Snapdragon® 7s Gen 3",
+      "battery": "5110 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-14-pro-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-note-14-pro-plus.jpg"
+  },
+  {
+    "id": "CAT-PHONE-119649",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-15-5G",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 15 5G 6GB 128GB",
+    "aliases": [
+      "xiaomi redmi note 15 5g",
+      "dien-thoai-xiaomi-redmi-note-15-5g",
+      "xiaomi-redmi-note-15-5g"
+    ],
+    "price_vnd": 6490000,
+    "original_price_vnd": 7490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.77,
+      "weight_kg": 0.178,
+      "chipset": "Snapdragon® 6 Gen 3",
+      "battery": "5520mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-15-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/r/e/redmi-note-15-series-4_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99768",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A56",
+    "category": "phone",
+    "name": "Samsung Galaxy A56 5G 8GB 128GB",
+    "aliases": [
+      "samsung galaxy a56 5g",
+      "dien-thoai-samsung-galaxy-a56",
+      "samsung-galaxy-a56-5g"
+    ],
+    "price_vnd": 8990000,
+    "original_price_vnd": 9810000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.198,
+      "chipset": "Exynos 1580",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a56.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-a56.1_1.png"
+  },
+  {
+    "id": "CAT-PHONE-90114",
+    "sku": "IPHONE-16-PLUS-256GB",
+    "category": "phone",
+    "name": "iPhone 16 Plus 256GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16 plus vn/a",
+      "iphone-16-plus-256gb",
+      "iphone-16-plus-vn-a"
+    ],
+    "price_vnd": 27890000,
+    "original_price_vnd": 30990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.199,
+      "chipset": "Apple A18"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16-plus-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-plus-1_1.png"
+  },
+  {
+    "id": "CAT-PHONE-121438",
+    "sku": "DIEN-THOAI-XIAOMI-17-ULTRA",
+    "category": "phone",
+    "name": "Xiaomi 17 Ultra 5G 16GB 512GB",
+    "aliases": [
+      "xiaomi 17 ultra 5g",
+      "dien-thoai-xiaomi-17-ultra",
+      "xiaomi-17-ultra-5g"
+    ],
+    "price_vnd": 30990000,
+    "original_price_vnd": 39990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 6.9,
+      "weight_kg": 0.23,
+      "chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-17-ultra.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-17-ultra-den.jpg"
+  },
+  {
+    "id": "CAT-PHONE-121507",
+    "sku": "DIEN-THOAI-NUBIA-V80-MAX",
+    "category": "phone",
+    "name": "Nubia V80 Max 8GB 256GB",
+    "aliases": [
+      "nubia v80 max",
+      "dien-thoai-nubia-v80-max",
+      "nubia-v80-max"
+    ],
+    "price_vnd": 5490000,
+    "original_price_vnd": 6490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "chipset": "Unisoc T7250",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-v80-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-v80-max-8gb-128gb_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-107718",
+    "sku": "DIEN-THOAI-SONY-XPERIA-1-VII",
+    "category": "phone",
+    "name": "Sony Xperia 1 VII 12GB 256GB",
+    "aliases": [
+      "sony xperia 1 vii",
+      "dien-thoai-sony-xperia-1-vii",
+      "sony-xperia-1-vii"
+    ],
+    "price_vnd": 23490000,
+    "original_price_vnd": 34990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.5,
+      "weight_kg": 0.197,
+      "chipset": "Snapdragon® 8 Elite",
+      "battery": "5.000 mAh"
+    },
+    "manufacturer": "Sony",
+    "source": "https://cellphones.com.vn/dien-thoai-sony-xperia-1-vii.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-sony-xperia-1-vii.png"
+  },
+  {
+    "id": "CAT-PHONE-85242",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-14",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 14 6GB 128GB",
+    "aliases": [
+      "xiaomi redmi note 14",
+      "dien-thoai-xiaomi-redmi-note-14",
+      "xiaomi-redmi-note-14"
+    ],
+    "price_vnd": 4690000,
+    "original_price_vnd": 4900000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.67,
+      "weight_kg": 0.197,
+      "chipset": "MediaTek Helio G99-Ultra",
+      "battery": "5500mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-14.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-note-14_2__2.png"
+  },
+  {
+    "id": "CAT-PHONE-109161",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A07",
+    "category": "phone",
+    "name": "Samsung Galaxy A07 4GB 128GB",
+    "aliases": [
+      "samsung galaxy a07",
+      "dien-thoai-samsung-galaxy-a07",
+      "samsung-galaxy-a07"
+    ],
+    "price_vnd": 3990000,
+    "original_price_vnd": 4590000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.184,
+      "chipset": "MediaTek Helio G99",
+      "battery": "Li-Ion 5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a07.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a07-black.jpg"
+  },
+  {
+    "id": "CAT-PHONE-126484",
+    "sku": "DIEN-THOAI-HONOR-600",
+    "category": "phone",
+    "name": "HONOR 600 5G 8GB 256GB",
+    "aliases": [
+      "honor 600 5g",
+      "dien-thoai-honor-600",
+      "honor-600-5g"
+    ],
+    "price_vnd": 16430000,
+    "original_price_vnd": 17990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.57,
+      "weight_kg": 0.19,
+      "chipset": "Snapdragon 7 Gen 4",
+      "battery": "7000 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-600.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-600-cam.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137031",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FOLD-8-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold8 5G 12GB 512GB",
+    "aliases": [
+      "samsung galaxy z fold8 5g",
+      "dien-thoai-samsung-galaxy-z-fold-8-512gb",
+      "samsung-galaxy-z-fold8-5g"
+    ],
+    "price_vnd": 45990000,
+    "original_price_vnd": 52990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 7.6,
+      "weight_kg": 0.201,
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "battery": "4800 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-8-cream-01_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-143131",
+    "sku": "DIEN-THOAI-OPPO-A7-PRO-5G",
+    "category": "phone",
+    "name": "OPPO A7 Pro 5G 6GB 256GB",
+    "aliases": [
+      "oppo a7 pro 5g",
+      "dien-thoai-oppo-a7-pro-5g",
+      "oppo-a7-pro-5g"
+    ],
+    "price_vnd": 13700000,
+    "original_price_vnd": 14490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "screen_inch": 6.57,
+      "weight_kg": 0.205,
+      "chipset": "MediaTek Dimensity 6360 MAX 5G",
+      "battery": "8000 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a7-pro-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-a7-pro-xanh-01.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99770",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FOLD-7",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold7 12GB 256GB",
+    "aliases": [
+      "samsung galaxy z fold7",
+      "dien-thoai-samsung-galaxy-z-fold-7",
+      "samsung-galaxy-z-fold7"
+    ],
+    "price_vnd": 37990000,
+    "original_price_vnd": 46990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 8,
+      "weight_kg": 0.215,
+      "chipset": "Qualcomm Snapdragon 8 Elite For Galaxy",
+      "battery": "4400 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-7.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-7.jpg"
+  },
+  {
+    "id": "CAT-PHONE-59257",
+    "sku": "IPHONE-16-PRO",
+    "category": "phone",
+    "name": "iPhone 16 Pro 128GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16 pro vn/a",
+      "iphone-16-pro",
+      "iphone-16-pro-vn-a"
+    ],
+    "price_vnd": 23990000,
+    "original_price_vnd": 28990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.3,
+      "weight_kg": 0.199,
+      "chipset": "Apple A18 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro_1.png"
+  },
+  {
+    "id": "CAT-PHONE-111972",
+    "sku": "DIEN-THOAI-OPPO-A6-PRO",
+    "category": "phone",
+    "name": "OPPO A6 Pro 8GB 256GB",
+    "aliases": [
+      "oppo a6 pro",
+      "dien-thoai-oppo-a6-pro",
+      "oppo-a6-pro"
+    ],
+    "price_vnd": 9990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.57,
+      "weight_kg": 0.188,
+      "chipset": "MediaTek Helio G100, tối đa 2.2GHz",
+      "battery": "7000mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo_a6_pro_8gb_256gb_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-31495",
+    "sku": "IPHONE-14",
+    "category": "phone",
+    "name": "iPhone 14 128GB  | Chính hãng VN/A",
+    "aliases": [
+      "iphone 14 vn/a",
+      "iphone-14",
+      "iphone-14-vn-a"
+    ],
+    "price_vnd": 16990000,
+    "original_price_vnd": 17990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.1,
+      "weight_kg": 0.172,
+      "chipset": "Apple A15 Bionic 6 nhân",
+      "battery": "3,279mAh"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-14.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-14_2_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-88453",
+    "sku": "DIEN-THOAI-XIAOMI-15",
+    "category": "phone",
+    "name": "Xiaomi 15 5G 12GB 256GB",
+    "aliases": [
+      "xiaomi 15 5g",
+      "dien-thoai-xiaomi-15",
+      "xiaomi-15-5g"
+    ],
+    "price_vnd": 16990000,
+    "original_price_vnd": 24540000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.36,
+      "weight_kg": 0.191,
+      "chipset": "Snapdragon 8 Elite (Tiến trình sản xuất 3nm)",
+      "battery": "5240mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-15.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-15_11_.png"
+  },
+  {
+    "id": "CAT-PHONE-124260",
+    "sku": "DIEN-THOAI-XIAOMI-POCO-X8-PRO-MAX-12GB-512GB",
+    "category": "phone",
+    "name": "POCO X8 Pro Max 12GB 512GB",
+    "aliases": [
+      "poco x8 pro max",
+      "dien-thoai-xiaomi-poco-x8-pro-max-12gb-512gb",
+      "poco-x8-pro-max"
+    ],
+    "price_vnd": 17790000,
+    "original_price_vnd": 18990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.83,
+      "weight_kg": 0.218,
+      "chipset": "MediaTek Dimensity 9500s",
+      "battery": "8.500 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-x8-pro-max-12gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-poco-x8-pro-max_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112594",
+    "sku": "IPHONE-17-PRO-MAX-2TB",
+    "category": "phone",
+    "name": "iPhone 17 Pro Max 2TB | Chính hãng",
+    "aliases": [
+      "iphone 17 pro max",
+      "iphone-17-pro-max-2tb",
+      "iphone-17-pro-max"
+    ],
+    "price_vnd": 60290000,
+    "original_price_vnd": 63990000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 2048,
+      "screen_inch": 6.9,
+      "weight_kg": 0.231,
+      "chipset": "Chip A19 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17-pro-max-2tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-pro-max_1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-103058",
+    "sku": "DIEN-THOAI-ITEL-P55-PLUS-8GB-256GB",
+    "category": "phone",
+    "name": "Điện thoại Itel P55 Plus NFC 8GB 256GB",
+    "aliases": [
+      "điện thoại itel p55 plus nfc",
+      "dien-thoai-itel-p55-plus-8gb-256gb",
+      "dien-thoai-itel-p55-plus-nfc"
+    ],
+    "price_vnd": 3590000,
+    "original_price_vnd": 3990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.6,
+      "chipset": "Unisoc T606",
+      "battery": "5000mAh"
+    },
+    "manufacturer": "Itel",
+    "source": "https://cellphones.com.vn/dien-thoai-itel-p55-plus-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-itel-p55-plus-8gb-256gb_1__2.png"
+  },
+  {
+    "id": "CAT-PHONE-135315",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-17-5G",
+    "category": "phone",
+    "name": "Xiaomi Redmi 17 5G 4GB 128GB",
+    "aliases": [
+      "xiaomi redmi 17 5g",
+      "dien-thoai-xiaomi-redmi-17-5g",
+      "xiaomi-redmi-17-5g"
+    ],
+    "price_vnd": 4890000,
+    "original_price_vnd": 6490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.9,
+      "weight_kg": 0.232,
+      "chipset": "Qualcomm Snapdragon 4 Gen 5",
+      "battery": "7500 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-17-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-17-5g-black.jpg"
+  },
+  {
+    "id": "CAT-PHONE-118847",
+    "sku": "DIEN-THOAI-OPPO-RENO15",
+    "category": "phone",
+    "name": "OPPO Reno15 5G 12GB 256GB",
+    "aliases": [
+      "oppo reno15 5g",
+      "dien-thoai-oppo-reno15",
+      "oppo-reno15-5g"
+    ],
+    "price_vnd": 14990000,
+    "original_price_vnd": 16990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.59,
+      "weight_kg": 0.197,
+      "chipset": "Qualcomm Snapdragon 7 Gen4 5G",
+      "battery": "6500 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-reno15.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno15-01_15.jpg"
+  },
+  {
+    "id": "CAT-PHONE-96948",
+    "sku": "DIEN-THOAI-NUBIA-NEO-3-GT-12GB-256GB",
+    "category": "phone",
+    "name": "Nubia Neo 3 GT 12GB 256GB",
+    "aliases": [
+      "nubia neo 3 gt",
+      "dien-thoai-nubia-neo-3-gt-12gb-256gb",
+      "nubia-neo-3-gt"
+    ],
+    "price_vnd": 7490000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "chipset": "Unisoc T9100",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-3-gt-12gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-3-gt-12gb-256gb.1.png"
+  },
+  {
+    "id": "CAT-PHONE-85280",
+    "sku": "DIEN-THOAI-OPPO-FIND-X8",
+    "category": "phone",
+    "name": "OPPO Find X8 16GB 512GB",
+    "aliases": [
+      "oppo find x8",
+      "dien-thoai-oppo-find-x8",
+      "oppo-find-x8"
+    ],
+    "price_vnd": 19490000,
+    "original_price_vnd": 22990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 6.59,
+      "weight_kg": 0.193,
+      "chipset": "MediaTek Dimensity 9400",
+      "battery": "5630 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-x8.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-find-x8-xam-1.png"
+  },
+  {
+    "id": "CAT-PHONE-109160",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A17",
+    "category": "phone",
+    "name": "Samsung Galaxy A17 8GB 128GB",
+    "aliases": [
+      "samsung galaxy a17",
+      "dien-thoai-samsung-galaxy-a17",
+      "samsung-galaxy-a17"
+    ],
+    "price_vnd": 5490000,
+    "original_price_vnd": 7490000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "MediaTek Helio G99",
+      "battery": "Li-Ion 5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a17.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a17.jpg"
+  },
+  {
+    "id": "CAT-PHONE-129976",
+    "sku": "DIEN-THOAI-HONOR-X9D-12GB-256GB",
+    "category": "phone",
+    "name": "HONOR X9d 5G 12GB 256GB",
+    "aliases": [
+      "honor x9d 5g",
+      "dien-thoai-honor-x9d-12gb-256gb",
+      "honor-x9d-5g"
+    ],
+    "price_vnd": 12220000,
+    "original_price_vnd": 13490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.79,
+      "weight_kg": 0.193,
+      "chipset": "Snapdragon 6 Gen 4",
+      "battery": "8300 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x9d-12gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-x9d-3_1_6.jpg"
+  },
+  {
+    "id": "CAT-PHONE-131824",
+    "sku": "DIEN-THOAI-XIAOMI-17T-PRO-12GB-1TB",
+    "category": "phone",
+    "name": "Xiaomi 17T Pro 12GB 1TB",
+    "aliases": [
+      "xiaomi 17t pro",
+      "dien-thoai-xiaomi-17t-pro-12gb-1tb",
+      "xiaomi-17t-pro"
+    ],
+    "price_vnd": 22490000,
+    "original_price_vnd": 26990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 1024,
+      "screen_inch": 6.83,
+      "weight_kg": 0.219,
+      "chipset": "MediaTek Dimensity 9500",
+      "battery": "7000mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-17t-pro-12gb-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-17t-pro-2_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-139960",
+    "sku": "DIEN-THOAI-XIAOMI-POCO-F9-ULTRA-16GB-512GB",
+    "category": "phone",
+    "name": "Xiaomi POCO F9 Ultra 5G 16GB 512GB",
+    "aliases": [
+      "xiaomi poco f9 ultra 5g",
+      "dien-thoai-xiaomi-poco-f9-ultra-16gb-512gb",
+      "xiaomi-poco-f9-ultra-5g"
+    ],
+    "price_vnd": 26990000,
+    "original_price_vnd": 31990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 6.9,
+      "weight_kg": 0.235,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "8050 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-f9-ultra-16gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-poco-f9-ultra-red_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-128380",
+    "sku": "DIEN-THOAI-NUBIA-NEO-5-MAX",
+    "category": "phone",
+    "name": "Nubia Neo 5 Max 5G 8GB 256GB",
+    "aliases": [
+      "nubia neo 5 max 5g",
+      "dien-thoai-nubia-neo-5-max",
+      "nubia-neo-5-max-5g"
+    ],
+    "price_vnd": 8590000,
+    "original_price_vnd": 9290000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 7.5,
+      "weight_kg": 0.245,
+      "chipset": "MediaTek D7100",
+      "battery": "7100 mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-5-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/n/u/nubia-neo-5-max.jpg"
+  },
+  {
+    "id": "CAT-PHONE-125580",
+    "sku": "IPHONE-17E-512GB",
+    "category": "phone",
+    "name": "iPhone 17e 512GB | Chính hãng",
+    "aliases": [
+      "iphone 17e",
+      "iphone-17e-512gb",
+      "iphone-17e"
+    ],
+    "price_vnd": 26990000,
+    "original_price_vnd": 28490000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 512,
+      "screen_inch": 6.1,
+      "weight_kg": 0.17,
+      "chipset": "Apple A19",
+      "battery": "Xem video: 26 giờ Xem video trực tuyến: 21 giờ"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-17e-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone_17e-2-1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-124253",
+    "sku": "DIEN-THOAI-OPPO-FIND-X9-ULTRA",
+    "category": "phone",
+    "name": "OPPO Find X9 Ultra 12GB 512GB",
+    "aliases": [
+      "oppo find x9 ultra",
+      "dien-thoai-oppo-find-x9-ultra",
+      "oppo-find-x9-ultra"
+    ],
+    "price_vnd": 44990000,
+    "original_price_vnd": 49990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.82,
+      "weight_kg": 0.235,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "7050 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-x9-ultra.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-find-x9-ultra-cam-8.jpg"
+  },
+  {
+    "id": "CAT-PHONE-120990",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-A07-5G",
+    "category": "phone",
+    "name": "Samsung Galaxy A07 5G 4GB 128GB",
+    "aliases": [
+      "samsung galaxy a07 5g",
+      "dien-thoai-samsung-galaxy-a07-5g",
+      "samsung-galaxy-a07-5g"
+    ],
+    "price_vnd": 4700000,
+    "original_price_vnd": 5890000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.199,
+      "chipset": "MediaTek Dimensity 6300 5G",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a07-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-a07-5g-2_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-136045",
+    "sku": "DIEN-THOAI-NUBIA-NEO-5-GT-SPECIAL-EDITION",
+    "category": "phone",
+    "name": "Nubia Neo 5 GT Special Edition 12GB 256GB",
+    "aliases": [
+      "nubia neo 5 gt special edition",
+      "dien-thoai-nubia-neo-5-gt-special-edition",
+      "nubia-neo-5-gt-special-edition"
+    ],
+    "price_vnd": 13990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "chipset": "MediaTek D7400",
+      "battery": "6210 mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-5-gt-special-edition.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-5-gt-special-edition.jpg"
+  },
+  {
+    "id": "CAT-PHONE-51996",
+    "sku": "IPHONE-14-PRO-MAX-256GB",
+    "category": "phone",
+    "name": "iPhone 14 Pro Max 256GB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 14 pro max vn/a",
+      "iphone-14-pro-max-256gb",
+      "iphone-14-pro-max-vn-a"
+    ],
+    "price_vnd": 27990000,
+    "original_price_vnd": 32990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.24,
+      "chipset": "Apple A16 Bionic 6 nhân",
+      "battery": "4323 mAh"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-14-pro-max-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-14-pro-max-256gb.png"
+  },
+  {
+    "id": "CAT-PHONE-83010",
+    "sku": "DIEN-THOAI-OPPO-RENO12-5G",
+    "category": "phone",
+    "name": "OPPO Reno12 5G 12GB 256GB",
+    "aliases": [
+      "oppo reno12 5g",
+      "dien-thoai-oppo-reno12-5g",
+      "oppo-reno12-5g"
+    ],
+    "price_vnd": 9690000,
+    "original_price_vnd": 12990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "chipset": "MediaTek Dimensity 7300",
+      "battery": "5000mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-reno12-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_5__7_70.png"
+  },
+  {
+    "id": "CAT-PHONE-115141",
+    "sku": "DIEN-THOAI-MEIZU-MBLU-NOTE-21-PRO",
+    "category": "phone",
+    "name": "Điện thoại Meizu Mblu Note 21 Pro NFC 8GB 256GB ",
+    "aliases": [
+      "điện thoại meizu mblu note 21 pro nfc",
+      "dien-thoai-meizu-mblu-note-21-pro",
+      "dien-thoai-meizu-mblu-note-21-pro-nfc"
+    ],
+    "price_vnd": 4590000,
+    "original_price_vnd": 4990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.78,
+      "chipset": "Mediatek Helio G99 (6 nm)",
+      "battery": "5000mAh"
+    },
+    "manufacturer": "Meizu",
+    "source": "https://cellphones.com.vn/dien-thoai-meizu-mblu-note-21-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/m/e/meizu-mblu-note-21-pro.jpg"
+  },
+  {
+    "id": "CAT-PHONE-125108",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26-PLUS",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 Plus 5G 12GB 256GB",
+    "aliases": [
+      "samsung galaxy s26 plus 5g",
+      "dien-thoai-samsung-galaxy-s26-plus",
+      "samsung-galaxy-s26-plus-5g"
+    ],
+    "price_vnd": 23990000,
+    "original_price_vnd": 33990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "Exynos 2600",
+      "battery": "4900 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-plus-10.jpg"
+  },
+  {
+    "id": "CAT-PHONE-125128",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26-ULTRA-12GB-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 Ultra 5G 12GB 512GB",
+    "aliases": [
+      "samsung galaxy s26 ultra 5g",
+      "dien-thoai-samsung-galaxy-s26-ultra-12gb-512gb",
+      "samsung-galaxy-s26-ultra-5g"
+    ],
+    "price_vnd": 35490000,
+    "original_price_vnd": 46990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.9,
+      "weight_kg": 0.214,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-ultra-12gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-ultra_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99687",
+    "sku": "DIEN-THOAI-XIAOMI-15T-5G",
+    "category": "phone",
+    "name": "Xiaomi 15T 5G 12GB 512GB",
+    "aliases": [
+      "xiaomi 15t 5g",
+      "dien-thoai-xiaomi-15t-5g",
+      "xiaomi-15t-5g"
+    ],
+    "price_vnd": 12390000,
+    "original_price_vnd": 14990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.83,
+      "weight_kg": 0.194,
+      "chipset": "MediaTek Dimensity 8400-Ultra",
+      "battery": "5500mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-15t-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-15t-5g-22.jpg"
+  },
+  {
+    "id": "CAT-PHONE-125102",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26-12GB-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 5G 12GB 512GB",
+    "aliases": [
+      "samsung galaxy s26 5g",
+      "dien-thoai-samsung-galaxy-s26-12gb-512gb",
+      "samsung-galaxy-s26-5g"
+    ],
+    "price_vnd": 26000000,
+    "original_price_vnd": 35990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.3,
+      "weight_kg": 0.167,
+      "chipset": "Exynos 2600 (2nm)",
+      "battery": "4300 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-12gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-10_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-116196",
+    "sku": "DIEN-THOAI-HONOR-X7D",
+    "category": "phone",
+    "name": "HONOR X7d 8GB 256GB",
+    "aliases": [
+      "honor x7d",
+      "dien-thoai-honor-x7d",
+      "honor-x7d"
+    ],
+    "price_vnd": 6540000,
+    "original_price_vnd": 7190000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.77,
+      "chipset": "Qualcomm Snapdragon 685",
+      "battery": "6500 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x7d.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-x7d-12.jpg"
+  },
+  {
+    "id": "CAT-PHONE-114033",
+    "sku": "DIEN-THOAI-OPPO-FIND-X9-PRO",
+    "category": "phone",
+    "name": "OPPO Find X9 Pro 16GB 512GB ",
+    "aliases": [
+      "oppo find x9 pro",
+      "dien-thoai-oppo-find-x9-pro",
+      "oppo-find-x9-pro"
+    ],
+    "price_vnd": 32990000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 6.78,
+      "weight_kg": 0.224,
+      "chipset": "Dimensity 9500 5G",
+      "battery": "7500mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-x9-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo_find_x9_pro_16gb_512gb-1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-58612",
+    "sku": "OPPO-RENO10-PRO-PLUS",
+    "category": "phone",
+    "name": "OPPO Reno10 Pro+ 5G 12GB 256GB",
+    "aliases": [
+      "oppo reno10 pro+ 5g",
+      "oppo-reno10-pro-plus",
+      "oppo-reno10-pro-5g"
+    ],
+    "price_vnd": 10490000,
+    "original_price_vnd": 13990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.74,
+      "weight_kg": 0.194,
+      "chipset": "Snapdragon 8 plus Gen 1 8 nhân",
+      "battery": "4700 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/oppo-reno10-pro-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno10-pro-plus-tim.png"
+  },
+  {
+    "id": "CAT-PHONE-127701",
+    "sku": "DIEN-THOAI-TECNO-POVA-CURVE-2-5G",
+    "category": "phone",
+    "name": "Tecno Pova Curve 2 5G 8GB 128GB",
+    "aliases": [
+      "tecno pova curve 2 5g",
+      "dien-thoai-tecno-pova-curve-2-5g",
+      "tecno-pova-curve-2-5g"
+    ],
+    "price_vnd": 7970000,
+    "original_price_vnd": 10990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.78,
+      "weight_kg": 0.226,
+      "chipset": "MediaTek Dimensity 7100 5G",
+      "battery": "8000mAh"
+    },
+    "manufacturer": "Tecno",
+    "source": "https://cellphones.com.vn/dien-thoai-tecno-pova-curve-2-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-tecno-pova-curve-2-5g.jpg"
+  },
+  {
+    "id": "CAT-PHONE-128173",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-A7-PRO",
+    "category": "phone",
+    "name": "Xiaomi Redmi A7 Pro 4GB 128GB NFC",
+    "aliases": [
+      "xiaomi redmi a7 pro nfc",
+      "dien-thoai-xiaomi-redmi-a7-pro",
+      "xiaomi-redmi-a7-pro-nfc"
+    ],
+    "price_vnd": 4090000,
+    "original_price_vnd": 4990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.9,
+      "chipset": "Unisoc T7250",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-a7-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-a7-pro_1.png"
+  },
+  {
+    "id": "CAT-PHONE-143742",
+    "sku": "DIEN-THOAI-XIAOMI-18-PRO-MAX-16GB-512GB",
+    "category": "phone",
+    "name": "Xiaomi 18 Pro Max 5G 16GB 512GB",
+    "aliases": [
+      "xiaomi 18 pro max 5g",
+      "dien-thoai-xiaomi-18-pro-max-16gb-512gb",
+      "xiaomi-18-pro-max-5g"
+    ],
+    "price_vnd": null,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {},
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-18-pro-max-16gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-18-pro-max-2_1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-65919",
+    "sku": "SAMSUNG-GALAXY-Z-FOLD-6",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold 6 12GB 256GB",
+    "aliases": [
+      "samsung galaxy z fold 6",
+      "samsung-galaxy-z-fold-6"
+    ],
+    "price_vnd": 29590000,
+    "original_price_vnd": 43990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 7.6,
+      "weight_kg": 0.239,
+      "chipset": "Snapdragon 8 Gen 3 for Galaxy Tăng lên 42% AI",
+      "battery": "4400 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/samsung-galaxy-z-fold-6.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-6.jpg"
+  },
+  {
+    "id": "CAT-PHONE-111963",
+    "sku": "DIEN-THOAI-HONOR-400-PRO-5G",
+    "category": "phone",
+    "name": "HONOR 400 Pro 5G 12GB 512GB ",
+    "aliases": [
+      "honor 400 pro 5g",
+      "dien-thoai-honor-400-pro-5g",
+      "honor-400-pro-5g"
+    ],
+    "price_vnd": 14990000,
+    "original_price_vnd": 18660000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.7,
+      "weight_kg": 0.205,
+      "chipset": "Snapdragon 8 Gen 3",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-400-pro-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/h/o/honor_400_pro_5g_12gb_512gb-2_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-101591",
+    "sku": "DIEN-THOAI-MEIZU-LUCKY-08",
+    "category": "phone",
+    "name": "Meizu Lucky 08 5G 12GB 256GB",
+    "aliases": [
+      "meizu lucky 08 5g",
+      "dien-thoai-meizu-lucky-08",
+      "meizu-lucky-08-5g"
+    ],
+    "price_vnd": 6290000,
+    "original_price_vnd": 7490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.78,
+      "weight_kg": 0.202,
+      "chipset": "Snapdragon 7s Gen 2",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "Meizu",
+    "source": "https://cellphones.com.vn/dien-thoai-meizu-lucky-08.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-meizu-lucky-08_1.png"
+  },
+  {
+    "id": "CAT-PHONE-137076",
+    "sku": "DIEN-THOAI-HONOR-X9D-8GB-256GB",
+    "category": "phone",
+    "name": "HONOR X9d 5G 8GB 256GB",
+    "aliases": [
+      "honor x9d 5g",
+      "dien-thoai-honor-x9d-8gb-256gb",
+      "honor-x9d-5g"
+    ],
+    "price_vnd": 11240000,
+    "original_price_vnd": 12490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.79,
+      "weight_kg": 0.193,
+      "chipset": "Snapdragon 6 Gen 4",
+      "battery": "8300 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x9d-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/h/o/honor-x9d_1_.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137056",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FOLD-8-ULTRA-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold8 Ultra 5G 12GB 512GB",
+    "aliases": [
+      "samsung galaxy z fold8 ultra 5g",
+      "dien-thoai-samsung-galaxy-z-fold-8-ultra-512gb",
+      "samsung-galaxy-z-fold8-ultra-5g"
+    ],
+    "price_vnd": 51590000,
+    "original_price_vnd": 58990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 8,
+      "weight_kg": 0.215,
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-ultra-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-8-ultra-cream_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99686",
+    "sku": "DIEN-THOAI-XIAOMI-15-ULTRA-1TB",
+    "category": "phone",
+    "name": " Xiaomi 15 Ultra 5G 16GB 1TB ",
+    "aliases": [
+      "xiaomi 15 ultra 5g",
+      "dien-thoai-xiaomi-15-ultra-1tb",
+      "xiaomi-15-ultra-5g"
+    ],
+    "price_vnd": 27990000,
+    "original_price_vnd": 38250000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_inch": 6.73,
+      "weight_kg": 0.226,
+      "chipset": "Snapdragon 8 Elite (Tiến trình sản xuất 3nm)",
+      "battery": "5410mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-15-ultra-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/p/h/photo_2025-04-16_11-45-37.jpg"
+  },
+  {
+    "id": "CAT-PHONE-124671",
+    "sku": "DIEN-THOAI-HONOR-X8D",
+    "category": "phone",
+    "name": "HONOR X8d 8GB 128GB",
+    "aliases": [
+      "honor x8d",
+      "dien-thoai-honor-x8d",
+      "honor-x8d"
+    ],
+    "price_vnd": 7320000,
+    "original_price_vnd": 8090000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.77,
+      "weight_kg": 0.188,
+      "chipset": "Snapdragon 6s 4G thế hệ 2",
+      "battery": "6800mAh (giá trị định mức), 7000 mAh (giá trị điển hình)"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x8d.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/h/o/honor-x8d-2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-126467",
+    "sku": "DIEN-THOAI-HONOR-X7D-8GB-128GB",
+    "category": "phone",
+    "name": "HONOR X7d 8GB 128GB",
+    "aliases": [
+      "honor x7d",
+      "dien-thoai-honor-x7d-8gb-128gb",
+      "honor-x7d"
+    ],
+    "price_vnd": 6350000,
+    "original_price_vnd": 6990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.77,
+      "weight_kg": 0.208,
+      "chipset": "Qualcomm Snapdragon 685",
+      "battery": "6500 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x7d-8gb-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-x7d-12_3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99942",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S25-EDGE",
+    "category": "phone",
+    "name": "Samsung Galaxy S25 Edge 5G 12GB 256GB",
+    "aliases": [
+      "samsung galaxy s25 edge 5g",
+      "dien-thoai-samsung-galaxy-s25-edge",
+      "samsung-galaxy-s25-edge-5g"
+    ],
+    "price_vnd": 18990000,
+    "original_price_vnd": 29450000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.163,
+      "battery": "3900 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-edge.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-edge-13.jpg"
+  },
+  {
+    "id": "CAT-PHONE-129678",
+    "sku": "DIEN-THOAI-NUBIA-NEO-5-GT-12GB-256GB",
+    "category": "phone",
+    "name": "Nubia Neo 5 GT 12GB 256GB",
+    "aliases": [
+      "nubia neo 5 gt",
+      "dien-thoai-nubia-neo-5-gt-12gb-256gb",
+      "nubia-neo-5-gt"
+    ],
+    "price_vnd": 9990000,
+    "original_price_vnd": 11490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "chipset": "MediaTek D7400",
+      "battery": "6210mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-5-gt-12gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-5-gt-den_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137037",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FOLD-8-1TB",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold8 5G 16GB 1TB",
+    "aliases": [
+      "samsung galaxy z fold8 5g",
+      "dien-thoai-samsung-galaxy-z-fold-8-1tb",
+      "samsung-galaxy-z-fold8-5g"
+    ],
+    "price_vnd": 54590000,
+    "original_price_vnd": 64990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_inch": 7.6,
+      "weight_kg": 0.201,
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "battery": "4800 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-8-graphite-01_5.jpg"
+  },
+  {
+    "id": "CAT-PHONE-132816",
+    "sku": "DIEN-THOAI-OPPO-A6C",
+    "category": "phone",
+    "name": "OPPO A6c 4GB 64GB",
+    "aliases": [
+      "oppo a6c",
+      "dien-thoai-oppo-a6c",
+      "oppo-a6c"
+    ],
+    "price_vnd": 4690000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "screen_inch": 6.75,
+      "weight_kg": 0.215,
+      "chipset": "Unisoc T7250",
+      "battery": "7000 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6c.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-a6c-8.jpg"
+  },
+  {
+    "id": "CAT-PHONE-118848",
+    "sku": "DIEN-THOAI-OPPO-RENO15-F",
+    "category": "phone",
+    "name": "OPPO Reno15 F 5G 8GB 256GB",
+    "aliases": [
+      "oppo reno15 f 5g",
+      "dien-thoai-oppo-reno15-f",
+      "oppo-reno15-f-5g"
+    ],
+    "price_vnd": 11990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.57,
+      "weight_kg": 0.195,
+      "chipset": "Qualcomm Snapdragon 6 Gen 1 5G",
+      "battery": "7000mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-reno15-f.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno15-f-03_15.jpg"
+  },
+  {
+    "id": "CAT-PHONE-59734",
+    "sku": "OPPO-FIND-N3",
+    "category": "phone",
+    "name": "OPPO Find N3 16GB 512GB",
+    "aliases": [
+      "oppo find n3",
+      "oppo-find-n3"
+    ],
+    "price_vnd": 26990000,
+    "original_price_vnd": 44990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 7.82,
+      "weight_kg": 0.245,
+      "chipset": "Snapdragon 8 Gen 2 8 nhân",
+      "battery": "4805 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/oppo-find-n3.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/f/i/find_n3_-_combo_product_-_gold.png"
+  },
+  {
+    "id": "CAT-PHONE-139959",
+    "sku": "DIEN-THOAI-XIAOMI-POCO-F9-ULTRA-16GB-1TB",
+    "category": "phone",
+    "name": "Xiaomi POCO F9 Ultra 5G 16GB 1TB",
+    "aliases": [
+      "xiaomi poco f9 ultra 5g",
+      "dien-thoai-xiaomi-poco-f9-ultra-16gb-1tb",
+      "xiaomi-poco-f9-ultra-5g"
+    ],
+    "price_vnd": 29990000,
+    "original_price_vnd": 39990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_inch": 6.9,
+      "weight_kg": 0.235,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "8050 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-f9-ultra-16gb-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-poco-f9-ultra-red_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-96795",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-NOTE-13-PRO-5G-8GB-256GB",
+    "category": "phone",
+    "name": "Xiaomi Redmi Note 13 Pro 5G 8GB 256GB ",
+    "aliases": [
+      "xiaomi redmi note 13 pro 5g",
+      "dien-thoai-xiaomi-redmi-note-13-pro-5g-8gb-256gb",
+      "xiaomi-redmi-note-13-pro-5g"
+    ],
+    "price_vnd": 6290000,
+    "original_price_vnd": 9300000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.67,
+      "weight_kg": 0.187,
+      "chipset": "Snapdragon 7s Gen 2 8 nhân",
+      "battery": "5100 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-13-pro-5g-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/p/h/photo_2024-12-20_17-05-54_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-98498",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S25-ULTRA-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy S25 Ultra 512GB",
+    "aliases": [
+      "samsung galaxy s25 ultra",
+      "dien-thoai-samsung-galaxy-s25-ultra-512gb",
+      "samsung-galaxy-s25-ultra"
+    ],
+    "price_vnd": 29710000,
+    "original_price_vnd": 39490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.9,
+      "weight_kg": 0.218,
+      "chipset": "Snapdragon 8 Elite dành cho Galaxy (3nm)",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-ultra-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-s25-ultra_2__4.png"
+  },
+  {
+    "id": "CAT-PHONE-125131",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26-ULTRA-16GB-1TB",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 Ultra 5G 16GB 1TB",
+    "aliases": [
+      "samsung galaxy s26 ultra 5g",
+      "dien-thoai-samsung-galaxy-s26-ultra-16gb-1tb",
+      "samsung-galaxy-s26-ultra-5g"
+    ],
+    "price_vnd": 39990000,
+    "original_price_vnd": 58990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_inch": 6.9,
+      "weight_kg": 0.214,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-ultra-16gb-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-ultra_1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-101873",
+    "sku": "DIEN-THOAI-NOTHING-PHONE-3A",
+    "category": "phone",
+    "name": "Nothing Phone 3A 8GB 128GB",
+    "aliases": [
+      "nothing phone 3a",
+      "dien-thoai-nothing-phone-3a",
+      "nothing-phone-3a"
+    ],
+    "price_vnd": 8490000,
+    "original_price_vnd": 8990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.77,
+      "weight_kg": 0.36,
+      "chipset": "Qualcomm SM7635 Snapdragon 7s Gen 3",
+      "battery": "5000mAh"
+    },
+    "manufacturer": "Nothing",
+    "source": "https://cellphones.com.vn/dien-thoai-nothing-phone-3a.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/m/image_96__1_2.png"
+  },
+  {
+    "id": "CAT-PHONE-59293",
+    "sku": "SAMSUNG-GALAXY-S24-PLUS",
+    "category": "phone",
+    "name": "Samsung Galaxy S24 Plus 12GB 256GB",
+    "aliases": [
+      "samsung galaxy s24 plus",
+      "samsung-galaxy-s24-plus"
+    ],
+    "price_vnd": 15990000,
+    "original_price_vnd": 18650000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.196,
+      "chipset": "Exynos 2400",
+      "battery": "4,900mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/samsung-galaxy-s24-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/g/a/galaxy-s24-plus-tim.png"
+  },
+  {
+    "id": "CAT-PHONE-116195",
+    "sku": "DIEN-THOAI-SONY-XPERIA-10-VII",
+    "category": "phone",
+    "name": "Sony Xperia 10 VII 8GB 128GB",
+    "aliases": [
+      "sony xperia 10 vii",
+      "dien-thoai-sony-xperia-10-vii",
+      "sony-xperia-10-vii"
+    ],
+    "price_vnd": 9990000,
+    "original_price_vnd": 13490000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.1,
+      "weight_kg": 0.168,
+      "chipset": "Snapdragon® 6 Thế hệ 3",
+      "battery": "5.000 mAh"
+    },
+    "manufacturer": "Sony",
+    "source": "https://cellphones.com.vn/dien-thoai-sony-xperia-10-vii.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-sony-xperia-10-vii-7.jpg"
+  },
+  {
+    "id": "CAT-PHONE-120157",
+    "sku": "DIEN-THOAI-OPPO-A6-PRO-8GB-128GB",
+    "category": "phone",
+    "name": "OPPO A6 Pro 8GB 128GB",
+    "aliases": [
+      "oppo a6 pro",
+      "dien-thoai-oppo-a6-pro-8gb-128gb",
+      "oppo-a6-pro"
+    ],
+    "price_vnd": 8290000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.57,
+      "weight_kg": 0.188,
+      "chipset": "MediaTek Helio G100, tối đa 2.2GHz",
+      "battery": "7000mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6-pro-8gb-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo_a6_pro_8gb_256gb_3_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-112185",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S25-FE-8GB-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy S25 FE 8GB 512GB",
+    "aliases": [
+      "samsung galaxy s25 fe",
+      "dien-thoai-samsung-galaxy-s25-fe-8gb-512gb",
+      "samsung-galaxy-s25-fe"
+    ],
+    "price_vnd": 17990000,
+    "original_price_vnd": 25690000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "Exynos 2400",
+      "battery": "4900 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-fe-8gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s25-fe-1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99862",
+    "sku": "DIEN-THOAI-TECNO-CAMON-40",
+    "category": "phone",
+    "name": "TECNO CAMON 40 8GB 128GB",
+    "aliases": [
+      "tecno camon 40",
+      "dien-thoai-tecno-camon-40",
+      "tecno-camon-40"
+    ],
+    "price_vnd": 4990000,
+    "original_price_vnd": 5890000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.78,
+      "weight_kg": 0.177,
+      "chipset": "Mediatek Helio G100 Ultimate",
+      "battery": "5200 mAh"
+    },
+    "manufacturer": "Tecno",
+    "source": "https://cellphones.com.vn/dien-thoai-tecno-camon-40.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-tecno-camon-40_1_.png"
+  },
+  {
+    "id": "CAT-PHONE-90117",
+    "sku": "IPHONE-16-PRO-MAX-1TB",
+    "category": "phone",
+    "name": "iPhone 16 Pro Max 1TB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16 pro max vn/a",
+      "iphone-16-pro-max-1tb",
+      "iphone-16-pro-max-vn-a"
+    ],
+    "price_vnd": 42990000,
+    "original_price_vnd": 46990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 1024,
+      "screen_inch": 6.9,
+      "weight_kg": 0.227,
+      "chipset": "Apple A18 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16-pro-max-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro-max_2.png"
+  },
+  {
+    "id": "CAT-PHONE-93387",
+    "sku": "DIEN-THOAI-MEIZU-MBLU-21-128GB",
+    "category": "phone",
+    "name": "Điện thoại Meizu Mblu 21 6GB 128GB ",
+    "aliases": [
+      "điện thoại meizu mblu 21",
+      "dien-thoai-meizu-mblu-21-128gb",
+      "dien-thoai-meizu-mblu-21"
+    ],
+    "price_vnd": 2790000,
+    "original_price_vnd": 2990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.79,
+      "chipset": "Spreadtrum T606",
+      "battery": "4900mAh"
+    },
+    "manufacturer": "Meizu",
+    "source": "https://cellphones.com.vn/dien-thoai-meizu-mblu-21-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-meizu-mblu-21_3__1.png"
+  },
+  {
+    "id": "CAT-PHONE-118360",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-15-5G-8GB-256GB",
+    "category": "phone",
+    "name": "Xiaomi Redmi 15 5G 8GB 256GB",
+    "aliases": [
+      "xiaomi redmi 15 5g",
+      "dien-thoai-xiaomi-redmi-15-5g-8gb-256gb",
+      "xiaomi-redmi-15-5g"
+    ],
+    "price_vnd": 5990000,
+    "original_price_vnd": 6690000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.217,
+      "chipset": "Snapdragon® 6s Gen 3",
+      "battery": "7000mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-15-5g-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-redmi-15-5g-1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-27451",
+    "sku": "IPHONE-12-128GB",
+    "category": "phone",
+    "name": "iPhone 12 128GB | Chính hãng VN/A ",
+    "aliases": [
+      "iphone 12 vn/a",
+      "iphone-12-128gb",
+      "iphone-12-vn-a"
+    ],
+    "price_vnd": 10490000,
+    "original_price_vnd": 12990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.1,
+      "weight_kg": 0.164,
+      "chipset": "Apple A14 Bionic (5 nm)",
+      "battery": "Li-Ion, sạc nhanh 20W, sạc không dây 15W, USB Power Delivery 2.0"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-12-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-12-128gb_2.png"
+  },
+  {
+    "id": "CAT-PHONE-110948",
+    "sku": "DIEN-THOAI-TECNO-SPARK-40-PRO-PLUS",
+    "category": "phone",
+    "name": "TECNO Spark 40 Pro+ 8GB 256GB ",
+    "aliases": [
+      "tecno spark 40 pro+",
+      "dien-thoai-tecno-spark-40-pro-plus",
+      "tecno-spark-40-pro"
+    ],
+    "price_vnd": 5190000,
+    "original_price_vnd": 5690000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.78,
+      "weight_kg": 0.16,
+      "chipset": "MediaTek Helio G200",
+      "battery": "5200mAh, 45W"
+    },
+    "manufacturer": null,
+    "source": "https://cellphones.com.vn/dien-thoai-tecno-spark-40-pro-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/t/e/tecno-spark-40__1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-42019",
+    "sku": "REALME-GT-NEO-3",
+    "category": "phone",
+    "name": "realme GT Neo 3",
+    "aliases": [
+      "realme gt neo 3",
+      "realme-gt-neo-3"
+    ],
+    "price_vnd": null,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.188,
+      "chipset": "Mediatek Dimensity 8100 (5 nm)",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Realme",
+    "source": "https://cellphones.com.vn/realme-gt-neo-3.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/r/e/realme-gt-neo-3_2_.png"
+  },
+  {
+    "id": "CAT-PHONE-137894",
+    "sku": "DIEN-THOAI-MEIZU-LUCKY-08-8GB-256GB",
+    "category": "phone",
+    "name": "Meizu Lucky 08 5G 8GB 256GB",
+    "aliases": [
+      "meizu lucky 08 5g",
+      "dien-thoai-meizu-lucky-08-8gb-256gb",
+      "meizu-lucky-08-5g"
+    ],
+    "price_vnd": 5790000,
+    "original_price_vnd": 6490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.78,
+      "weight_kg": 0.202,
+      "chipset": "Snapdragon 7s Gen 2",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "Meizu",
+    "source": "https://cellphones.com.vn/dien-thoai-meizu-lucky-08-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-meizu-lucky-08_1_2.png"
+  },
+  {
+    "id": "CAT-PHONE-90120",
+    "sku": "IPHONE-16-PRO-1TB",
+    "category": "phone",
+    "name": "iPhone 16 Pro 1TB | Chính hãng VN/A",
+    "aliases": [
+      "iphone 16 pro vn/a",
+      "iphone-16-pro-1tb",
+      "iphone-16-pro-vn-a"
+    ],
+    "price_vnd": 35990000,
+    "original_price_vnd": 43990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 1024,
+      "screen_inch": 6.3,
+      "weight_kg": 0.199,
+      "chipset": "Apple A18 Pro"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-16-pro-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-pro_3.png"
+  },
+  {
+    "id": "CAT-PHONE-124251",
+    "sku": "DIEN-THOAI-OPPO-FIND-N6",
+    "category": "phone",
+    "name": "OPPO Find N6 16GB 512GB",
+    "aliases": [
+      "oppo find n6",
+      "dien-thoai-oppo-find-n6",
+      "oppo-find-n6"
+    ],
+    "price_vnd": 63690000,
+    "original_price_vnd": 64990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 8.12,
+      "weight_kg": 0.225,
+      "chipset": "Snapdragon 8 Elite Gen 5",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-n6.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-find-n6-0.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99769",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FLIP-7",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Flip7 12GB 256GB",
+    "aliases": [
+      "samsung galaxy z flip7",
+      "dien-thoai-samsung-galaxy-z-flip-7",
+      "samsung-galaxy-z-flip7"
+    ],
+    "price_vnd": 22990000,
+    "original_price_vnd": 28990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.9,
+      "weight_kg": 0.188,
+      "chipset": "Exynos 2500",
+      "battery": "4300 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-flip-7.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-flip-7-1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-137060",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-Z-FOLD-8-ULTRA-1TB",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold8 Ultra 5G 16GB 1TB",
+    "aliases": [
+      "samsung galaxy z fold8 ultra 5g",
+      "dien-thoai-samsung-galaxy-z-fold-8-ultra-1tb",
+      "samsung-galaxy-z-fold8-ultra-5g"
+    ],
+    "price_vnd": 60590000,
+    "original_price_vnd": 70990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 1024,
+      "screen_inch": 8,
+      "weight_kg": 0.215,
+      "chipset": "Snapdragon® 8 Elite Gen 5",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-8-ultra-1tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/u/sung-galaxy-z-fold-8-ultra-violet_4.jpg"
+  },
+  {
+    "id": "CAT-PHONE-132827",
+    "sku": "DIEN-THOAI-OPPO-A6C-4GB-128GB",
+    "category": "phone",
+    "name": "OPPO A6c 4GB 128GB",
+    "aliases": [
+      "oppo a6c",
+      "dien-thoai-oppo-a6c-4gb-128gb",
+      "oppo-a6c"
+    ],
+    "price_vnd": 5590000,
+    "original_price_vnd": 5690000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.75,
+      "weight_kg": 0.215,
+      "chipset": "UNISOC T7250",
+      "battery": "7000 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6c-4gb-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-a6c-8_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-118389",
+    "sku": "DIEN-THOAI-HONOR-X9D",
+    "category": "phone",
+    "name": "HONOR X9d 5G 12GB 512GB",
+    "aliases": [
+      "honor x9d 5g",
+      "dien-thoai-honor-x9d",
+      "honor-x9d-5g"
+    ],
+    "price_vnd": 12990000,
+    "original_price_vnd": 14490000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.79,
+      "weight_kg": 0.193,
+      "chipset": "Snapdragon 6 Gen 4",
+      "battery": "8300 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x9d.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-x9d-3_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-42337",
+    "sku": "OPPO-FIND-X5-PRO",
+    "category": "phone",
+    "name": "OPPO Find X5 Pro 5G 12GB 256GB ",
+    "aliases": [
+      "oppo find x5 pro 5g",
+      "oppo-find-x5-pro",
+      "oppo-find-x5-pro-5g"
+    ],
+    "price_vnd": 12990000,
+    "original_price_vnd": 15990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.218,
+      "chipset": "Qualcomm Snapdragon 8 Gen 1",
+      "battery": "5.000 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/oppo-find-x5-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/o/download_1__6_6.png"
+  },
+  {
+    "id": "CAT-PHONE-106045",
+    "sku": "DIEN-THOAI-OPPO-RENO14",
+    "category": "phone",
+    "name": "OPPO Reno14 5G 12GB 256GB",
+    "aliases": [
+      "oppo reno14 5g",
+      "dien-thoai-oppo-reno14",
+      "oppo-reno14-5g"
+    ],
+    "price_vnd": 15500000,
+    "original_price_vnd": 15990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.59,
+      "weight_kg": 0.187,
+      "chipset": "MediaTek Dimensity 8350 5G, tối đa 3.35GHz",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-reno14.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno14-02.jpg"
+  },
+  {
+    "id": "CAT-PHONE-111552",
+    "sku": "DIEN-THOAI-HONOR-400-5G",
+    "category": "phone",
+    "name": "HONOR 400 5G 12GB 256GB ",
+    "aliases": [
+      "honor 400 5g",
+      "dien-thoai-honor-400-5g",
+      "honor-400-5g"
+    ],
+    "price_vnd": 11490000,
+    "original_price_vnd": 13250000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.55,
+      "weight_kg": 0.184,
+      "chipset": "Snapdragon 7 Gen 3",
+      "battery": "6000 mAh (Li-Po, công nghệ Pin Silicon-Carbon)"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-400-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/_/i/_i_n_tho_i_honor_400_5g_12gb_256gb.jpg"
+  },
+  {
+    "id": "CAT-PHONE-17613",
+    "sku": "SAMSUNG-GALAXY-NOTE-10-PLUS",
+    "category": "phone",
+    "name": "Samsung Galaxy Note 10+ (Plus)",
+    "aliases": [
+      "samsung galaxy note 10+ (plus)",
+      "samsung-galaxy-note-10-plus"
+    ],
+    "price_vnd": 26990000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "weight_kg": 0.196,
+      "chipset": "Samsung Exynos 9825",
+      "battery": "4300 mAh, Quick Charge 45W"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/samsung-galaxy-note-10-plus.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/n/o/note_10_plus_xanh-removebg-preview.png"
+  },
+  {
+    "id": "CAT-PHONE-122316",
+    "sku": "DIEN-THOAI-HUAWEI-MATE-X7",
+    "category": "phone",
+    "name": "Huawei Mate X7 16GB 512GB",
+    "aliases": [
+      "huawei mate x7",
+      "dien-thoai-huawei-mate-x7",
+      "huawei-mate-x7"
+    ],
+    "price_vnd": 42990000,
+    "original_price_vnd": 54990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 8,
+      "weight_kg": 0.236,
+      "battery": "5600 mAh"
+    },
+    "manufacturer": "Huawei",
+    "source": "https://cellphones.com.vn/dien-thoai-huawei-mate-x7.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-huawei-mate-x7.jpg"
+  },
+  {
+    "id": "CAT-PHONE-121465",
+    "sku": "DIEN-THOAI-OPPO-A6T-6GB-256GB",
+    "category": "phone",
+    "name": "OPPO A6t 6GB 256GB",
+    "aliases": [
+      "oppo a6t",
+      "dien-thoai-oppo-a6t-6gb-256gb",
+      "oppo-a6t"
+    ],
+    "price_vnd": 8610000,
+    "original_price_vnd": 8990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 256,
+      "screen_inch": 6.75,
+      "weight_kg": 0.205,
+      "chipset": "Qualcomm Snapdragon 685",
+      "battery": "6100mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6t-6gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-a6t_1_1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-125113",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-S26-PLUS-12GB-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy S26 Plus 5G 12GB 512GB",
+    "aliases": [
+      "samsung galaxy s26 plus 5g",
+      "dien-thoai-samsung-galaxy-s26-plus-12gb-512gb",
+      "samsung-galaxy-s26-plus-5g"
+    ],
+    "price_vnd": 29000000,
+    "original_price_vnd": 39990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "Exynos 2600",
+      "battery": "4900 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-plus-12gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-s26-plus-10_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-114524",
+    "sku": "DIEN-THOAI-MEIZU-MBLU-22-PRO",
+    "category": "phone",
+    "name": "Điện thoại Meizu Mblu 22 Pro NFC 4GB 128GB ",
+    "aliases": [
+      "điện thoại meizu mblu 22 pro nfc",
+      "dien-thoai-meizu-mblu-22-pro",
+      "dien-thoai-meizu-mblu-22-pro-nfc"
+    ],
+    "price_vnd": 3490000,
+    "original_price_vnd": 3990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.79,
+      "chipset": "MediaTek Helio G81",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Meizu",
+    "source": "https://cellphones.com.vn/dien-thoai-meizu-mblu-22-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_22_pro_nfc_4gb_128gb_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-121203",
+    "sku": "DIEN-THOAI-OPPO-A6T",
+    "category": "phone",
+    "name": "OPPO A6t 4GB 64GB",
+    "aliases": [
+      "oppo a6t",
+      "dien-thoai-oppo-a6t",
+      "oppo-a6t"
+    ],
+    "price_vnd": 4990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "screen_inch": 6.75,
+      "weight_kg": 0.205,
+      "chipset": "Qualcomm Snapdragon 685",
+      "battery": "6100mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6t.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-a6t_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-99364",
+    "sku": "DIEN-THOAI-POCO-X7-PRO-5G",
+    "category": "phone",
+    "name": "Xiaomi POCO X7 Pro 5G 12GB 256GB ",
+    "aliases": [
+      "xiaomi poco x7 pro 5g",
+      "dien-thoai-poco-x7-pro-5g",
+      "xiaomi-poco-x7-pro-5g"
+    ],
+    "price_vnd": 8490000,
+    "original_price_vnd": 9990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.67,
+      "chipset": "Dimensity 8400-Ultra",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-poco-x7-pro-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-poco-x7-pro-5g_1_.png"
+  },
+  {
+    "id": "CAT-PHONE-132814",
+    "sku": "DIEN-THOAI-NUBIA-V80-MAX-6GB-128GB",
+    "category": "phone",
+    "name": "Nubia V80 Max 6GB 128GB",
+    "aliases": [
+      "nubia v80 max",
+      "dien-thoai-nubia-v80-max-6gb-128gb",
+      "nubia-v80-max"
+    ],
+    "price_vnd": 4450000,
+    "original_price_vnd": 4990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.9,
+      "chipset": "Unisoc T7250",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-v80-max-6gb-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-v80-max-8gb-128gb_5.jpg"
+  },
+  {
+    "id": "CAT-PHONE-21609",
+    "sku": "SAMSUNG-GALAXY-S20",
+    "category": "phone",
+    "name": "Samsung Galaxy S20",
+    "aliases": [
+      "samsung galaxy s20",
+      "samsung-galaxy-s20"
+    ],
+    "price_vnd": 21490000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.2,
+      "weight_kg": 0.163,
+      "chipset": "Exynos 990 (7 nm+)",
+      "battery": "Li-Po 4000 mAh, Sạc nhanh 25W, Sạc không dây 15W"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/samsung-galaxy-s20.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/6/3/637170929984611739_ss-s20-xam-1.png"
+  },
+  {
+    "id": "CAT-PHONE-96376",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-15C",
+    "category": "phone",
+    "name": "Xiaomi Redmi 15C 4GB 128GB NFC",
+    "aliases": [
+      "xiaomi redmi 15c nfc",
+      "dien-thoai-xiaomi-redmi-15c",
+      "xiaomi-redmi-15c-nfc"
+    ],
+    "price_vnd": 3690000,
+    "original_price_vnd": 4690000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.9,
+      "weight_kg": 0.205,
+      "chipset": "MediaTek Helio G81-Ultra",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-15c.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-15c-41_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-132811",
+    "sku": "DIEN-THOAI-OPPO-A6T-PRO",
+    "category": "phone",
+    "name": "OPPO A6t Pro 8GB 128GB ",
+    "aliases": [
+      "oppo a6t pro",
+      "dien-thoai-oppo-a6t-pro",
+      "oppo-a6t-pro"
+    ],
+    "price_vnd": 10470000,
+    "original_price_vnd": 10990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.75,
+      "weight_kg": 0.215,
+      "chipset": "Qualcomm Snapdragon 685",
+      "battery": "7000 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6t-pro.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-a6t-pro-8.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141662",
+    "sku": "IPHONE-DUO-512GB",
+    "category": "phone",
+    "name": "iPhone Duo 512GB",
+    "aliases": [
+      "iphone duo",
+      "iphone-duo-512gb",
+      "iphone-duo"
+    ],
+    "price_vnd": 71490000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "storage_gb": 512,
+      "screen_inch": 7.6,
+      "weight_kg": 0.254,
+      "chipset": "Chip A20 Pro",
+      "battery": "Tích hợp hai pin sạc lithium-ion"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-duo-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-duo-01_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-92993",
+    "sku": "DIEN-THOAI-NOTHING-PHONE-2A",
+    "category": "phone",
+    "name": "Nothing Phone 2A 5G 8GB 128GB ",
+    "aliases": [
+      "nothing phone 2a 5g",
+      "dien-thoai-nothing-phone-2a",
+      "nothing-phone-2a-5g"
+    ],
+    "price_vnd": 6990000,
+    "original_price_vnd": 8990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "MediaTek Dimensity 7200 Pro (4nm TSMC process)",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Nothing",
+    "source": "https://cellphones.com.vn/dien-thoai-nothing-phone-2a.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nothing-phone-2a_1_1.png"
+  },
+  {
+    "id": "CAT-PHONE-100855",
+    "sku": "DIEN-THOAI-NUBIA-NEO-3-5G",
+    "category": "phone",
+    "name": "Nubia Neo 3 5G 8GB 256GB",
+    "aliases": [
+      "nubia neo 3 5g",
+      "dien-thoai-nubia-neo-3-5g",
+      "nubia-neo-3-5g"
+    ],
+    "price_vnd": 5090000,
+    "original_price_vnd": 5490000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "chipset": "Unisoc T8300",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-3-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-3-5g.1_1.png"
+  },
+  {
+    "id": "CAT-PHONE-114013",
+    "sku": "DIEN-THOAI-OPPO-FIND-X9-16GB-512GB",
+    "category": "phone",
+    "name": "OPPO Find X9 16GB 512GB",
+    "aliases": [
+      "oppo find x9",
+      "dien-thoai-oppo-find-x9-16gb-512gb",
+      "oppo-find-x9"
+    ],
+    "price_vnd": 26990000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "screen_inch": 6.59,
+      "weight_kg": 0.203,
+      "chipset": "Dimensity 9500 5G",
+      "battery": "7025mAh (Typ)"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-find-x9-16gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/x/9/x9-1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-100854",
+    "sku": "DIEN-THOAI-NUBIA-NEO-3-4G",
+    "category": "phone",
+    "name": "Nubia Neo 3 4G 8GB 128GB",
+    "aliases": [
+      "nubia neo 3 4g",
+      "dien-thoai-nubia-neo-3-4g",
+      "nubia-neo-3-4g"
+    ],
+    "price_vnd": 5290000,
+    "original_price_vnd": 6490000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.8,
+      "chipset": "Unisoc T8100",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-3-4g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-neo-3-4g_2__1.png"
+  },
+  {
+    "id": "CAT-PHONE-135266",
+    "sku": "DIEN-THOAI-NUBIA-NEO-5-MAX-8GB-512GB",
+    "category": "phone",
+    "name": "Nubia Neo 5 Max 5G 8GB 512GB",
+    "aliases": [
+      "nubia neo 5 max 5g",
+      "dien-thoai-nubia-neo-5-max-8gb-512gb",
+      "nubia-neo-5-max-5g"
+    ],
+    "price_vnd": 9590000,
+    "original_price_vnd": 10290000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 512,
+      "screen_inch": 7.5,
+      "weight_kg": 0.245,
+      "chipset": "MediaTek D7100",
+      "battery": "7000 mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-neo-5-max-8gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/n/u/nubia-neo-5-max_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-93817",
+    "sku": "DIEN-THOAI-NOTHING-PHONE-2A-12GB-256GB",
+    "category": "phone",
+    "name": "Nothing Phone 2A 5G 12GB 256GB ",
+    "aliases": [
+      "nothing phone 2a 5g",
+      "dien-thoai-nothing-phone-2a-12gb-256gb",
+      "nothing-phone-2a-5g"
+    ],
+    "price_vnd": 7790000,
+    "original_price_vnd": 10190000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.19,
+      "chipset": "MediaTek Dimensity 7200 Pro (4nm TSMC process)",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Nothing",
+    "source": "https://cellphones.com.vn/dien-thoai-nothing-phone-2a-12gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nothing-phone-2a_1_1_2.png"
+  },
+  {
+    "id": "CAT-PHONE-84464",
+    "sku": "DIEN-THOAI-VIVO-QIOO-Z9-TURBO",
+    "category": "phone",
+    "name": "vivo iQOO Z9 Turbo",
+    "aliases": [
+      "vivo iqoo z9 turbo",
+      "dien-thoai-vivo-qioo-z9-turbo",
+      "vivo-iqoo-z9-turbo"
+    ],
+    "price_vnd": null,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.72,
+      "chipset": "Snapdragon 8s Gen 3",
+      "battery": "6000 mAh"
+    },
+    "manufacturer": "Vivo",
+    "source": "https://cellphones.com.vn/dien-thoai-vivo-qioo-z9-turbo.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-vivo-qioo-z9_2__2.png"
+  },
+  {
+    "id": "CAT-PHONE-41493",
+    "sku": "OPPO-FIND-N",
+    "category": "phone",
+    "name": "OPPO Find N",
+    "aliases": [
+      "oppo find n",
+      "oppo-find-n"
+    ],
+    "price_vnd": null,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 7.1,
+      "weight_kg": 0.275,
+      "chipset": "Qualcomm SM8350 Snapdragon 888 5G (5nm)",
+      "battery": "4500 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/oppo-find-n.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-find-n.png"
+  },
+  {
+    "id": "CAT-PHONE-95960",
+    "sku": "DIEN-THOAI-OPPO-RENO13F-5G",
+    "category": "phone",
+    "name": "OPPO Reno13 F 5G 12GB 256GB",
+    "aliases": [
+      "oppo reno13 f 5g",
+      "dien-thoai-oppo-reno13f-5g",
+      "oppo-reno13-f-5g"
+    ],
+    "price_vnd": 8990000,
+    "original_price_vnd": 10990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.67,
+      "weight_kg": 0.192,
+      "chipset": "Qualcomm Snapdragon 6 Gen1 5G, tối đa 2.2GHz",
+      "battery": "5800mAh (Typ)"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-reno13f-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-oppo-reno13f-5g_3_.png"
+  },
+  {
+    "id": "CAT-PHONE-122536",
+    "sku": "DIEN-THOAI-TECNO-SPARK-50",
+    "category": "phone",
+    "name": "TECNO Spark 50 4GB 128GB",
+    "aliases": [
+      "tecno spark 50",
+      "dien-thoai-tecno-spark-50",
+      "tecno-spark-50"
+    ],
+    "price_vnd": 4490000,
+    "original_price_vnd": 4990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.78,
+      "weight_kg": 0.214,
+      "chipset": "MediaTek Helio G81",
+      "battery": "6700 mAh"
+    },
+    "manufacturer": "Tecno",
+    "source": "https://cellphones.com.vn/dien-thoai-tecno-spark-50.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-tecno-spark-50.jpg"
+  },
+  {
+    "id": "CAT-PHONE-121460",
+    "sku": "DIEN-THOAI-OPPO-A6T-4GB-128GB",
+    "category": "phone",
+    "name": "OPPO A6t 4GB 128GB",
+    "aliases": [
+      "oppo a6t",
+      "dien-thoai-oppo-a6t-4gb-128gb",
+      "oppo-a6t"
+    ],
+    "price_vnd": 6690000,
+    "original_price_vnd": 7090000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.75,
+      "weight_kg": 0.205,
+      "chipset": "Qualcomm Snapdragon 685",
+      "battery": "6100mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6t-4gb-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-a6t_1_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-141683",
+    "sku": "IPHONE-DUO-2TB",
+    "category": "phone",
+    "name": "iPhone Duo 2TB",
+    "aliases": [
+      "iphone duo",
+      "iphone-duo-2tb",
+      "iphone-duo"
+    ],
+    "price_vnd": 103990000,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "storage_gb": 2048,
+      "screen_inch": 7.6,
+      "weight_kg": 0.254,
+      "chipset": "Chip A20 Pro",
+      "battery": "Tích hợp hai pin sạc lithium-ion"
+    },
+    "manufacturer": "Apple",
+    "source": "https://cellphones.com.vn/iphone-duo-2tb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/i/p/iphone-duo-01_1_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-110984",
+    "sku": "DIEN-THOAI-MASSTEL-ALFA-5",
+    "category": "phone",
+    "name": "Điện thoại trẻ em Masstel Alfa 5",
+    "aliases": [
+      "điện thoại trẻ em masstel alfa 5",
+      "dien-thoai-masstel-alfa-5",
+      "dien-thoai-tre-em-masstel-alfa-5"
+    ],
+    "price_vnd": 1050000,
+    "original_price_vnd": 1390000,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 128,
+      "screen_inch": 3.5,
+      "chipset": "ASR",
+      "battery": "1750 mAh"
+    },
+    "manufacturer": null,
+    "source": "https://cellphones.com.vn/dien-thoai-masstel-alfa-5.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-masstel-alfa-5.jpg"
+  },
+  {
+    "id": "CAT-PHONE-44930",
+    "sku": "SAMSUNG-GALAXY-S23-ULTRA",
+    "category": "phone",
+    "name": "Samsung Galaxy S23 Ultra 256GB",
+    "aliases": [
+      "samsung galaxy s23 ultra",
+      "samsung-galaxy-s23-ultra"
+    ],
+    "price_vnd": 19490000,
+    "original_price_vnd": 31990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "weight_kg": 0.233,
+      "chipset": "Snapdragon 8 Gen 2 (4 nm)",
+      "battery": "5.000mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/samsung-galaxy-s23-ultra.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-s23-ulatra_2__1.png"
+  },
+  {
+    "id": "CAT-PHONE-139870",
+    "sku": "DIEN-THOAI-OPPO-A6",
+    "category": "phone",
+    "name": "OPPO A6 8GB 256GB",
+    "aliases": [
+      "oppo a6",
+      "dien-thoai-oppo-a6",
+      "oppo-a6"
+    ],
+    "price_vnd": 11250000,
+    "original_price_vnd": 11990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.57,
+      "weight_kg": 0.215,
+      "chipset": "Qualcomm Snapdragon® 685 4G",
+      "battery": "7000mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-a6.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-a6-02_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-90682",
+    "sku": "DIEN-THOAI-REALME-13-PLUS-5G",
+    "category": "phone",
+    "name": "realme 13+ 5G 8GB 256GB",
+    "aliases": [
+      "realme 13+ 5g",
+      "dien-thoai-realme-13-plus-5g",
+      "realme-13-5g"
+    ],
+    "price_vnd": 6590000,
+    "original_price_vnd": 9490000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.67,
+      "weight_kg": 0.185,
+      "chipset": "Dimensity 7300 Energy 5G",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Realme",
+    "source": "https://cellphones.com.vn/dien-thoai-realme-13-plus-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/r/e/realme-13-plus-5g_6_.jpg"
+  },
+  {
+    "id": "CAT-PHONE-108305",
+    "sku": "SAMSUNG-GALAXY-Z-FOLD-7-12GB-512GB",
+    "category": "phone",
+    "name": "Samsung Galaxy Z Fold7 12GB 512GB",
+    "aliases": [
+      "samsung galaxy z fold7",
+      "samsung-galaxy-z-fold-7-12gb-512gb",
+      "samsung-galaxy-z-fold7"
+    ],
+    "price_vnd": 39990000,
+    "original_price_vnd": 52990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 512,
+      "screen_inch": 8,
+      "weight_kg": 0.215,
+      "chipset": "Qualcomm Snapdragon 8 Elite For Galaxy",
+      "battery": "4400 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-z-fold-7-12gb-512gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-7_2.jpg"
+  },
+  {
+    "id": "CAT-PHONE-124662",
+    "sku": "DIEN-THOAI-MEIZU-MBLU-22",
+    "category": "phone",
+    "name": "Điện thoại Meizu Mblu 22 3GB 64GB",
+    "aliases": [
+      "điện thoại meizu mblu 22",
+      "dien-thoai-meizu-mblu-22"
+    ],
+    "price_vnd": 2990000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 3,
+      "storage_gb": 64,
+      "screen_inch": 6.79,
+      "weight_kg": 0.2,
+      "chipset": "Unisoc SC9863A(28 nm)",
+      "battery": "5000mAh"
+    },
+    "manufacturer": "Meizu",
+    "source": "https://cellphones.com.vn/dien-thoai-meizu-mblu-22.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-meizu-mblu-22.png"
+  },
+  {
+    "id": "CAT-PHONE-42339",
+    "sku": "REDMI-K50-GAMING-EDITION",
+    "category": "phone",
+    "name": "Redmi K50 Gaming Edition",
+    "aliases": [
+      "redmi k50 gaming edition",
+      "redmi-k50-gaming-edition"
+    ],
+    "price_vnd": null,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 128,
+      "screen_inch": 6.67,
+      "weight_kg": 0.21,
+      "chipset": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)",
+      "battery": "4700 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/redmi-k50-gaming-edition.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/r/e/redmi-k40-gaming-08.jpg"
+  },
+  {
+    "id": "CAT-PHONE-129237",
+    "sku": "DIEN-THOAI-NUBIA-V80-DESIGN-4GB-128GB",
+    "category": "phone",
+    "name": "Nubia V80 Design 4GB 128GB",
+    "aliases": [
+      "nubia v80 design",
+      "dien-thoai-nubia-v80-design-4gb-128gb",
+      "nubia-v80-design"
+    ],
+    "price_vnd": 4290000,
+    "original_price_vnd": 4990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 128,
+      "screen_inch": 6.75,
+      "weight_kg": 0.191,
+      "chipset": "Unisoc T7280",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-v80-design-4gb-128gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-v80-design_6.jpg"
+  },
+  {
+    "id": "CAT-PHONE-59736",
+    "sku": "OPPO-FIND-N3-FLIP",
+    "category": "phone",
+    "name": "OPPO Find N3 Flip 12GB 256GB",
+    "aliases": [
+      "oppo find n3 flip",
+      "oppo-find-n3-flip"
+    ],
+    "price_vnd": 13990000,
+    "original_price_vnd": 22990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 12,
+      "storage_gb": 256,
+      "screen_inch": 6.8,
+      "weight_kg": 0.198,
+      "chipset": "MediaTek Dimensity 9200",
+      "battery": "Li-Po 4300 mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/oppo-find-n3-flip.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/f/i/find-n3-flip-vang_1.png"
+  },
+  {
+    "id": "CAT-PHONE-12825",
+    "sku": "SAMSUNG-GALAXY-NOTE-10-CHINH-HANG",
+    "category": "phone",
+    "name": "Samsung Galaxy Note 10",
+    "aliases": [
+      "samsung galaxy note 10",
+      "samsung-galaxy-note-10-chinh-hang",
+      "samsung-galaxy-note-10"
+    ],
+    "price_vnd": 13800000,
+    "original_price_vnd": 22990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.3,
+      "weight_kg": 0.168,
+      "chipset": "Samsung Exynos 9825",
+      "battery": "3500 mAh, sạc nhanh 25W"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/samsung-galaxy-note-10-chinh-hang.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/6/3/637148757998466143_ss-note-10-do-1.png"
+  },
+  {
+    "id": "CAT-PHONE-127704",
+    "sku": "DIEN-THOAI-TECNO-POVA-CURVE-2-5G-8GB-256GB",
+    "category": "phone",
+    "name": "Tecno Pova Curve 2 5G 8GB 256GB",
+    "aliases": [
+      "tecno pova curve 2 5g",
+      "dien-thoai-tecno-pova-curve-2-5g-8gb-256gb",
+      "tecno-pova-curve-2-5g"
+    ],
+    "price_vnd": 9390000,
+    "original_price_vnd": 12690000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.78,
+      "weight_kg": 0.226,
+      "chipset": "MediaTek Dimensity 7100 5G",
+      "battery": "8000mAh"
+    },
+    "manufacturer": "Tecno",
+    "source": "https://cellphones.com.vn/dien-thoai-tecno-pova-curve-2-5g-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-tecno-pova-curve-2-5g_1.jpg"
+  },
+  {
+    "id": "CAT-PHONE-122940",
+    "sku": "DIEN-THOAI-TECNO-SPARK-GO-3",
+    "category": "phone",
+    "name": "TECNO Spark Go 3 4GB 64GB",
+    "aliases": [
+      "tecno spark go 3",
+      "dien-thoai-tecno-spark-go-3",
+      "tecno-spark-go-3"
+    ],
+    "price_vnd": 3260000,
+    "original_price_vnd": 3690000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 4,
+      "storage_gb": 64,
+      "screen_inch": 6.75,
+      "weight_kg": 0.188,
+      "chipset": "UNISOC T7250",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Tecno",
+    "source": "https://cellphones.com.vn/dien-thoai-tecno-spark-go-3.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-tecno-spark-go-3.jpg"
+  },
+  {
+    "id": "CAT-PHONE-101116",
+    "sku": "DIEN-THOAI-SAMSUNG-GALAXY-M55-5G-8GB-256GB",
+    "category": "phone",
+    "name": "Samsung Galaxy M55 5G 8GB 256GB",
+    "aliases": [
+      "samsung galaxy m55 5g",
+      "dien-thoai-samsung-galaxy-m55-5g-8gb-256gb",
+      "samsung-galaxy-m55-5g"
+    ],
+    "price_vnd": 6990000,
+    "original_price_vnd": 10010000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.7,
+      "weight_kg": 0.18,
+      "chipset": "Qualcomm Snapdragon 7 Gen 1 (4 nm)",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Samsung",
+    "source": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-m55-5g-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-samsung-galaxy-m55_2.png"
+  },
+  {
+    "id": "CAT-PHONE-129980",
+    "sku": "DIEN-THOAI-HONOR-X7D-5G-8GB-256GB",
+    "category": "phone",
+    "name": "HONOR X7d 5G 8GB 256GB",
+    "aliases": [
+      "honor x7d 5g",
+      "dien-thoai-honor-x7d-5g-8gb-256gb",
+      "honor-x7d-5g"
+    ],
+    "price_vnd": 7330000,
+    "original_price_vnd": 7990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.77,
+      "weight_kg": 0.206,
+      "chipset": "Qualcomm Snapdragon 6s Gen 3",
+      "battery": "6500 mAh"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x7d-5g-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-honor-x7d-5g-8gb-256gb.jpg"
+  },
+  {
+    "id": "CAT-PHONE-106050",
+    "sku": "DIEN-THOAI-OPPO-RENO14-F",
+    "category": "phone",
+    "name": "OPPO Reno14 F 5G 8GB 256GB",
+    "aliases": [
+      "oppo reno14 f 5g",
+      "dien-thoai-oppo-reno14-f",
+      "oppo-reno14-f-5g"
+    ],
+    "price_vnd": 10100000,
+    "original_price_vnd": 10490000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.57,
+      "weight_kg": 0.18,
+      "chipset": "Qualcomm Snapdragon 6 Gen 1 5G, tối đa 2.2GHz",
+      "battery": "6000mAh"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/dien-thoai-oppo-reno14-f.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-reno14-f-03_17.jpg"
+  },
+  {
+    "id": "CAT-PHONE-122644",
+    "sku": "DIEN-THOAI-XIAOMI-REDMI-TURBO-5-MAX",
+    "category": "phone",
+    "name": "Redmi Turbo 5 Max",
+    "aliases": [
+      "redmi turbo 5 max",
+      "dien-thoai-xiaomi-redmi-turbo-5-max",
+      "redmi-turbo-5-max"
+    ],
+    "price_vnd": null,
+    "original_price_vnd": null,
+    "status": "out_of_stock",
+    "specs": {
+      "chipset": "Dimensity 9500s",
+      "battery": "9000 mAh"
+    },
+    "manufacturer": "Xiaomi",
+    "source": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-turbo-5-max.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-xiaomi-redmi-turbo-5-max.jpg"
+  },
+  {
+    "id": "CAT-PHONE-135877",
+    "sku": "DIEN-THOAI-MEIZU-MBLU-22-PRO-8GB-256GB",
+    "category": "phone",
+    "name": "Điện thoại Meizu Mblu 22 Pro NFC 8GB 256GB",
+    "aliases": [
+      "điện thoại meizu mblu 22 pro nfc",
+      "dien-thoai-meizu-mblu-22-pro-8gb-256gb",
+      "dien-thoai-meizu-mblu-22-pro-nfc"
+    ],
+    "price_vnd": 4090000,
+    "original_price_vnd": 4990000,
+    "status": "selling",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.79,
+      "weight_kg": 0.212,
+      "chipset": "MediaTek Helio G81",
+      "battery": "5000 mAh"
+    },
+    "manufacturer": "Meizu",
+    "source": "https://cellphones.com.vn/dien-thoai-meizu-mblu-22-pro-8gb-256gb.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/_/i/_i_n_tho_i_meizu_mblu_22_pro_nfc_4gb_128gb_1_1_5.jpg"
+  },
+  {
+    "id": "CAT-PHONE-111482",
+    "sku": "DIEN-THOAI-HONOR-X6C",
+    "category": "phone",
+    "name": "HONOR X6c 6GB 128GB NFC",
+    "aliases": [
+      "honor x6c nfc",
+      "dien-thoai-honor-x6c",
+      "honor-x6c-nfc"
+    ],
+    "price_vnd": 4390000,
+    "original_price_vnd": 4590000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.6,
+      "weight_kg": 0.199,
+      "chipset": "MediaTek Helio G81 Ultra",
+      "battery": "5300mAh, 35W (11V/3.2A)"
+    },
+    "manufacturer": "HONOR",
+    "source": "https://cellphones.com.vn/dien-thoai-honor-x6c.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/_/i/_i_n_tho_i_honor_x6c_6gb_128gb.jpg"
+  },
+  {
+    "id": "CAT-PHONE-116366",
+    "sku": "DIEN-THOAI-NUBIA-AIR-5G",
+    "category": "phone",
+    "name": "Nubia Air 5G 8GB 256GB",
+    "aliases": [
+      "nubia air 5g",
+      "dien-thoai-nubia-air-5g",
+      "nubia-air-5g"
+    ],
+    "price_vnd": 5490000,
+    "original_price_vnd": 5990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 8,
+      "storage_gb": 256,
+      "screen_inch": 6.78,
+      "chipset": "Unisoc T8300",
+      "battery": "5000mAh"
+    },
+    "manufacturer": "Nubia",
+    "source": "https://cellphones.com.vn/dien-thoai-nubia-air-5g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/d/i/dien-thoai-nubia-air-5g.jpg"
+  },
+  {
+    "id": "CAT-PHONE-88715",
+    "sku": "NOKIA-HMD-105-4G",
+    "category": "phone",
+    "name": "Nokia HMD 105 4G",
+    "aliases": [
+      "nokia hmd 105 4g",
+      "nokia-hmd-105-4g"
+    ],
+    "price_vnd": 750000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 128,
+      "screen_inch": 2.4,
+      "chipset": "Unisoc 8910 & T127",
+      "battery": "1450 mAh"
+    },
+    "manufacturer": "Nokia",
+    "source": "https://cellphones.com.vn/nokia-hmd-105-4g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/n/o/nokia-hmd-105-4g_3_.png"
+  },
+  {
+    "id": "CAT-PHONE-55753",
+    "sku": "OPPO-A58",
+    "category": "phone",
+    "name": "OPPO A58 4G 6GB 128GB",
+    "aliases": [
+      "oppo a58 4g",
+      "oppo-a58",
+      "oppo-a58-4g"
+    ],
+    "price_vnd": 4090000,
+    "original_price_vnd": 4990000,
+    "status": "out_of_stock",
+    "specs": {
+      "ram_gb": 6,
+      "storage_gb": 128,
+      "screen_inch": 6.72,
+      "weight_kg": 0.192,
+      "chipset": "Helio G85, tối đa 2.0GHz",
+      "battery": "5000mAh (Typ)"
+    },
+    "manufacturer": "OPPO",
+    "source": "https://cellphones.com.vn/oppo-a58.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/o/p/oppo-a58-den.jpg"
+  },
+  {
+    "id": "CAT-PHONE-18071",
+    "sku": "NOKIA-220-4G",
+    "category": "phone",
+    "name": "Nokia 220 4G",
+    "aliases": [
+      "nokia 220 4g",
+      "nokia-220-4g"
+    ],
+    "price_vnd": 1100000,
+    "original_price_vnd": null,
+    "status": "selling",
+    "specs": {
+      "storage_gb": 128,
+      "screen_inch": 2.8,
+      "weight_kg": 0.086,
+      "chipset": "Unisoc T107",
+      "battery": "1450 mAh"
+    },
+    "manufacturer": "Nokia",
+    "source": "https://cellphones.com.vn/nokia-220-4g.html",
+    "valid_from": "2026-11-11",
+    "valid_to": null,
+    "approved": true,
+    "mock": false,
+    "image_url": "https://cellphones.com.vn/media/catalog/product/n/o/nokia-220-4g_6_.png"
+  }
+]

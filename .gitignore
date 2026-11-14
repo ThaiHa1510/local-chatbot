@@ -1,0 +1,17 @@
+# Môi trường & rác hệ thống
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.serena/
+dist/
+
+# Dữ liệu sinh ra khi chạy (máy mới tự tạo lại)
+data/*.sqlite3
+data/*.sqlite3-*
+data/*.bak
+data/traces.jsonl
+data/backup_*/
+
+# Bảng giá sinh từ data/sources/ bằng import_catalog.py --all
+data/catalog_*.json

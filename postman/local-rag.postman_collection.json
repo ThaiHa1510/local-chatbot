@@ -1,0 +1,808 @@
+{
+  "info": {
+    "name": "Local electronics RAG smoke checks",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base",
+      "value": "http://127.0.0.1:8876"
+    },
+    {
+      "key": "admin_password",
+      "value": "change-this-for-local-test"
+    }
+  ],
+  "item": [
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/login",
+        "header": [{"key":"Content-Type","value":"application/json"}],
+        "body": {"mode":"raw","raw":"{\"username\":\"admin\",\"password\":\"{{admin_password}}\"}"}
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "const body=pm.response.json(); pm.test('csrf present',()=>pm.expect(body.csrf).to.be.a('string')); pm.collectionVariables.set('csrf',body.csrf);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Catalog",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/api/catalog",
+        "header": []
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('41 mock records',()=>pm.expect(pm.response.json().records).to.equal(41));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Warranty source",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"LAP-A14\", \"question\": \"Sản phẩm được bảo hành bao lâu?\", \"use_model\": true}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('expected status',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('mock labelled',()=>pm.expect(pm.response.json().mock).to.equal(true));",
+              "pm.test('correct evidence',()=>pm.expect(pm.response.json().citations.map(c=>c.text).join(' ')).to.include('24 tháng'));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "No eSIM",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"PHONE-P6\", \"question\": \"Máy có hỗ trợ eSIM không?\", \"use_model\": true}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('expected status',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('mock labelled',()=>pm.expect(pm.response.json().mock).to.equal(true));",
+              "pm.test('correct evidence',()=>pm.expect(pm.response.json().citations.map(c=>c.text).join(' ')).to.include('không hỗ trợ eSIM'));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "HDMI refresh",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"MON-M27\", \"question\": \"Tần số quét qua HDMI là bao nhiêu?\", \"use_model\": true}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('expected status',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('mock labelled',()=>pm.expect(pm.response.json().mock).to.equal(true));",
+              "pm.test('correct evidence',()=>pm.expect(pm.response.json().citations.map(c=>c.text).join(' ')).to.include('75 Hz qua HDMI'));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Unknown price",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"PHONE-P6\", \"question\": \"Giá hôm nay là bao nhiêu?\", \"use_model\": true}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('expected status',()=>pm.expect(pm.response.json().status).to.equal('handoff'));",
+              "pm.test('mock labelled',()=>pm.expect(pm.response.json().mock).to.equal(true));",
+              "pm.test('no factual answer',()=>pm.expect(pm.response.json().citations).to.have.length(0));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Conflicting policy",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"DEMO-CONFLICT\", \"question\": \"Bảo hành bao lâu?\", \"use_model\": true}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('expected status',()=>pm.expect(pm.response.json().status).to.equal('handoff'));",
+              "pm.test('mock labelled',()=>pm.expect(pm.response.json().mock).to.equal(true));",
+              "pm.test('no factual answer',()=>pm.expect(pm.response.json().citations).to.have.length(0));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Unknown product",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"UNKNOWN\", \"question\": \"Bảo hành bao lâu?\", \"use_model\": true}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('expected status',()=>pm.expect(pm.response.json().status).to.equal('handoff'));",
+              "pm.test('mock labelled',()=>pm.expect(pm.response.json().mock).to.equal(true));",
+              "pm.test('no factual answer',()=>pm.expect(pm.response.json().citations).to.have.length(0));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Invalid question",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"LAP-A14\", \"question\": \"\"}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('400',()=>pm.response.to.have.status(400));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Missing local token",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product\": \"LAP-A14\", \"question\": \"bảo hành\"}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('403',()=>pm.response.to.have.status(403));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat multi topic LAP-A14",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"chính sách bảo hành và đổi trả\", \"product\": \"LAP-A14\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('both topics',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include.members(['warranty','returns']));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat multi topic AUDIO-B2",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"chính sách bảo hành và đổi trả\", \"product\": \"AUDIO-B2\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('both topics',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include.members(['warranty','returns']));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat multi topic PHONE-P6",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"chính sách bảo hành và đổi trả\", \"product\": \"PHONE-P6\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('both topics',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include.members(['warranty','returns']));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat multi topic MON-M27",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"chính sách bảo hành và đổi trả\", \"product\": \"MON-M27\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('both topics',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include.members(['warranty','returns']));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat followup",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Chính sách đó có điều kiện gì?\", \"product\": \"AUDIO-B2\", \"history\": [{\"question\": \"đổi trả\", \"product\": \"AUDIO-B2\"}]}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('context used',()=>pm.expect(pm.response.json().context_used).to.equal(true));",
+              "pm.test('return policy',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include('returns'));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat greeting",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"xin chào\", \"product\": \"LAP-A14\"}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('conversation',()=>pm.expect(pm.response.json().status).to.equal('conversation'));",
+              "pm.test('no invented citations',()=>pm.expect(pm.response.json().citations).to.have.length(0));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Invalid chat history",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"bảo hành\", \"product\": \"LAP-A14\", \"history\": \"invalid\"}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('400',()=>pm.response.to.have.status(400));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Store shipping",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Có giao hàng tận nơi không?\", \"product\": \"LAP-A14\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('expected store facts',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include.members([\"shipping_scope\"]));",
+              "pm.test('store scope only',()=>pm.expect(pm.response.json().citations.every(c=>c.product==='STORE-POLICY')).to.equal(true));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Store address and hours",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Địa chỉ và giờ mở cửa của cửa hàng?\", \"product\": \"PHONE-P6\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('expected store facts',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include.members([\"store_address\", \"opening_hours\"]));",
+              "pm.test('store scope only',()=>pm.expect(pm.response.json().citations.every(c=>c.product==='STORE-POLICY')).to.equal(true));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Store payment",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Cửa hàng hỗ trợ phương thức thanh toán nào?\", \"product\": \"AUDIO-B2\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('expected store facts',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include.members([\"payment_methods\"]));",
+              "pm.test('store scope only',()=>pm.expect(pm.response.json().citations.every(c=>c.product==='STORE-POLICY')).to.equal(true));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Store location: Danh sách cửa hàng",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Danh sách cửa hàng\", \"product\": \"LAP-A14\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('store address',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include('store_address'));",
+              "pm.test('store scope only',()=>pm.expect(pm.response.json().citations.every(c=>c.product==='STORE-POLICY')).to.equal(true));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Store location: Các chi nhánh",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Các chi nhánh\", \"product\": \"LAP-A14\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('store address',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include('store_address'));",
+              "pm.test('store scope only',()=>pm.expect(pm.response.json().citations.every(c=>c.product==='STORE-POLICY')).to.equal(true));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Store location: Cửa hàng gần đây",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Cửa hàng gần đây\", \"product\": \"LAP-A14\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('store address',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include('store_address'));",
+              "pm.test('store scope only',()=>pm.expect(pm.response.json().citations.every(c=>c.product==='STORE-POLICY')).to.equal(true));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Store location: Hệ thống cửa hàng",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/api/ask",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "X-CSRF-Token",
+            "value": "{{csrf}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"question\": \"Hệ thống cửa hàng\", \"product\": \"LAP-A14\", \"use_model\": true, \"history\": []}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200',()=>pm.response.to.have.status(200));",
+              "pm.test('evidence',()=>pm.expect(pm.response.json().status).to.equal('evidence'));",
+              "pm.test('store address',()=>pm.expect(pm.response.json().citations.map(c=>c.fact_key)).to.include('store_address'));",
+              "pm.test('store scope only',()=>pm.expect(pm.response.json().citations.every(c=>c.product==='STORE-POLICY')).to.equal(true));"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
