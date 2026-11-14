@@ -186,6 +186,9 @@ def looks_catalog(question, items):
     text = " ".join(fold(question).split())
     if catalog_store.POLICY.search(text):
         return False
+    if catalog_store.HOWTO.search(text) and not catalog_store.PRICE_WORD.search(text) \
+            and not catalog_store.detect_sort(text):
+        return False
     return bool(catalog_store.detect_category(text) or catalog_store.PRICE_WORD.search(text)
                 or catalog_store.detect_brand(text, items) or CATALOG_HINT.search(text))
 

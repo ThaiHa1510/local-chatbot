@@ -155,7 +155,7 @@ class AgentRunner:
             agent.load_records(agent.ROOT / "data" / "mock_knowledge.json")
         self.records = agent.all_records()
         self.catalog = catalog.load_catalog()
-        self.model = os.environ.get("LOCAL_LIGHT_MODEL", "qwen:latest")
+        self.model = os.environ.get("LOCAL_LIGHT_MODEL", "qwen3.8:27b")
         self.orchestrator = Orchestrator(self.model, tracer=tracer)
         self.products = sorted({r["product"] for r in self.records if r["product"] != "STORE-POLICY"})
 

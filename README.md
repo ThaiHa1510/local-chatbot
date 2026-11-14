@@ -27,6 +27,26 @@ Tất cả sản phẩm và chính sách đều **GIẢ LẬP**, không đại d
 Dự án có thêm MCP server cho ticket và liên hệ nhân viên. Xem `MCP_GUIDE.md`.
 Mặc định thông báo chạy ở chế độ console, chưa gửi email thật.
 
+## Đánh giá agent (evals)
+
+`evals/cases.jsonl` có 62 case (11 nhóm: chính sách, tài liệu sản phẩm, độ bền ngôn ngữ, nhiều lượt,
+bảng giá, cần người thật, ngoài phạm vi, an toàn, prompt injection, kiến thức chung, chào hỏi).
+Mỗi case ghi kỳ vọng kiểm chứng được: trạng thái, nguồn phải trích (`cite_facts`), đáp án bảng giá tính lại
+bằng SQL (`oracle_sql`), ngân sách, có mời gặp nhân viên… Ngoài ra mọi câu trả lời phải qua các
+**invariant**: không lộ canary, không trích tài liệu hết hạn/nháp, số tiền phải có trong nguồn,
+câu do AI tạo phải gắn nhãn và không nêu giá.
+
+```sh
+.venv/bin/python evals/run_evals.py --offline        # ~5 giây, không cần Ollama (CI)
+.venv/bin/python evals/run_evals.py                  # live với Ollama + NeMo
+.venv/bin/python evals/run_evals.py --judge          # thêm LLM-as-judge (relevance/faithfulness/helpfulness/tone)
+.venv/bin/python evals/run_evals.py --repeat 3 --category catalog   # đo độ ổn định
+.venv/bin/python evals/run_evals.py --save-baseline  # chốt mốc; lần sau --fail-on-regression để chặn hồi quy
+```
+
+Báo cáo ở `evals/results/<thời điểm>.md` (tỉ lệ đạt theo nhóm, p50/p95, tầng model, case trượt + lý do).
+Thêm case: một dòng JSON vào `cases.jsonl`. Bộ chấm có unit test riêng (`tests/test_evals.py`).
+
 ## Chuyển cho nhân viên thật
 
 - Bot mời khách gặp nhân viên khi: khách yêu cầu ("cho mình gặp nhân viên", "người thật", "talk to a human"),
@@ -61,7 +81,8 @@ git clone git@github.com:ThaiHa1510/local-chatbot.git && cd local-chatbot
 1. Cài [uv](https://docs.astral.sh/uv/) nếu chưa có (hỏi trước).
 2. `uv sync --python 3.12 --frozen` → tạo `.venv` đúng phiên bản trong `uv.lock`.
 3. Cài Ollama nếu chưa có (Mac qua Homebrew, Linux qua script chính thức), bật Ollama và tải model
-   `qwen:latest` (nhẹ, ~2,3 GB) + `qwen3.8:27b` (nặng, ~18 GB, guardrails cũng dùng).
+   `qwen3.8:27b` (~18 GB) dùng cho cả tác vụ nhẹ, nặng và guardrails — chỉ một model nằm trong RAM.
+   Máy yếu: `--light qwen:latest` (~2,3 GB) nhưng eval cho thấy model này chọn nguồn kém.
 4. Ghi lựa chọn vào `local.env` (model, cổng) cho `start.sh`.
 5. Tạo bảng giá `data/catalog_*.json` từ `data/sources/`.
 6. Chạy test.

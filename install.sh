@@ -5,7 +5,7 @@
 #   ./install.sh --yes --start   # không hỏi, cài xong chạy app luôn
 #
 # Tuỳ chọn:
-#   --light MODEL   model Ollama nhẹ   (mặc định: qwen:latest)
+#   --light MODEL   model Ollama nhẹ   (mặc định: qwen3.8:27b — dùng chung model nặng để chỉ nạp 1 model vào RAM)
 #   --heavy MODEL   model Ollama nặng  (mặc định: qwen3.8:27b — guardrails cũng dùng model này)
 #   --port N        cổng web           (mặc định: 8876)
 #   --no-models     bỏ qua Ollama/model (app vẫn chạy chế độ tra cứu, bỏ chọn "Kiểm tra bằng mô hình local")
@@ -15,7 +15,7 @@
 set -euo pipefail
 cd -- "$(dirname -- "$0")"
 
-LIGHT_MODEL="qwen:latest"; HEAVY_MODEL="qwen3.8:27b"; PORT=8876
+LIGHT_MODEL="qwen3.8:27b"; HEAVY_MODEL="qwen3.8:27b"; PORT=8876
 WITH_MODELS=1; DEMO_PRICES=0; ASSUME_YES=0; START=0
 # Giữ lựa chọn của lần cài trước (nếu có).
 if [[ -f local.env ]]; then source local.env; WITH_MODELS=1; fi

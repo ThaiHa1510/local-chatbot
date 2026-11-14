@@ -191,6 +191,9 @@ def validate_selection(result, candidates):
     allowed = {r["id"] for r in candidates}
     if any(i not in allowed for i in result["ids"]):
         raise ValueError("Mô hình viện dẫn nguồn không tồn tại.")
+    if candidates and not result["ids"] and not result["insufficient"] and not result["conflict"]:
+        # Không chọn nguồn nào mà cũng không báo thiếu/mâu thuẫn: model nhỏ bỏ cuộc → để tầng lớn hơn làm.
+        raise ValueError("Kết quả chọn nguồn tự mâu thuẫn.")
     return result
 
 

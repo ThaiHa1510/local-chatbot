@@ -19,3 +19,6 @@ data/catalog_*.json
 # Cấu hình máy & log do install.sh / start.sh tạo
 local.env
 data/*.log
+
+# Kết quả eval (sinh ra mỗi lần chạy)
+evals/results/

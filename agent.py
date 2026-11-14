@@ -265,7 +265,7 @@ def catalog_answer(question, product, catalog, today=None, model="", orchestrato
                           "Bạn có thể hỏi về giá bán, thông số và so sánh sản phẩm."}
     spec = catalog_store.parse(question, product, catalog, today)
     # Tên máy cụ thể ("giá iphone 17 pro") khớp alias chính xác hơn model nên giữ ở luật.
-    if not (spec and spec["kind"] in ("lookup", "compare")) and model and orchestrator \
+    if not (spec and spec["kind"] in ("lookup", "compare", "specs")) and model and orchestrator \
             and catalog_sql.looks_catalog(question, catalog):
         conn = catalog_sql.build_db(catalog, today)
 
@@ -292,7 +292,7 @@ def catalog_answer(question, product, catalog, today=None, model="", orchestrato
                 return None  # model xác nhận không phải câu hỏi bảng giá
         except Exception:
             pass  # SQL sai/bị từ chối hoặc model lỗi: dùng luật bên dưới
-    if spec is not None and catalog_store.beyond_rules(question):
+    if spec is not None and spec["kind"] != "specs" and catalog_store.beyond_rules(question):
         # Luật không hiểu "hiệu năng", "pin trâu"…: nói thật thay vì trả danh sách theo giá dễ gây hiểu nhầm.
         return {**meta, "status": "handoff", "reason": "catalog_unsupported", "citations": [], "mock": False,
                 "catalog_parser": "rules",

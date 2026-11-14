@@ -132,7 +132,7 @@ const link=safeUrl(c.source);if(link){const a=el('a',null,'Xem chi tiết ↗');
 function docCard(c){const d=el('div','doc'),p=el('p',null,c.text);d.append(el('b',null,c.topic),p);
 if((c.text||'').length>320){d.classList.add('clamp');const more=el('button','more','Xem thêm');more.type='button';more.onclick=()=>{const open=d.classList.toggle('clamp');more.textContent=open?'Xem thêm':'Thu gọn'};d.append(more)}return d}
 function renderAssistant(d){const {col}=row('assistant',d.created_at);const cites=d.citations||[];const products=cites.filter(c=>c.kind==='product'),docs=cites.filter(c=>c.kind!=='product');
-const b=el('div','bubble');rich(b,d.answer,products.length>0);if(!b.childNodes.length)rich(b,d.intro||d.answer);col.append(b);
+const b=el('div','bubble');rich(b,d.answer,products.length>0&&d.reason!=='catalog_specs');if(!b.childNodes.length)rich(b,d.intro||d.answer);col.append(b);
 if(products.length){const cards=el('div','cards');products.forEach((c,i)=>cards.append(productCard(c,i+1)));col.append(cards)}
 docs.forEach(c=>col.append(docCard(c)));
 if(cites.length){const details=el('details'),summary=el('summary',null,`Nguồn tham khảo (${cites.length})`);details.append(summary);cites.forEach(c=>details.append(el('p',null,`[${c.id}] ${c.source} • ${c.product} • hiệu lực ${c.valid_from} → ${c.valid_to}${c.mock?' • DỮ LIỆU MẪU':''}`)));col.append(details)}

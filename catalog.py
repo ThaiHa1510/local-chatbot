@@ -140,8 +140,18 @@ CATEGORY_PATTERNS = (  # thứ tự quan trọng: "laptop nào màn hình to nh�
 )
 PRICE_WORD = re.compile(r"(?<!tham )\bgia\b(?! (han|dinh|tang|cong|dung))|\bbao nhieu tien\b|\bprice\b"
                         r"|\bre\b|\bdat (nhat|hon|tien)\b")
+# Câu hỏi cách dùng / xử lý lỗi / giải thích ("tai nghe không kết nối bluetooth thì làm sao",
+# "chống ồn chủ động hoạt động thế nào") là việc của tài liệu, không phải tra bảng giá.
+HOWTO = re.compile(r"\b(lam sao|lam the nao|nhu the nao|hoat dong the nao|tai sao|vi sao|huong dan|cach (?:dung|su dung|ket noi|sua|khac phuc|bat|tat|reset)"
+                   r"|bi loi|loi gi|khong (?:ket noi|nhan|len nguon|sac|vao|bat|hoat dong)|hoat dong|la gi|nghia la)\b")
 POLICY = re.compile(r"\b(bao hanh|doi tra|giao|ship|van chuyen|thanh toan|tra gop|cua hang|chi nhanh"
                     r"|dia chi|loi|sua|cai dat|huong dan|ket noi|phi)\b")
+# Hỏi thông số của MỘT sản phẩm cụ thể ("cấu hình T-Book 15A", "iphone 18 pro chip gì").
+SPEC_ASK = re.compile(r"\b(thong so|cau hinh|spec|specs|chip|chipset|cpu|vi xu ly|ram|bo nho|o cung|ssd|man hinh|"
+                      r"tan so quet|do phan giai|card|gpu|vga|pin|dung luong|trong luong|nang|can nang|kich thuoc|"
+                      r"cong ket noi|cong|webcam|camera|wifi|bluetooth|he dieu hanh|chong nuoc|khang nuoc|driver|"
+                      r"mau|chat lieu|tinh nang|chong on|co gi|the nao|ra sao)\b")
+COMPARE_CUE = re.compile(r"\b(so sanh|so voi|khac nhau|khac gi|vs|versus|hay|va|voi)\b")
 LIST_CUE = re.compile(r"\b(nhung|cac|danh sach|liet ke|goi y|tu van|loai nao|mau nao|nao)\b")
 SORT_RULES = (
     (r"\b(re nhat|gia (thap|re|mem|tot) nhat|tiet kiem nhat)\b", "price_vnd", "asc"),
@@ -315,6 +325,31 @@ def beyond_rules(question):
     return bool(BEYOND_RULES.search(_clean(question)))
 
 
+def _aliases(item):
+    """Alias + bản bỏ tên hãng ở đầu ("apple airpods 5" → "airpods 5"; khách ít khi gọi kèm hãng)."""
+    out = [item["sku"]] + item["aliases"]
+    brand = fold(item.get("manufacturer") or "").split()[:1]
+    if brand:
+        for alias in item["aliases"]:
+            words = fold(alias).split()
+            if len(words) >= 3 and words[0] == brand[0] and any(c.isdigit() for c in alias):
+                out.append(" ".join(words[1:]))
+    return out
+
+
+def best_mention(text, skus, items):
+    """Trong các phiên bản cùng tên, chọn bản có nhiều từ trong tên xuất hiện trong câu nhất."""
+    def grams(value):
+        tokens = re.sub(r"[^a-z0-9]+", " ", value).split()
+        return set(tokens), set(zip(tokens, tokens[1:]))
+    words, pairs = grams(_name_text(text) + " " + text)
+    by_sku = {i["sku"]: i for i in items}
+    def score(sku):  # cụm từ liền nhau ("sac co day") quan trọng hơn từ lẻ ("khong" ở cuối câu)
+        name_words, name_pairs = grams(fold(by_sku[sku]["name"]))
+        return (len(name_pairs & pairs), len(name_words & words), -len(name_words - words))
+    return max(skus, key=score)
+
+
 def mentioned_skus(text, items):
     """SKU được nhắc tới bằng mã hoặc tên, theo thứ tự xuất hiện trong câu.
 
@@ -325,7 +360,7 @@ def mentioned_skus(text, items):
     text = _name_text(text)
     for item in items:
         best = None
-        for alias in [item["sku"]] + item["aliases"]:
+        for alias in _aliases(item):
             m = re.search(_alias_pattern(alias), text)
             if m and (best is None or m.end() - m.start() > best[1] - best[0]):
                 best = (m.start(), m.end())
@@ -373,8 +408,17 @@ def parse(question, selected_product, items, today=None):
         filters["keywords"] = keywords
     price = bool(PRICE_WORD.search(text))
     policy = bool(POLICY.search(text))
+    if HOWTO.search(text) and not price and not sort and len(mentions) < 2:
+        return None
+    asks_spec = not price and not policy and not sort and SPEC_ASK.search(text)
+    if len(mentions) >= 2 and asks_spec and not COMPARE_CUE.search(text):
+        # "iphone 18 pro 256gb pin bao nhiêu": nhiều phiên bản cùng tên khớp, khách hỏi một máy.
+        mentions = [best_mention(text, mentions, current)]
     if len(mentions) >= 2 and not policy:
         return _spec("compare", skus=mentions)
+    # Một máy cụ thể + hỏi thông số (không hỏi giá, không xếp hạng) → bảng thông số của đúng máy đó.
+    if len(mentions) == 1 and asks_spec:
+        return _spec("specs", skus=mentions)
     # Hãng đi kèm tên máy ("giá samsung galaxy s26") không phải điều kiện lọc riêng.
     if len(mentions) == 1 and price and not policy and not (filters.keys() - {"brand", "keywords"}):
         return _spec("lookup", skus=mentions)
@@ -404,6 +448,41 @@ def vnd(value):
 
 def _num(value):
     return str(int(value)) if float(value).is_integer() else str(value).replace(".", ",")
+
+
+SHEET_ORDER = ("chipset", "cpu", "npu", "gpu", "ram_gb", "storage_gb", "screen_inch", "panel", "resolution",
+               "refresh_hz", "battery", "battery_life", "battery_wh", "battery_hours", "charging_time",
+               "design", "driver", "power", "connection", "microphone", "features", "water_resistance",
+               "os", "ports", "wifi", "bluetooth", "webcam", "material", "weight", "weight_kg", "dimensions",
+               "use_case")
+_DUPLICATE_OF = {"battery_wh": "battery", "battery_hours": "battery_life", "weight_kg": "weight"}
+
+
+def spec_sheet(item):
+    """Bảng thông số đầy đủ của một sản phẩm, mỗi dòng một mục, lấy nguyên từ bảng giá."""
+    specs, details = item["specs"], item["details"]
+    cap = lambda text: text[:1].upper() + text[1:]
+    lines = [f"Thông số {item['name'].strip()} — giá niêm yết {price_text(item)}:"]
+    for key in SHEET_ORDER + tuple(k for k in DETAIL_FIELDS if k not in SHEET_ORDER):
+        if key in SPEC_FIELDS and key in specs:
+            if details.get(_DUPLICATE_OF.get(key, "")):
+                continue  # đã có mô tả chi tiết hơn
+            label, unit = SPEC_FIELDS[key]
+            extra = f" ({details['ram_type']})" if key == "ram_gb" and details.get("ram_type") else ""
+            lines.append(f"• {cap(label)}: {_num(specs[key])} {unit}{extra}")
+        elif key in DETAIL_FIELDS and details.get(key) and key not in ("warranty", "ram_type"):
+            value = details[key]
+            if key == "ports":
+                value = re.sub(r"\s+(?=\d+\s*x\s)", "; ", value)
+            lines.append(f"• {cap(DETAIL_FIELDS[key])}: {value}")
+    colors = color_text(item)
+    if colors:
+        lines.append("• " + cap(re.sub(r"^màu\s+", "Màu: ", colors)))
+    if details.get("warranty"):
+        lines.append(f"• Bảo hành: {details['warranty']}")
+    if item["status"] in STATUS_NOTES:
+        lines.append(f"Lưu ý: sản phẩm {STATUS_NOTES[item['status']]}.")
+    return "\n".join(lines)
 
 
 def spec_summary(item):
@@ -518,7 +597,7 @@ def answer(spec, items, today=None):
     by_sku = {}
     for item in current:
         by_sku.setdefault(item["sku"], []).append(item)
-    if spec["kind"] in ("lookup", "compare"):
+    if spec["kind"] in ("lookup", "compare", "specs"):
         involved = [s for s in spec["skus"] if s in by_sku]
     else:
         involved = [s for s, rows in by_sku.items()
@@ -528,6 +607,12 @@ def answer(spec, items, today=None):
                        "Bảng giá đang có hai mức giá còn hiệu lực cho cùng sản phẩm. Cần nhân viên xác minh.")
     label = CATEGORIES.get(spec["category"], "sản phẩm")
 
+    if spec["kind"] == "specs":
+        if not involved:
+            return _result("handoff", "catalog_missing",
+                           "Mình chưa có thông tin đang áp dụng cho sản phẩm này. Cần nhân viên kiểm tra.")
+        item = by_sku[involved[0]][0]
+        return _result("catalog", "catalog_specs", spec_sheet(item), [item])
     if spec["kind"] in ("lookup", "compare"):
         rows = [by_sku[s][0] for s in involved][:6]
         if not rows:
